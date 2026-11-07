@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Drama Trip: expressionist raven and golden key transformed by psychedelic currents">
+<defs>
+ <linearGradient id="paper" x2=".65" y2="1"><stop stop-color="#f7d8a1"/><stop offset="1" stop-color="#bf8269"/></linearGradient>
+ <linearGradient id="acid" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffcb37"/><stop offset=".38" stop-color="#f04881"/><stop offset=".75" stop-color="#8b3db6"/><stop offset="1" stop-color="#e77b48"/></linearGradient>
+ <pattern id="cuts" width="29" height="35" patternUnits="userSpaceOnUse"><path d="M3 9l11-3 M17 22l7-6 M4 30l6-2" stroke="#f6cb98" stroke-width="2" opacity=".28"/></pattern>
+ <pattern id="paper_grain" width="41" height="43" patternUnits="userSpaceOnUse"><path d="M2 10l8-2 M18 8l4-3 M29 30l6-2 M12 38l4-2" stroke="#241526" opacity=".12" stroke-width="1.4"/></pattern>
+ <clipPath id="bird"><path d="M405 1116Q339 1000 335 901Q289 818 346 739L274 773L242 666L159 727L146 613L63 654L114 508L55 453L216 466L150 313L318 431L319 260L437 436Q465 320 548 307Q626 302 675 366L702 395L843 423L717 463L776 500L687 501Q652 563 627 651Q599 788 655 1116Z"/></clipPath>
+</defs>
+<rect width="900" height="1200" fill="url(#paper)"/>
+<rect x="23" y="22" width="854" height="1153" fill="none" stroke="#251324" stroke-width="12"/>
+<text x="50" y="98" font-family="Georgia,serif" font-size="81" font-weight="bold" letter-spacing="3" fill="#231326">DRAMA TRIP</text>
+<path d="M47 125L852 125" stroke="#241329" stroke-width="12"/>
+<!-- Architecture bends around the raven's current -->
+<path d="M25 802L86 453L151 579Q192 323 247 320Q280 361 246 457L350 309Q400 367 357 463L446 415Q485 533 410 631L344 816Z" fill="#211324"/>
+<path d="M42 750L97 499L136 628Q211 400 241 351 M240 478Q355 304 370 397Q386 455 334 520" stroke="#ef4b88" stroke-width="19" fill="none"/>
+<path d="M666 1108Q642 838 723 702Q822 550 777 441Q754 396 718 420Q673 446 716 478Q742 489 748 459 M846 1108Q758 817 837 682" fill="none" stroke="#241326" stroke-width="107"/>
+<path d="M666 1108Q642 838 723 702Q822 550 777 441Q754 396 718 420Q673 446 716 478Q742 489 748 459 M846 1108Q758 817 837 682" fill="none" stroke="url(#acid)" stroke-width="72"/>
+<path d="M665 1108Q649 839 724 700Q820 546 777 442Q755 394 718 420" fill="none" stroke="#f7c442" stroke-width="11"/>
+<path d="M20 1099L78 835L144 957L206 735L266 1023L307 855L373 1115Z" fill="#241528" stroke="#f5bd86" stroke-width="13"/>
+<path d="M71 893L111 1004 M200 791L225 950 M301 907L331 1040" stroke="#f7c14c" stroke-width="13"/>
+<!-- Angular bird silhouette meets curved trails inside the same anatomy -->
+<path d="M405 1116Q339 1000 335 901Q289 818 346 739L274 773L242 666L159 727L146 613L63 654L114 508L55 453L216 466L150 313L318 431L319 260L437 436Q465 320 548 307Q626 302 675 366L702 395L843 423L717 463L776 500L687 501Q652 563 627 651Q599 788 655 1116Z" fill="#241426" stroke="#edc59d" stroke-width="17" stroke-linejoin="miter"/>
+<g clip-path="url(#bird)">
+ <rect x="40" y="240" width="820" height="885" fill="url(#cuts)"/>
+ <path d="M-10 870C120 769 147 559 314 628C455 685 316 891 468 846C572 812 452 633 624 628C723 628 695 725 785 692" fill="none" stroke="#f7bd36" stroke-width="99"/>
+ <path d="M-10 870C120 769 147 559 314 628C455 685 316 891 468 846C572 812 452 633 624 628C723 628 695 725 785 692" fill="none" stroke="#eb4989" stroke-width="65"/>
+ <path d="M-10 870C120 769 147 559 314 628C455 685 316 891 468 846C572 812 452 633 624 628C723 628 695 725 785 692" fill="none" stroke="#803cae" stroke-width="27"/>
+ <path d="M86 509L265 634 M181 365L321 558 M333 335L385 563 M100 637L296 740 M145 712L324 790" stroke="#edc699" stroke-width="11"/>
+ <path d="M431 900Q507 784 504 704Q530 645 587 661 M446 1002Q554 914 568 804" stroke="#efb33b" stroke-width="20" fill="none"/>
+ <path d="M415 944Q513 876 528 771" stroke="#e94786" stroke-width="31" fill="none"/>
+ <path d="M549 518Q568 554 610 565 M555 585Q598 607 627 603" stroke="#e2ab91" stroke-width="7" fill="none"/>
+</g>
+<path d="M541 372L626 354L646 396L606 428L554 414Z" fill="#ee458b" stroke="#1b0f24" stroke-width="9"/>
+<circle cx="607" cy="392" r="17" fill="#ffd13e"/><circle cx="614" cy="391" r="8" fill="#1a1022"/>
+<path d="M700 397L853 424L711 462L761 490L703 488" fill="#231225" stroke="#f3bb63" stroke-width="11"/>
+<path d="M698 424L805 428" stroke="#e7478a" stroke-width="14"/>
+<!-- A colored rhythm crosses wing, torso and city, never a decorative layer alone -->
+<path d="M110 555Q198 604 261 594Q363 591 418 673Q487 756 569 668Q639 591 718 617" fill="none" stroke="#261526" stroke-width="54"/>
+<path d="M110 555Q198 604 261 594Q363 591 418 673Q487 756 569 668Q639 591 718 617" fill="none" stroke="url(#acid)" stroke-width="35"/>
+<!-- Enlarged golden key and curved talon -->
+<g transform="rotate(-19 718 916)">
+ <circle cx="717" cy="856" r="67" fill="#f3bc32" stroke="#251427" stroke-width="15"/>
+ <circle cx="717" cy="856" r="35" fill="#251427" stroke="#f6d47b" stroke-width="6"/>
+ <path d="M702 909L702 1110L734 1110L734 1080L765 1080L765 1050L734 1050L734 909Z" fill="#ffca3d" stroke="#251427" stroke-width="14"/>
+ <path d="M713 941L713 1032" stroke="#fbe5ad" stroke-width="8"/>
+</g>
+<path d="M531 852Q584 791 633 835L690 885L666 908L612 874L575 923" fill="#201324" stroke="#eac096" stroke-width="15"/>
+<path d="M574 925L622 956L671 930" fill="none" stroke="#241526" stroke-width="34"/>
+<path d="M574 925L622 956L671 930" fill="none" stroke="#edb969" stroke-width="8"/>
+<rect width="900" height="1200" fill="url(#paper_grain)"/>
+<text x="49" y="1149" font-size="22" font-family="Arial,sans-serif" font-weight="bold" letter-spacing="5" fill="#241527">THE RAVEN / STUDY 02</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Raven with gold key in a hybrid Expressionist and psychedelic art poster">
+<defs>
+<linearGradient id="paper" x2=".8" y2="1"><stop stop-color="#f9e5b0"/><stop offset="1" stop-color="#b78379"/></linearGradient>
+<linearGradient id="ribbon" x2="1" y2="1"><stop stop-color="#f6ba38"/><stop offset=".52" stop-color="#eb438a"/><stop offset="1" stop-color="#8241ab"/></linearGradient>
+<pattern id="grain" width="31" height="31" patternUnits="userSpaceOnUse"><path d="M3 8l7-2M22 11l3-3M13 25l4-2" stroke="#e0ac92" stroke-width="1.5" opacity=".45"/></pattern>
+</defs>
+<rect width="900" height="1200" fill="url(#paper)"/><rect x="25" y="25" width="850" height="1150" fill="none" stroke="#221323" stroke-width="11"/>
+<path d="M45 430L169 196L233 372L386 142L443 377L590 237L532 640L40 693Z" fill="#231327"/>
+<path d="M90 437L173 269L224 414L389 218L435 397L566 277" fill="none" stroke="#e54a8d" stroke-width="17"/>
+<circle cx="696" cy="293" r="158" fill="#fbb336" stroke="#241428" stroke-width="18"/>
+<path d="M696 150C839 173 854 325 760 387C671 437 602 352 644 295C681 242 758 270 751 319C746 361 693 351 705 323" fill="none" stroke="#e84d99" stroke-width="37"/>
+<path d="M696 150C839 173 854 325 760 387C671 437 602 352 644 295C681 242 758 270 751 319C746 361 693 351 705 323" fill="none" stroke="#231528" stroke-width="13"/>
+<path d="M-10 742C175 741 188 489 328 523C470 553 433 681 560 633C670 590 636 472 801 516C852 530 862 563 920 567" fill="none" stroke="#261529" stroke-width="105"/>
+<path d="M-10 742C175 741 188 489 328 523C470 553 433 681 560 633C670 590 636 472 801 516C852 530 862 563 920 567" fill="none" stroke="url(#ribbon)" stroke-width="76"/>
+<path d="M-10 742C175 741 188 489 328 523C470 553 433 681 560 633C670 590 636 472 801 516C852 530 862 563 920 567" fill="none" stroke="#f4b936" stroke-width="19"/>
+<path d="M50 1100L142 807L202 944L290 718L338 1036L433 825L500 1090L567 790L653 1093L742 823L857 1092L857 1165L50 1165Z" fill="#1e1227"/>
+<path d="M142 860L157 1029M289 791L315 957M567 842L600 1007M744 866L790 1003" fill="none" stroke="#f6b63c" stroke-width="12"/>
+<path d="M172 920L76 711L205 794L112 615L246 718L182 520L337 672L295 478L460 612L433 894L325 1027Z" fill="#281429" stroke="#f5d09a" stroke-width="13" stroke-linejoin="miter"/>
+<path d="M137 688L320 831L219 714L356 798L290 625L400 744" fill="none" stroke="#dc4485" stroke-width="27"/>
+<path d="M246 1008C277 854 311 728 407 663C462 617 454 536 462 485C471 409 535 381 598 398C667 420 691 457 691 514L767 619L696 618L751 676L657 661C681 824 587 938 537 1115L385 1139Z" fill="#231529" stroke="#f1cf9c" stroke-width="13"/>
+<path d="M665 479L850 537L714 564L690 538Z" fill="#241628" stroke="#ffc14a" stroke-width="14"/>
+<path d="M549 462L628 450L645 485L613 515L552 503Z" fill="#eb508c" stroke="#221224" stroke-width="10"/>
+<circle cx="605" cy="481" r="20" fill="#ffbe3c"/><circle cx="610" cy="480" r="9" fill="#1c1225"/>
+<path d="M432 649L379 807L426 737C451 713 492 750 484 791C479 846 409 842 427 916C439 964 537 956 523 1045" fill="none" stroke="url(#ribbon)" stroke-width="33"/>
+<path d="M432 649L379 807L426 737C451 713 492 750 484 791C479 846 409 842 427 916C439 964 537 956 523 1045" fill="none" stroke="#281528" stroke-width="9"/>
+<path d="M513 607L474 697L550 636L528 718C583 661 639 700 589 784" fill="none" stroke="#9b46ac" stroke-width="19"/>
+<path d="M360 979l97 63m-45-120l68 61m-72-179l26 28" stroke="#eabd8b" stroke-width="14" opacity=".8"/>
+<path d="M535 976Q586 900 632 944L681 979L650 1001L603 981L580 1034Z" fill="#241629" stroke="#f8cb96" stroke-width="12"/>
+<g transform="rotate(-24 685 1032)"><circle cx="687" cy="975" r="42" fill="none" stroke="#251526" stroke-width="23"/><circle cx="687" cy="975" r="42" fill="none" stroke="#ffb635" stroke-width="14"/><path d="M683 1017Q705 1074 679 1119L706 1136L679 1158L665 1131L645 1141L663 1110L669 1020" fill="#ffc03d" stroke="#251526" stroke-width="10"/></g>
+<rect width="900" height="1200" fill="url(#grain)"/>
+<text x="55" y="96" fill="#251528" font-family="Arial,sans-serif" font-size="68" font-weight="900" letter-spacing="7">DRAMA TRIP</text>
+<text x="58" y="1138" fill="#f5d1a0" font-family="Arial,sans-serif" font-size="22" font-weight="bold" letter-spacing="6">THE RAVEN / STUDY 01</text>
+</svg>
