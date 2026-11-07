@@ -9,3 +9,5 @@
 - [Kruger image-text montage](kruger_image_text/)
 
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
+- [Hiroshige's One Hundred Famous Views of Edo](hiroshige_edo_views/)
+- [Henryk Tomaszewski's Polish film posters](tomaszewski_film_posters/)
