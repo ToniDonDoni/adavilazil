@@ -8,4 +8,8 @@
 - [Fukuda negative space poster](fukuda_negative_space/)
 - [Kruger image-text montage](kruger_image_text/)
 
+- [Yuri Pimenov: New Moscow urban paintings](yuri_pimenov_new_moscow/)
+- [Edward Steichen: Vogue fashion portraits](steichen_vogue_portraits/)
+- [Saul Leiter: Early Color](leiter_early_color/)
+
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
