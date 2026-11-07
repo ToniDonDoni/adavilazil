@@ -40,7 +40,7 @@ Additional discovery and terminology: [Getty Art & Architecture Thesaurus / Unio
 3. [Aesthetics](https://github.com/ZaynJarvis/aesthetics): 337 style prompts in YAML and a coverage audit. Mine narrower lanes, then cross-check that they are not merely moods, aesthetics or generic movements.
 4. [StableDiffusion-CheatSheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet): over 833 manually tested artist-inspired styles, searchable examples and metadata. Good high-volume artist discovery; do not assume model behavior accurately represents an artist's actual work.
 
-## Future style candidates (253)
+## Future style candidates
 
 Candidates below are deliberately concise and **unverified**. Not all source locations will carry every listed work. Source codes are intended as starting queries. Add precise object URLs and evidence only when promoting an item to a full reference entry.
 
@@ -59,7 +59,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-011** Jan Tschichold: New Typography layouts (1920s–1930s): asymmetry and purposeful white space. Search: LA,VAM.
 - [ ] **FS-012** Willem Sandberg: Stedelijk catalogues (1940s–1960s): hand-torn letterforms, paper texture. Search: LA,MOMA.
 - [ ] **FS-013** Ladislav Sutnar: Sweet's catalog layouts (1940s–1950s): information hierarchy, tabular navigation. Search: MOMA,LA.
-- [ ] **FS-014** Josef Müller-Brockmann: Zurich concert posters (1950s–1960s): mathematical grids and optical rhythm. Search: MOMA,LA.
 - [ ] **FS-015** Armin Hofmann: Basel theater posters (1950s–1960s): stark photo/type contrasts. Search: LA,MOMA.
 - [ ] **FS-016** Karl Gerstner: Swiss programmatic graphic systems (1960s): modular systems and combinatorial grids. Search: MOMA,LA.
 - [ ] **FS-017** Otl Aicher: Munich Olympics pictograms (1972): standardized silhouettes and strict grids. Search: MOMA,LA.
@@ -94,7 +93,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-043** Franciszek Starowieyski: theater posters (1960s–1980s): dense baroque anatomical drawing. Search: PH,MOMA.
 - [ ] **FS-044** Yusaku Kamekura: Tokyo Olympics posters (1964): sun-disc geometry and photographic action. Search: MOMA,PH.
 - [ ] **FS-045** Ikko Tanaka: Nihon Buyo poster (1981): geometric face and color segmentation. Search: MOMA,PH.
-- [ ] **FS-046** Shigeo Fukuda: anti-war graphic posters (1970s–1990s): negative-space reversals and optical puns. Search: MOMA,PH.
 - [ ] **FS-047** Kazumasa Nagai: Life poster series (1980s–1990s): animal silhouettes and graphic gradients. Search: MOMA,PH.
 - [ ] **FS-048** Tadanori Yokoo: theater and event posters (1960s): pop collage, Japanese iconography, psychedelic density. Search: MOMA,PH.
 - [ ] **FS-049** Wes Wilson: Fillmore concert posters (1966–1967): compressed undulating lettering. Search: PH,CH.
@@ -102,7 +100,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-051** Bonnie MacLean: Fillmore concert posters (1967–1969): curving lettering and outlined figures. Search: PH,CH.
 - [ ] **FS-052** Milton Glaser: Bob Dylan poster (1966): flat silhouette and colorful hair arabesques. Search: MOMA,PH.
 - [ ] **FS-053** Seymour Chwast: Push Pin Studio posters (1960s–1970s): decorative historical remix and flat illustration. Search: MOMA,PH.
-- [ ] **FS-054** Barbara Kruger: Your Body Is a Battleground (1989): red headline bars over split photographs. Search: MOMA,PH.
 - [ ] **FS-055** Emory Douglas: Black Panther newspaper covers (1960s–1970s): blunt woodcut-like figures and slogans. Search: MOMA,PH.
 - [ ] **FS-056** Shepard Fairey: early Obey Giant posters (1990s): stenciled portrait and propaganda geometry. Search: PH,MOMA.
 

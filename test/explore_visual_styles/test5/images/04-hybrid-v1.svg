@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Hybrid v1: Swiss grid with Kruger bars, bars floating outside the grid">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2ede3"/>
+      <stop offset="1" stop-color="#cfc6b4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+
+  <g stroke="#d8d1c2" stroke-width="2">
+    <line x1="80" y1="0" x2="80" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="520" y1="0" x2="520" y2="1200"/>
+    <line x1="740" y1="0" x2="740" y2="1200"/>
+    <line x1="860" y1="0" x2="860" y2="1200"/>
+  </g>
+
+  <text x="80" y="170" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#111111">20:00</text>
+  <text x="80" y="216" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="9" fill="#111111">STUDIO FOUR</text>
+
+  <path d="M300 1200 L300 900 Q600 760 860 900 L860 1200 Z" fill="#111111"/>
+  <path d="M600 340 Q780 340 780 540 Q780 740 600 770 Q420 740 420 540 Q420 340 600 340 Z" fill="#8a8a8a"/>
+  <path d="M600 340 Q420 340 420 540 Q420 740 600 770 Z" fill="#111111"/>
+  <path d="M600 340 Q780 340 780 540 Q780 740 600 770 Z" fill="#e6e6e6"/>
+  <path d="M414 500 Q414 348 600 348 Q786 348 786 500 L786 458 Q736 396 600 396 Q464 396 414 458 Z" fill="#e0a83c"/>
+  <circle cx="540" cy="520" r="14" fill="#8d9b9c"/>
+  <circle cx="672" cy="520" r="14" fill="#8d9b9c"/>
+  <path d="M700 520 q40 30 22 86" fill="none" stroke="#f2ede3" stroke-width="10"/>
+
+  <!-- flaw: bars sit in the outer margin and miss the subject -->
+  <rect x="700" y="980" width="180" height="90" fill="#d0021b"/>
+  <text x="712" y="1042" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" font-style="italic" fill="#ffffff">YOU ARE</text>
+  <rect x="700" y="1080" width="180" height="70" fill="#d0021b"/>
+  <text x="712" y="1128" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" font-style="italic" fill="#ffffff">WATCHED</text>
+</svg>
