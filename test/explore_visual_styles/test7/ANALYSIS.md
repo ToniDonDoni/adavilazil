@@ -1,7 +1,7 @@
 # Style Analysis
 
 **Skill:** EXPLORE-VISUAL-STYLES 2.3.0  
-**Specification:** [SPEC-004-VOICE-ACROSS-THE-CITY.md](SPEC-004-VOICE-ACROSS-THE-CITY.md)
+**Specification:** [SPEC-005-VOICE-ACROSS-THE-CITY.md](SPEC-005-VOICE-ACROSS-THE-CITY.md)
 
 ## Subject
 

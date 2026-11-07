@@ -1,4 +1,4 @@
-# SPEC-004: Voice Across the City
+# SPEC-005: Voice Across the City
 
 **Skill:** [EXPLORE-VISUAL-STYLES 2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Template:** [SPEC-TEMPLATE.md](../../../engineering/SPEC-TEMPLATE.md)

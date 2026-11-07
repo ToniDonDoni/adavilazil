@@ -8,6 +8,11 @@
 - [Fukuda negative space poster](fukuda_negative_space/)
 - [Kruger image-text montage](kruger_image_text/)
 
-Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
+- [Yuri Pimenov: New Moscow urban paintings](yuri_pimenov_new_moscow/)
+- [Edward Steichen: Vogue fashion portraits](steichen_vogue_portraits/)
+- [Saul Leiter: Early Color](leiter_early_color/)
+
 - [Hiroshige's One Hundred Famous Views of Edo](hiroshige_edo_views/)
 - [Henryk Tomaszewski's Polish film posters](tomaszewski_film_posters/)
+
+Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).

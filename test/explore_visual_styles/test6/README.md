@@ -1,27 +1,25 @@
-# Test 6: Voice Across the City
+# Test 6: Blonde TV Presenter, City and Reflected Light
 
-**Skill:** [EXPLORE-VISUAL-STYLES 2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
-**Specification:** [SPEC-004-VOICE-ACROSS-THE-CITY.md](SPEC-004-VOICE-ACROSS-THE-CITY.md)  
-**Analysis:** [ANALYSIS.md](ANALYSIS.md)  
-**Implementation:** [IMPLEMENTATION.md](IMPLEMENTATION.md)  
-**Verification:** [REVIEW.md](REVIEW.md)  
-**Checklist:** [CHECKLIST.md](CHECKLIST.md)  
-**Revision history:** [REVISION-HISTORY.md](REVISION-HISTORY.md)
+**Skill-compatible flow:** source references, declarative specification, baseline studies, hybrid v1, visual verification, revised hybrid v2.
 
-The fixed subject is a fictional blonde female TV presenter with grey eyes, on air. The test combines [Hiroshige's One Hundred Famous Views of Edo](../../../reference/visual_styles/hiroshige_edo_views/README.md) with [Henryk Tomaszewski's Polish film posters](../../../reference/visual_styles/tomaszewski_film_posters/README.md).
+**Canonical spec:** [SPEC-004-PRESENTER.md](SPEC-004-PRESENTER.md)  
+**Method:** [IMPLEMENTATION.md](IMPLEMENTATION.md)  
+**Evidence:** [REVIEW.md](REVIEW.md)
 
-## Individual style studies
+The subject in all five original procedural SVG studies is a fictional young blonde, gray-eyed, long-haired television presenter with desk papers and a microphone. This is a new illustrative scenario, not an archival work.
 
-| Hiroshige | Tomaszewski |
-| --- | --- |
-| [Open SVG](images/01-HIROSHIGE.svg) | [Open SVG](images/02-TOMASZEWSKI.svg) |
-| ![Hiroshige study](images/01-HIROSHIGE.svg) | ![Tomaszewski study](images/02-TOMASZEWSKI.svg) |
+## Single-style studies
 
-## Combined result
+| Pimenov city painting | Steichen Vogue portrait | Leiter Early Color |
+| --- | --- | --- |
+| ![Pimenov](images/01-pimenov.svg) | ![Steichen](images/02-steichen.svg) | ![Leiter](images/03-leiter.svg) |
 
-- **V1:** [Initial hybrid](images/03-HYBRID-V1.svg). The red poster gesture is detached from the microphone and reads as floating decoration.
-- **V2:** [Revised hybrid](images/04-HYBRID-V2.svg). The vermilion gesture begins at the lapel microphone, travels across the lower composition and becomes a bridge-like signal path over the river. It stays below the face.
+## Hybrid: Pimenov + Leiter
 
-![Final hybrid: Voice Across the City](images/04-HYBRID-V2.svg)
+**v1:** [View original](images/04-hybrid-v1.svg), red glass veiling the central figure.
 
-All artwork is original, editable SVG. The test preserves both individual studies, both hybrid iterations, exact design briefs, specification and criterion-by-criterion review.
+**v2:** [View corrected](images/05-hybrid-v2.svg), glass shifted to periphery and opacity reduced.
+
+![Pimenov + Leiter final corrected version](images/05-hybrid-v2.svg)
+
+**Acceptance:** 8 pass / 1 partial; full acceptance is **not** claimed. The Pimenov selection was requested in advance, not an impartial visual ranking.

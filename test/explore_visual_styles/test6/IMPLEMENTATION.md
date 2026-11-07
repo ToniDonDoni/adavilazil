@@ -1,15 +1,17 @@
-# Implementation
+# Implementation and Image Instructions
 
-**Specification:** [SPEC-004-VOICE-ACROSS-THE-CITY.md](SPEC-004-VOICE-ACROSS-THE-CITY.md)  
-**Skill:** EXPLORE-VISUAL-STYLES 2.3.0
+**Rendering:** Original version-controlled procedural SVG drawings. Each file is self-contained, 900x1100, with all geometry, color, filters and figure attributes in its source. No external assets and no image-model seeds.
 
-**Method:** original, hand-authored, self-contained SVG illustrations at 900 x 1200 (3:4). Each SVG is editable source artwork made from paths, shapes, patterns and text. No external images, remote resources, embedded fonts or raster dependencies are used.
+**Shared subject specification:** fictional television presenter, long blond hair, gray eyes with explicit gray iris circles, blazer, news sheets, microphone and city/studio setting.
 
-- **Hiroshige study:** woodblock-like contours, flat indigo, ochre, cream and vermilion areas, cropped blossom branch, Edo-like skyline, mountain, river and oblique bridge, selective sky and water bokashi, restrained paper grain.
-- **Tomaszewski study:** concise poster hierarchy, one large dark silhouette, one vermilion painted gesture, expressive asymmetrical composition and minimal lettering.
-- **Hybrid V1:** retained the Hiroshige landscape and presenter, but placed the vermilion gesture above the subject as a separate shape. The visual metaphor was not physically connected to the microphone.
-- **Hybrid V2:** moved the gesture to the lapel microphone and continued it across the lower composition into a bridge-like river path. The face remains unobstructed. Dry-brush accents reinforce the hand-painted character.
+**01 Pimenov:** a softly fragmented blue-gray city with everyday traffic-like dabs, diffused light, loose brush marks and painterly contours. Do not literally reconstruct New Moscow.
 
-The exact design briefs used for the four implementations are preserved in [prompts/](prompts/). The artwork itself is the implementation source, so it can be opened directly in a browser or edited as SVG.
+**02 Steichen:** pose and shoulder modeling under controlled portrait light; tonal gray studio environment, reduced color distraction, crisp silhouette.
 
-**Rendering and review:** the SVG files were rasterized locally to 900 x 1200 PNG previews for visual inspection. The PNG previews are review artifacts only; the committed SVG files remain the canonical outputs. The review checks both visible output and relevant SVG structure.
+**03 Leiter:** street fragments under reflective and occluding red/blue glass, uneven cropping, soft city distance; female figure remains identifiable.
+
+**04 Hybrid v1:** reuse Pimenov drawing as primary geometry, add a wide red pane and a dark green frame crossing the face. Intended failure: AC-06 recognizable face is partly obscured.
+
+**05 Hybrid v2:** shift red pane to far right, dark framing to left edge, lower overlay alpha from 0.72 to 0.26; retain painted city and same portrait composition. Inspect revised criteria.
+
+**Known limitation:** Procedural vector portraiture is not photorealistic; appearance is schematic despite explicitly encoded eye color. The output is an artistic experiment, not a copy of a historical artist or historical evidence of what a 1930s studio looked like.

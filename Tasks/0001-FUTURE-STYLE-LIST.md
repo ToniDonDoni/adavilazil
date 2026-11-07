@@ -236,7 +236,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-172** Eadweard Muybridge: Animal Locomotion plates (1887): gridded sequential silhouettes. Search: MET,GET.
 - [ ] **FS-173** Étienne-Jules Marey: chronophotographs (1880s–1890s): multiple motion phases in a single field. Search: MET,GET.
 - [ ] **FS-174** Alfred Stieglitz: Camera Work photogravures (1900s): tonal mist and Pictorialist softness. Search: MET,GET.
-- [ ] **FS-175** Edward Steichen: fashion photographs for Vogue (1920s–1930s): sculptural studio highlights. Search: MET,GET.
 - [ ] **FS-176** Paul Strand: Wall Street (1915): human scale versus architectural shadows. Search: MET,GET.
 - [ ] **FS-177** László Moholy-Nagy: New Vision architectural photographs (1920s): disorienting high/low viewpoints. Search: MOMA,GET.
 - [ ] **FS-178** Alexander Rodchenko: street photographs (1920s–1930s): extreme diagonal perspectives. Search: MOMA,GET.
@@ -247,7 +246,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-183** Walker Evans: FSA storefront photographs (1930s): flat signage, vernacular facades. Search: LOC,GET.
 - [ ] **FS-184** Gordon Parks: American Gothic, Washington, D.C. (1942): social portrait and emblematic staging. Search: LOC,GET.
 - [ ] **FS-185** Robert Frank: The Americans (1958–1959): off-balance candid framing and grain. Search: MET,GET.
-- [ ] **FS-186** Saul Leiter: New York color street photographs (1950s–1960s): reflections and translucent color veils. Search: MET,GET.
 - [ ] **FS-187** William Klein: New York street photographs (1950s): abrasive grain and close wide-angle energy. Search: MOMA,GET.
 - [ ] **FS-188** Daido Moriyama: Provoke-era photographs (late 1960s): high contrast, blur and coarse grain. Search: MOMA,GET.
 - [ ] **FS-189** Hiroshi Sugimoto: Seascapes (1980s onward): minimalist horizon and long exposure. Search: MET,GET.
