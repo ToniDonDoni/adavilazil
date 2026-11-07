@@ -1,18 +1,18 @@
 # Explore Visual Styles
 
-**Version:** 2.2.1
+**Version:** 2.3.0
 
 **Inspired by:** https://youtu.be/ftugIJ-NPEs
 
-**Goal:** Build reusable visual languages from testable Style Requirements.
+**Goal:** Build repeatable visual languages through spec-driven development.
 
-1. Choose one subject and several [reference styles](../reference/visual_styles/) structured using the [style template](../engineering/STYLE-TEMPLATE.md).
-2. Define the task **declaratively** using [SPEC-TEMPLATE.md](../engineering/SPEC-TEMPLATE.md). Derive Acceptance Criteria from the applicable Style Requirements.
-3. Implement the same subject separately according to each style's Style Requirements. Save each visual artifact and review it against the spec's Acceptance Criteria.
-4. Choose two styles, resolve how their Style Requirements combine, and update the spec's Required State and Acceptance Criteria for the hybrid.
-5. **Implement v1 according to the spec.** Use generative or procedural methods; static visuals and animations are both valid.
-6. Check the result against **every applicable Acceptance Criterion** (pass / partial / fail with evidence).
-7. Address failed or partial Acceptance Criteria, implement v2 and verify against the spec again. Preserve the spec, implementation inputs or code, outputs and reviews in the test.
+1. Choose one subject and several [reference styles](../reference/visual_styles/) using the [style template](../engineering/STYLE-TEMPLATE.md).
+2. Analyze their Style Requirements, identify compatible and conflicting properties, and decide which styles to combine.
+3. Define the task **declaratively** using [SPEC-TEMPLATE.md](../engineering/SPEC-TEMPLATE.md). Specify the Required State and derive **Acceptance Criteria** for individual style studies and the combined result.
+4. Implement the individual style studies **according to the spec**; preserve and compare the outputs.
+5. **Implement the combined visual result according to the spec.** Generative and procedural methods are both valid, including static images and animations.
+6. Verify **every applicable Acceptance Criterion in the spec** against the actual results. Record pass / partial / fail with evidence under Implementation Verification.
+7. Address unmet Acceptance Criteria, implement a revision and verify again. Save the spec, implementation inputs or code, visual outputs and verification in the test.
 
 **Recommendation:** Record the skill version and any prompts used in each test.
 

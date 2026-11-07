@@ -4,10 +4,10 @@
 <!-- Optional when no previous state exists. -->
 
 ## 2. Required State
-<!-- Declarative description of the desired result. -->
+<!-- Declarative description of the desired visual result. -->
 
 ## 3. Acceptance Criteria
-- [ ] <Testable criterion linked to a requirement ID>
+- [ ] <Observable, testable outcome derived from the applicable Style Requirements>
 
 ## 4. Analysis
 <!-- Evidence, compatible requirements and conflicts. -->
@@ -19,4 +19,4 @@
 - [ ] <Action>
 
 ## 7. Implementation Verification
-<!-- Results and evidence for acceptance criteria. -->
+<!-- Check each applicable Acceptance Criterion against actual results, with evidence and status. -->
