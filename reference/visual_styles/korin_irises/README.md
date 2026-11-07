@@ -2,7 +2,7 @@
 
 ## Overview
 
-A reference for Ogata Kōrin's *Irises*, the pair of six-panel folding screens in the Nezu Museum, Tokyo (collection 10301). Painted in Japan in the early eighteenth century, the work uses ink and color on gold-foiled paper. Simplified flower clusters and unpainted gold intervals establish a rhythm across the two screens.
+A reference for Ogata Kōrin's *Irises*, the pair of six-panel folding screens in the Nezu Museum, Tokyo (collection 10301). Painted in Japan in the early eighteenth century, the work uses ink and color on gold-foiled paper. Simplified flower clusters and exposed gold intervals establish a rhythm across the two screens.
 
 This entry concerns the Nezu pair, without a bridge. The Met's *Irises at Yatsuhashi (Eight Bridges)*, dated after 1709, is a separate, related pair and should not be used interchangeably as the reference image. The Met's *Designing Nature* catalogue places the Nezu composition around 1701; the Nezu object record uses the broader eighteenth-century date.
 
@@ -27,16 +27,17 @@ The requirements below translate these sources into an editorial guide for new c
 ## Style Requirements
 
 - **Format:** Use broad horizontal fields. For a screen-pair study, arrange different cluster positions and gap widths on the left and right; do not mirror one half.
-- **Ground:** Keep a continuous open gold area above the plants and gold gaps between separate clusters; avoid a painted sky or horizon.
+- **Ground:** Leave open gold above the plants and visible gold intervals around and within the groupings; do not require every clump to be isolated. Avoid a painted sky or horizon.
 - **Palette:** Concentrate color in blue blossoms and green leaves against gold, with restrained variation within those colors.
 - **Flowers:** Simplify blossoms into rounded, clearly readable petal groups instead of equally detailed botanical specimens.
 - **Leaves:** Use long, narrow blades to establish upward movement and contrast with the broader petals.
 - **Rhythm:** Repeat recognizable plant shapes, varying the spacing, height and density of clusters.
+- **Placement:** Vary the relationship to the lower edge across the pair: some plant groups continue beyond it, while others end above it with gold visible beneath. Avoid a uniform ground line under every group.
 - **Space:** Use gaps and overlap to organize the surface; avoid a deep, continuously receding landscape.
 - **Modeling:** Keep plant shapes primarily as color areas, without cast shadows on the gold or photographic highlights on the petals.
 - **Version boundary:** For a study of the Nezu pair, omit bridges, travelers and narrative scenery. Introducing them creates a different interpretation.
 
-Review the composition at thumbnail size: blue-green groups and gold intervals should remain distinct, and the two sides should not read as a repeated tile. At full size, check the blade-like leaves, rounded petals and absence of illusionistic scenery. A single horizontal adaptation may use this vocabulary, but should not be described as a reconstruction of the original pair of six-panel screens.
+Review the composition at thumbnail size: blue-green groups and gold intervals should remain distinct, with different vertical placement and spacing on the two sides. Repeated individual motifs are compatible with the style; a mechanically tiled whole composition is not. At full size, check the blade-like leaves, rounded petals and absence of illusionistic scenery. A single horizontal adaptation may use this vocabulary, but should not be described as a reconstruction of the original pair of six-panel screens.
 
 ## Sources
 

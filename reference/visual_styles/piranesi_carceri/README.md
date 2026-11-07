@@ -33,9 +33,9 @@ These relations are visual comparisons rather than additional claims of historic
 - **Line:** Build surfaces from irregular etched strokes and layered hatching; keep individual marks visible in lighter passages.
 - **Tone:** Set dense dark structural masses against areas of exposed paper and lighter distance. Preserve enough separation to read overlapping levels.
 - **Details:** Use ropes, chains, beams or lifting mechanisms selectively to interrupt sightlines and complicate the architecture.
-- **Palette:** Keep the image monochrome; obtain tonal variation through line density rather than colored lighting.
+- **Palette:** Keep the image monochrome, using paper, linework and ink tone for the value range; avoid colored lighting effects.
 
-Review at thumbnail size for dominant architecture, small figures and separated depth layers, then at full size for visible hatching and interrupted routes. A generic dark corridor with one clear vanishing point and an obvious exit does not satisfy this guide. Compare the result with the 1761 examples, not only the lighter early-state Met print.
+Review at thumbnail size for dominant architecture, small figures and separated depth layers, then at full size for visible hatching and interrupted routes. A scene that reads as one straight corridor with a fully visible route to an exit lacks the intended spatial ambiguity; the number of vanishing points alone is not a pass/fail criterion. Compare the result with the 1761 examples, not only the lighter early-state Met print.
 
 ## Sources
 
