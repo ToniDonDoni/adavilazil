@@ -1,16 +1,21 @@
-# Levitan-inspired watercolor
+# Levitan-Inspired Watercolor
 
-**Origin:** Isaac Levitan's atmospheric Russian landscape studies, late 19th century. **Modern watercolor interpretation**, not a named technique invented by Levitan.
+## Origin
+Isaac Levitan's atmospheric Russian landscapes, late 19th century.
 
-- **Light:** diffused, quiet, weather-sensitive.
-- **Color:** muted earth greens, blue-grays, warm dusk accents.
-- **Form:** softened distant contours, selective sharp foreground.
-- **Texture:** transparent washes, wet-on-wet sky, visible paper (suggested modern watercolor techniques, not verified as Levitan's specific method).
+## Background
+The landscape's light and quiet mood are the historical inspiration. Transparent washes and wet-on-wet edges below are **modern watercolor adaptations**, not a technique claimed to have been invented by Levitan.
 
-**Mood:** stillness, melancholy, spaciousness.
+## Style Requirements
+- **LW-01 Light:** Use soft diffuse daylight or dusk without sharp cast shadows.
+- **LW-02 Color:** Keep most of the scene in muted blue-gray and earth-green tones.
+- **LW-03 Form:** Soften distant silhouettes; sharpen only selected foreground details.
+- **LW-04 Line:** Avoid continuous hard outlines around landscapes.
+- **LW-05 Space:** Show atmospheric depth by reducing distant contrast.
+- **LW-06 Composition:** Preserve a broad, quiet sky or water area.
+- **LW-07 Texture:** Show translucent overlapping washes and visible paper grain.
+- **LW-08 Mood:** Convey stillness or melancholy through sparse detail and calm light.
 
-**Find:** `Isaac Levitan watercolor studies`, `Levitan atmospheric landscape`, `Russian lyrical landscape watercolor`.
-
-**Sources:**
-- [Tretyakov Gallery Magazine: The Magic of Watercolour](https://www.tretyakovgallerymagazine.com/articles/3-2008-20/magic-watercolour) (Levitan's watercolor *Autumn*, mood in watercolor landscapes).
-- [Tretyakov Gallery Magazine: Working with the Material](https://www.tretyakovgallerymagazine.com/articles/3-2012-36/working-material) (Levitan's sepia landscape and paper surface).
+## Sources
+- [Tretyakov Gallery Magazine: The Magic of Watercolour](https://www.tretyakovgallerymagazine.com/articles/3-2008-20/magic-watercolour)
+- [Tretyakov Gallery Magazine: Working with the Material](https://www.tretyakovgallerymagazine.com/articles/3-2012-36/working-material)
