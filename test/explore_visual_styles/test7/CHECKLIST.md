@@ -1,4 +1,4 @@
-# Test 6 Checklist
+# Test 7 Checklist
 
 **Skill:** EXPLORE-VISUAL-STYLES 2.3.0
 
