@@ -40,7 +40,7 @@ Additional discovery and terminology: [Getty Art & Architecture Thesaurus / Unio
 3. [Aesthetics](https://github.com/ZaynJarvis/aesthetics): 337 style prompts in YAML and a coverage audit. Mine narrower lanes, then cross-check that they are not merely moods, aesthetics or generic movements.
 4. [StableDiffusion-CheatSheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet): over 833 manually tested artist-inspired styles, searchable examples and metadata. Good high-volume artist discovery; do not assume model behavior accurately represents an artist's actual work.
 
-## Future style candidates (253)
+## Future style candidates (250)
 
 Candidates below are deliberately concise and **unverified**. Not all source locations will carry every listed work. Source codes are intended as starting queries. Add precise object URLs and evidence only when promoting an item to a full reference entry.
 
@@ -112,7 +112,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-058** Albrecht Dürer: Melencolia I engraving (1514): microscopic hatching, symbolic geometry. Search: MET,NGA.
 - [ ] **FS-059** Hans Holbein the Younger: Dance of Death woodcuts (1520s–1530s): small narrative figures and biting contrast. Search: MET,NGA.
 - [ ] **FS-060** Hendrick Goltzius: virtuoso engraving portraits (1580s–1590s): swelling line and sculpted contours. Search: MET,NGA.
-- [ ] **FS-061** Giovanni Battista Piranesi: Carceri d'Invenzione (1740s–1760s): impossible prisons and receding arches. Search: MET,NGA.
 - [ ] **FS-062** Francisco Goya: Los Caprichos etchings (1799): satirical darkness and aquatint atmospheres. Search: MET,NGA.
 - [ ] **FS-063** Francisco Goya: Disasters of War prints (1810s): stark figures and unstable tonal fields. Search: MET,NGA.
 - [ ] **FS-064** William Blake: illuminated books (1790s–1820s): handwritten text merging with mythic ornament. Search: MET,BL.
@@ -137,7 +136,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 
 - [ ] **FS-081** Katsushika Hokusai: Thirty-six Views of Mount Fuji (1830s): layered horizons and cropped wave geometry. Search: MET,RJK.
 - [ ] **FS-082** Katsushika Hokusai: Hokusai Manga sketches (1810s onward): economical motion studies and lively line. Search: MET,BL.
-- [ ] **FS-083** Utagawa Hiroshige: One Hundred Famous Views of Edo (1850s): foreground framing and atmospheric gradients. Search: MET,LOC.
 - [ ] **FS-084** Utagawa Hiroshige: Tōkaidō Road prints (1830s): weather, travel and spatial sequencing. Search: MET,LOC.
 - [ ] **FS-085** Kitagawa Utamaro: bijin-ga portraits (1790s): cropped heads and delicate pattern. Search: MET,LOC.
 - [ ] **FS-086** Torii Kiyonaga: theatrical triptychs (1780s): rhythmic kimono patterns and paired silhouettes. Search: MET,LOC.
@@ -311,7 +309,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 
 ### Early computer, generative and scientific visuals
 
-- [ ] **FS-236** Georg Nees: Schotter / Gravel (1968–1970): a regular square grid progressively disrupted by rotation and displacement. Search: VAM,GET.
 - [ ] **FS-237** Frieder Nake: Hommage à Paul Klee plotter graphics (1965): computed hatch and probabilistic geometry. Search: MOMA,GET.
 - [ ] **FS-238** Michael Noll: computer-generated Mondrian studies (1960s): statistical rectangular compositions. Search: MOMA,GET.
 - [ ] **FS-239** Charles Csuri: Sine Curve Man computer plotter drawing (1967): digitally distorted figure outlines. Search: MOMA,GET.
