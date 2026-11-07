@@ -9,7 +9,7 @@ One Hundred Famous Views of Edo (Meisho Edo Hyakkei) is a late-career series of 
 
 ## Influenced To
 - Vincent van Gogh: he copied two prints from the series, Sudden Shower over Shin-Ohashi Bridge and Atake and Plum Estate at Kameido, as oil paintings.
-- Japonisme in late nineteenth-century Europe: the series provided influential examples of flattened color, unusual viewpoints and inventive cropping.
+- Japonisme: the series was among the Japanese print sources that shaped late-nineteenth-century European interest in Japanese art; Van Gogh's copies are a documented example.
 
 ## Relations
 - Levitan-inspired watercolor: both use season and weather to shape the mood of a landscape; Hiroshige relies on crisp woodblock contours, flat color planes and deliberate cropping rather than transparent washes and soft atmospheric blending.
@@ -31,3 +31,4 @@ One Hundred Famous Views of Edo (Meisho Edo Hyakkei) is a late-career series of 
 - [University of Michigan Museum of Art: One Hundred Famous Views of Edo #107](https://umma.umich.edu/objects/one-hundred-famous-views-of-edo-107-fukagawa-susaki-and-the-jumantsubo-plain-1960-2-143/)
 - [The Metropolitan Museum of Art: Hatsune Riding Ground, from One Hundred Famous Views of Edo](https://www.metmuseum.org/art/collection/search/57651)
 - [Van Gogh Museum: Utagawa Hiroshige](https://www.vangoghmuseum.nl/en/japanese-prints/person/33202/Utagawa%20Hiroshige)
+- [National Gallery of Art: Van Gogh's Japanese Print Sources](https://www.nga.gov/content/dam/ngaweb/research/gallery-archives/PressReleases/1999-1990/1998/14A11_45113_19980723.pdf)
