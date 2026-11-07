@@ -3,11 +3,11 @@
 **Status:** backlog / discovery only  
 **Scope:** candidate styles and places to investigate. Do not create style reference files in this task.
 
-## Goal
+## Task
 
-Build an expandable research queue of **narrow, distinguishable visual languages** suitable for later conversion into `reference/visual_styles/<style_id>/README.md`. Prefer **artist + specific series / project + period + medium / technique** rather than broad labels such as Cubism, Impressionism, Expressionism, or generic "anime". A named candidate is a research lead, **not yet a vetted style reference**.
+Choose a style not yet present in the [visual style catalog](../reference/visual_styles/README.md) and create its reference using the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md). Follow the [repository contribution rules](../CONTRIBUTING.md).
 
-For each future style investigation, inspect representative original works, verify origin and dates with primary collections, identify visually observable Style Requirements, document relationships and conflicts with other styles, and link credible sources. Do not equate an AI prompt's appearance with art-historical evidence. Respect copyright and license terms; this file links to sources and does not import imagery.
+The styles and sources below are an expandable pool of research candidates, not completed or verified references.
 
 ## Museum and archive source directory
 
@@ -49,8 +49,6 @@ Additional discovery and terminology: [Getty Art & Architecture Thesaurus / Unio
 - [AHD](https://github.com/Ad-Astra-Computing/ahd): design-failure taxonomy, style tokens, brief compilation and reproducible evaluation. Useful to study evaluation structure, not a historical style index.
 - [image-generation](https://github.com/eandrei/image-generation): agentic generator -> evaluator -> prompt-refiner loop. Workflow reference, not a curated artist catalogue.
 - [ProImage-Bench (repository named TechImage-Bench)](https://github.com/kodenii/TechImage-Bench): rubric-based checks for professional image generation. Evaluation inspiration, not style discovery.
-
-For all third-party repos: research individual candidate entries, avoid copying protected text or images, preserve attribution, and check current licenses before reuse.
 
 ## Future style candidates (253)
 
@@ -342,11 +340,3 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-252** Marius Watz: generative geometric screenprints (2000s–2010s): parametric polygon growth. Search: GET,MOMA.
 - [ ] **FS-253** Mandelbrot set: early computer fractal renderings (1980s): iterative coastlines and nested gradients. Search: GET,MOMA.
 
-## Expansion and promotion rules
-
-- Add additional narrowly scoped candidates under an appropriate category; preserve existing IDs and avoid duplicate entries.
-- Prefer primary collections or catalogues raisonnés for historical claims; cross-check dates, techniques and provenance. GitHub prompt libraries supply **leads**, not authoritative attribution.
-- Reject overly broad movements unless narrowed to a named creator, specific project/period and recognizable visual technique.
-- Favor candidate diversity across centuries, regions, media and subject matter; do not let Western poster/design sources dominate indefinitely.
-- When promoted, document directly observable Style Requirements in the existing [style template](../engineering/STYLE-TEMPLATE.md) and include credible per-work sources.
-- Keep research candidates distinct from implementation and visual-verification methods. Their evaluation belongs in the relevant future spec/test, not in this discovery list.
