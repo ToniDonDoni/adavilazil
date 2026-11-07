@@ -1,13 +1,12 @@
 # Task 0001: Future Style List
 
-**Status:** backlog / discovery only  
-**Scope:** candidate styles and places to investigate. Do not create style reference files in this task.
+**Status:** backlog
 
 ## Task
 
-Choose a style not yet present in the [visual style catalog](../reference/visual_styles/README.md) and create its reference using the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md). Follow the [repository contribution rules](../CONTRIBUTING.md).
+Maintain an expandable list of **future visual styles to investigate** and suggested sources where they might be found. Add candidates that are not already covered by the [visual style catalog](../reference/visual_styles/README.md). Prefer specific artists, works or series, periods and techniques over broad art movements.
 
-The styles and sources below are an expandable pool of research candidates, not completed or verified references.
+**This task is only a research backlog.** Do not create style references as part of it. When a candidate is selected for a separate investigation, use the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md) and [contribution rules](../CONTRIBUTING.md).
 
 ## Museum and archive source directory
 
@@ -43,13 +42,6 @@ Additional discovery and terminology: [Getty Art & Architecture Thesaurus / Unio
 3. [Aesthetics](https://github.com/ZaynJarvis/aesthetics): 337 style prompts in YAML and a coverage audit. Mine narrower lanes, then cross-check that they are not merely moods, aesthetics or generic movements.
 4. [StableDiffusion-CheatSheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet): over 833 manually tested artist-inspired styles, searchable examples and metadata. Good high-volume artist discovery; do not assume model behavior accurately represents an artist's actual work.
 
-**Methods and verification references (not primary style catalogues):**
-
-- [autocritic](https://github.com/mccoyspace/autocritic): theory-driven critic cards, structured image critique, optional improvement loop. Relevant to future Acceptance Criteria verification.
-- [AHD](https://github.com/Ad-Astra-Computing/ahd): design-failure taxonomy, style tokens, brief compilation and reproducible evaluation. Useful to study evaluation structure, not a historical style index.
-- [image-generation](https://github.com/eandrei/image-generation): agentic generator -> evaluator -> prompt-refiner loop. Workflow reference, not a curated artist catalogue.
-- [ProImage-Bench (repository named TechImage-Bench)](https://github.com/kodenii/TechImage-Bench): rubric-based checks for professional image generation. Evaluation inspiration, not style discovery.
-
 ## Future style candidates (253)
 
 Candidates below are deliberately concise and **unverified**. Not all source locations will carry every listed work. Source codes are intended as starting queries. Add precise object URLs and evidence only when promoting an item to a full reference entry.
@@ -83,11 +75,11 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-025** Paula Scher: Public Theater identity/posters (1990s): massive theatrical type in urban arrangements. Search: MOMA,PH.
 - [ ] **FS-026** M. C. Escher: Circle Limit woodcuts (1958–1960): hyperbolic tessellations and shrinking motifs. Search: NGA,MET.
 - [ ] **FS-027** Bruno Munari: unreadable books (1950s): color and sequencing without conventional text. Search: MOMA,LA.
-- [ ] **FS-028** Muriel Cooper: Visible Language Workshop experiments (1970s–1980s): dynamic layered information space. Search: MOMA,LA.
+- [ ] **FS-028** Muriel Cooper and MIT Visible Language Workshop: Information Landscapes (1994): spatial 3D typography and navigable data layers. Search: MOMA,LA.
 
 ### Poster traditions and campaigns
 
-- [ ] **FS-029** Stenberg brothers: Soviet cinema posters (1920s): cinematic scale shifts, type diagonals. Search: MOMA,PH.
+- [ ] **FS-029** Stenberg brothers: Man with a Movie Camera film poster (1929): cinematic figure fragmentation and diagonal photomontage. Search: MOMA,PH.
 - [ ] **FS-030** Aleksandr Deyneka: sports and aviation posters (1930s): monumental athletic geometry. Search: MOMA,PH.
 - [ ] **FS-031** Dmitry Moor: early Soviet agitprop posters (1920s): skeletal silhouettes and limited red/black. Search: PH,LOC.
 - [ ] **FS-032** John Heartfield: anti-fascist AIZ covers (1930s): sharply political photomontage. Search: MOMA,PH.
@@ -98,7 +90,7 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-037** Edward Bawden: London Transport posters (1930s): patterned linocut-like urban scenes. Search: PH,VAM.
 - [ ] **FS-038** Tom Purvis: LNER railway posters (1930s): compressed landscape color blocks. Search: PH,VAM.
 - [ ] **FS-039** Henryk Tomaszewski: Polish film posters (1940s–1960s): metaphorical brushstroke graphic design. Search: MOMA,PH.
-- [ ] **FS-040** Jan Lenica: Polish theater and film posters (1950s–1970s): strange hand-drawn figures and symbolism. Search: PH,MOMA.
+- [ ] **FS-040** Jan Lenica: Wozzeck opera poster (1964): distorted organic figure, psychedelic lines and oppressive contrast. Search: MOMA,PH.
 - [ ] **FS-041** Waldemar Świerzy: jazz and film posters (1950s–1980s): painterly portraits and rough gestures. Search: PH,MOMA.
 - [ ] **FS-042** Roman Cieślewicz: Polish-French posters (1960s–1970s): surreal mirror collage and high contrast. Search: MOMA,PH.
 - [ ] **FS-043** Franciszek Starowieyski: theater posters (1960s–1980s): dense baroque anatomical drawing. Search: PH,MOMA.
@@ -183,7 +175,7 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-113** Leo Lionni: Little Blue and Little Yellow (1959): torn-paper abstraction and storytelling. Search: BL,VAM.
 - [ ] **FS-114** Eric Carle: Very Hungry Caterpillar collages (1969): tissue-paper textures and bright silhouettes. Search: BL,VAM.
 - [ ] **FS-115** Miroslav Šašek: This Is... travel books (1950s–1970s): playful mid-century city details. Search: BL,LA.
-- [ ] **FS-116** Charley Harper: wildlife illustrations (1950s–1980s): extreme geometric reduction of animals. Search: CH,LOC.
+- [ ] **FS-116** Charley Harper: The Giant Golden Book of Biology illustrations (1961): highly geometric animals and layered educational diagrams. Search: CH,LOC.
 - [ ] **FS-117** Mary Blair: Disney concept art (1940s–1950s): flat playful architecture and modernist color. Search: CH,VAM.
 - [ ] **FS-118** Tove Jansson: early Moomin illustrations (1940s–1960s): dark stippling and whimsical landscapes. Search: BL,VAM.
 - [ ] **FS-119** Sven Nordqvist: Pettson and Findus illustrations (1980s onward): densely populated absurd domestic details. Search: BL,VAM.
@@ -222,8 +214,8 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-149** Egon Schiele: seated figure gouaches (1910s): razor contours and expressive anatomical breaks. Search: MET,NGA.
 - [ ] **FS-150** Gustav Klimt: Beethoven Frieze (1902): gold ornament and flattened decorative figures. Search: MET,VAM.
 - [ ] **FS-151** Ivan Bilibin: Russian fairy-tale illustrations (1899–1900s): decorative borders and stylized folk figures. Search: BL,VAM.
-- [ ] **FS-152** Isaac Levitan: late evening landscape studies (1890s): misty mood, soft earth color. Search: MET,RUS.
-- [ ] **FS-153** Arkhip Kuindzhi: moonlight landscape paintings (1870s–1890s): glowing night contrasts and simplified space. Search: RUS,MET.
+- [ ] **FS-152** Anna Ostroumova-Lebedeva: Saint Petersburg color woodcuts (1902–1908): layered printed color and rhythmic architectural silhouettes. Search: RUS,MET.
+- [ ] **FS-153** Arkhip Kuindzhi: Moonlit Night on the Dnieper (1880): concentrated luminous moonlight against almost-black river and sky. Search: RUS,MET.
 
 ### Surrealism, assemblage, collage and conceptual graphics
 
@@ -312,7 +304,7 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-227** Anni Albers: Bauhaus wall hangings (1920s–1930s): woven structural abstraction. Search: MOMA,MET.
 - [ ] **FS-228** Gunta Stölzl: Bauhaus weaving samples (1920s–1930s): rhythmic warp/weft blocks. Search: MOMA,VAM.
 - [ ] **FS-229** Sonia Delaunay: simultaneous dresses and textiles (1920s): wearable circular color geometry. Search: MOMA,VAM.
-- [ ] **FS-230** Vera Molnár: plotter drawings (1960s–1980s): repeated grids with deliberate deviations. Search: MOMA,GET.
+- [ ] **FS-230** Vera Molnár: Interruptions plotter series (1968–1969): rigid line grids disturbed by controlled randomness and omissions. Search: VAM,NGA.
 - [ ] **FS-231** Zaha Hadid: early competition paintings (1980s): deconstructed floating architectural planes. Search: MOMA,VAM.
 - [ ] **FS-232** Archigram: Walking City drawings (1960s): technical speculative collage. Search: MOMA,VAM.
 - [ ] **FS-233** Superstudio: Continuous Monument collages (1969–1970): mirrored Cartesian mega-grids. Search: MOMA,VAM.
@@ -321,22 +313,22 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 
 ### Early computer, generative and scientific visuals
 
-- [ ] **FS-236** Georg Nees: early computer drawings (1965): algorithmic line permutations. Search: MOMA,GET.
+- [ ] **FS-236** Georg Nees: Schotter / Gravel (1968–1970): a regular square grid progressively disrupted by rotation and displacement. Search: VAM,GET.
 - [ ] **FS-237** Frieder Nake: Hommage à Paul Klee plotter graphics (1965): computed hatch and probabilistic geometry. Search: MOMA,GET.
 - [ ] **FS-238** Michael Noll: computer-generated Mondrian studies (1960s): statistical rectangular compositions. Search: MOMA,GET.
 - [ ] **FS-239** Charles Csuri: Sine Curve Man computer plotter drawing (1967): digitally distorted figure outlines. Search: MOMA,GET.
-- [ ] **FS-240** Manfred Mohr: cube-based plotter drawings (1970s): algorithmic spatial projection. Search: MOMA,GET.
+- [ ] **FS-240** Manfred Mohr: Cubic Limit I plotter works (1973–1976): cube-edge alphabets and combinatorial line structures. Search: MOMA,GET.
 - [ ] **FS-241** Harold Cohen: AARON drawings (1970s–1990s): rule-based evolving line figures. Search: MOMA,GET.
-- [ ] **FS-242** Lillian Schwartz: computer films and digital collages (1960s–1980s): saturated optical pixel motion. Search: MOMA,GET.
+- [ ] **FS-242** Lillian Schwartz and Ken Knowlton: Pixillation (1970): colorized computer textures intercut with analog visual sequences. Search: MOMA,GET.
 - [ ] **FS-243** John Whitney: Catalog film (1961): parametric orbital motion. Search: MOMA,BFI.
 - [ ] **FS-244** Stan VanDerBeek: Movie-Drome projections (1960s): layered multimedia collage. Search: MOMA,BFI.
 - [ ] **FS-245** Ken Knowlton and Leon Harmon: Studies in Perception I (1966): mosaics from symbolic tonal cells. Search: MOMA,GET.
 - [ ] **FS-246** Nicolas Schöffer: cybernetic light sculpture studies (1950s–1960s): electronic kinetics and shadows. Search: MOMA,GET.
 - [ ] **FS-247** Roman Verostko: pen-plotter algorithmic drawings (1980s–1990s): robotic calligraphy and generative ink. Search: MOMA,GET.
 - [ ] **FS-248** Casey Reas: Process / Software Structures (2000s): code-generated organic line systems. Search: MOMA,GET.
-- [ ] **FS-249** Ben Fry: early data-art posters (2000s): information structure as abstract graphic form. Search: MOMA,GET.
+- [ ] **FS-249** Ben Fry: Valence visualization (1999–2002): spatial networks generated from text and information relationships. Search: MOMA,GET.
 - [ ] **FS-250** Refik Anadol: data-driven installation visuals (2010s–2020s): fluid volumetric data fields. Search: MOMA,GET.
 - [ ] **FS-251** Aaron Koblin: Flight Patterns visualization (2005): luminous aggregated trajectories. Search: MOMA,GET.
 - [ ] **FS-252** Marius Watz: generative geometric screenprints (2000s–2010s): parametric polygon growth. Search: GET,MOMA.
-- [ ] **FS-253** Mandelbrot set: early computer fractal renderings (1980s): iterative coastlines and nested gradients. Search: GET,MOMA.
+- [ ] **FS-253** Karl Sims: Panspermia procedural animation (1990): branching artificial-life forms and dynamic simulated growth. Search: MOMA,BFI.
 
