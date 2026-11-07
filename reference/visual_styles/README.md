@@ -6,3 +6,6 @@
 - [Levitan-inspired watercolor](levitan_watercolor/)
 
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
+- [Hiroshige's One Hundred Famous Views of Edo](hiroshige_edo_views/)
+- [Goya's Disasters of War](goya_disasters_of_war/)
+- [Henryk Tomaszewski's Polish film posters](tomaszewski_film_posters/)
