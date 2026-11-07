@@ -1,5 +1,8 @@
 # Test 1: Drama Trip raven
 
+**Skill:** EXPLORE-VISUAL-STYLES
+**Skill version used:** unversioned (legacy, prior to 1.0.0)
+
 **Subject:** a black raven clutching an antique golden key.
 
 **Prompt:**
