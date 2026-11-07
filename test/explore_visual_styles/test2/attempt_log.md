@@ -2,9 +2,13 @@
 
 **Skill: EXPLORE-VISUAL-STYLES | Version: 1.0.0**
 
-1. Pre-generation analysis, three style briefs and hybrid acceptance rules were committed first.
-2. Image-model attempt A returned an unrelated GitHub-like infographic rather than a standalone German raven. **Rejected: wrong subject/rendering.**
-3. Image-model attempt B again returned an unrelated task infographic. **Rejected: wrong subject/rendering.**
-4. Switched to editable programmatic SVG illustration. The five artwork files are **SVGs drawn from the documented design briefs**, not image-model exports. Their prompts are visual design specifications, not verbatim text sent into an image model. Do not mislabel the failed screenshots as completed style studies.
-5. Generated three baseline SVGs; compared them in [comparison.md](comparison.md).
-6. Rendered the first hybrid SVG; a later [review](review.md) will identify pass/partial/fail rules and drive the next revision.
+1. Commit `7850beeb`: reference analysis, all 3 style briefs and hybrid acceptance criteria saved **before images**.
+2. Image-model attempt A returned unrelated GitHub-like infographic, not a German raven. Rejected.
+3. Image-model attempt B again returned an unrelated task infographic. Rejected.
+4. Switched to **programmatic SVG illustration**. Prompts are documented visual *briefs*, not verbatim image-model submissions. These are not passed-off AI raster exports.
+5. Commit `9f5764f4`: 3 separate baseline SVGs, comparison, and hybrid v1 saved.
+6. Commit `192c3329`: assessed actual v1 rendering (0 pass / 5 partial / 3 fail); saved targeted revision prompt.
+7. Commit `52e74637`: produced hybrid v2 SVG using rule-specific corrections, including 205 irregular bird cut marks and 125 scene scuffs (deterministic seed `173`).
+8. Final v2 audit: 3 pass / 4 partial / 1 fail; weak points remain in [review_v2.md](review_v2.md).
+
+Every **accepted** visual output is present in [images](images/). Rejected infographics are described, not included as accepted generation outputs.
