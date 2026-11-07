@@ -1,13 +1,13 @@
 # Explore Visual Styles
 
-**Goal:** build a repeatable visual language, not a filter stack.
+**Goal:** repeatable visual language, not a filter.
 
-1. Pick one subject and **three styles** from [references](../reference/visual_styles/). Note each style's origin and rules.
-2. Collect references. Compare **light, color, line, form, space, composition, texture, emotion**.
-3. Generate the **same subject separately** in all three styles; record what changes.
-4. Choose two styles to mix. Find a **shared principle** and assign each style a role. Make the rules interact **inside objects**, not in separate layers.
-5. Generate the hybrid, then audit every rule: **works / weak / missing**. Fix failed rules and regenerate.
+1. Choose one subject and three [reference styles](../reference/visual_styles/); generate each separately.
+2. Compare color, form, line, space, composition, texture and emotion.
+3. Select two styles. Explain their **shared principle** and how their rules interact inside objects.
+4. **Before generating**, write explicit, observable rules and an exact prompt.
+5. Generate v1. **Inspect the actual image**; mark every rule **pass / partial / fail**, citing visible evidence.
+6. Fix failed rules with targeted prompt changes. **Regenerate and audit again**. Repeat or record remaining gaps.
+7. Preserve each prompt, image, rule checklist and review in `test/explore_visual_styles/testN/`. Never call an uninspected image compliant.
 
-Save the exact prompt and image under `test/explore_visual_styles/testN/`.
-
-**Example:** a raven holding a key; German Expressionist angles morph into psychedelic curves. See [test1](../test/explore_visual_styles/test1/).
+[Example: raven and key](../test/explore_visual_styles/test1/).
