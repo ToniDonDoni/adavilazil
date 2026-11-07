@@ -1,4 +1,4 @@
-# Test 6: Voice Across the City
+# Test 7: Voice Across the City
 
 **Skill:** [EXPLORE-VISUAL-STYLES 2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Specification:** [SPEC-005-VOICE-ACROSS-THE-CITY.md](SPEC-005-VOICE-ACROSS-THE-CITY.md)  
