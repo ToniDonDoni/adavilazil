@@ -5,6 +5,6 @@
 - [1960s psychedelic poster](psychedelic_poster/)
 - [Levitan-inspired watercolor](levitan_watercolor/)
 
-Each style uses the same contract: **Origin**, **Background**, **Style Requirements**, **Sources**.
+Each style defines **Origin**, **Background**, numbered and visually testable **Style Requirements**, and credible **Sources**.
 
-Style Requirements are short, numbered, visually testable rules. Treat them as generation inputs and review criteria. Label modern interpretations; link credible sources.
+Treat requirement IDs as reusable acceptance criteria in experiments. Distinguish historical facts from digital adaptations.

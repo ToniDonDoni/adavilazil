@@ -1,6 +1,6 @@
 # Style Analysis
 
-**Skill:** EXPLORE-VISUAL-STYLES 2.0.0
+**Skill:** EXPLORE-VISUAL-STYLES 2.1.0
 
 Subject: pine beside a lake at dusk, distant hills and moon.
 

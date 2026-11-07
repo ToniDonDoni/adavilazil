@@ -1,6 +1,6 @@
 # Psychedelic baseline
 
-**Skill:** EXPLORE-VISUAL-STYLES 2.0.0
+**Skill:** EXPLORE-VISUAL-STYLES 2.1.0
 
 Fixed subject: a lone leaning pine beside a lake at dusk, distant hills and a moon with its reflection; portrait art print, no text, no people.
 

@@ -1,6 +1,6 @@
 # Combined Style Requirements: Dusk Current
 
-**Skill:** EXPLORE-VISUAL-STYLES 2.0.0
+**Skill:** EXPLORE-VISUAL-STYLES 2.1.0
 
 | ID | Style requirement | Derived from |
 | --- | --- | --- |

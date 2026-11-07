@@ -1,17 +1,18 @@
 # Explore Visual Styles
 
-**Version:** 2.0.0
+**Version:** 2.1.0
 
 **Inspired by:** https://youtu.be/ftugIJ-NPEs
 
-**Goal:** Create reusable visual languages from testable style requirements.
+**Goal:** Build reusable visual languages from testable Style Requirements.
 
 1. Choose one subject and three [reference styles](../reference/visual_styles/). Read each style's Origin, Background, Style Requirements and Sources.
-2. Generate the same subject **according to each style's Style Requirements**; save and check the three outputs against their requirements.
-3. Select two styles. Compare **which Style Requirements can be combined**, resolve conflicts, and write numbered hybrid Style Requirements in `RULES.md`.
-4. Write a hybrid prompt **according to the combined Style Requirements** and generate v1.
-5. Inspect v1 **against every Style Requirement** (pass / partial / fail with evidence) in `REVIEW.md`.
-6. Revise failed or partial requirements, regenerate v2 and check **each requirement again**. Keep prompts, images, analysis and revisions in `test/explore_visual_styles/testN/`.
+2. Define the test **declaratively** using [SPEC-TEMPLATE.md](../engineering/SPEC-TEMPLATE.md). Link Acceptance Criteria to numbered Style Requirements.
+3. Generate the same subject **according to each style's Style Requirements**. Save the three images and review their compliance.
+4. Choose two styles. Compare **which Style Requirements combine**, resolve conflicts and define the hybrid requirements.
+5. Write a prompt from the combined Style Requirements and generate v1.
+6. Check the image against **every Style Requirement** (pass / partial / fail with evidence).
+7. Revise failed or partial criteria, generate v2 and check again. Preserve prompts, images and findings in the test.
 
 **Recommendation:** Include the skill version used in each test prompt.
 
