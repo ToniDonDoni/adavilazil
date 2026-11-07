@@ -4,7 +4,7 @@
 
 ## Task
 
-Select a candidate from the list below that is not yet in the [`reference/visual_styles/`](../reference/visual_styles/). Use the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md) to implement its style reference and add it to the catalog, following the [contribution rules](../CONTRIBUTING.md).
+Select a candidate below that does not already have a style reference under [Visual Styles](../reference/visual_styles/). Create its style reference using the [style template](../engineering/STYLE-TEMPLATE.md), follow the [contribution rules](../CONTRIBUTING.md), and add the new style reference to that folder.
 
 ## Museum and archive source directory
 
