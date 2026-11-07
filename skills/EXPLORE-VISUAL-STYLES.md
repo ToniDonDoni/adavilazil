@@ -1,13 +1,13 @@
 # Explore Visual Styles
 
-**Goal:** repeatable visual language, not a filter.
+Goal: make a reusable visual language, not a filter.
 
-1. Choose one subject and three [reference styles](../reference/visual_styles/); generate each separately.
-2. Compare color, form, line, space, composition, texture and emotion.
-3. Select two styles. Explain their **shared principle** and how their rules interact inside objects.
-4. **Before generating**, write explicit, observable rules and an exact prompt.
-5. Generate v1. **Inspect the actual image**; mark every rule **pass / partial / fail**, citing visible evidence.
-6. Fix failed rules with targeted prompt changes. **Regenerate and audit again**. Repeat or record remaining gaps.
-7. Preserve each prompt, image, rule checklist and review in `test/explore_visual_styles/testN/`. Never call an uninspected image compliant.
+1. Choose one subject and 3 styles from [references](../reference/visual_styles/). Study their origins and examples.
+2. **Before prompting**, write a per-style analysis of light, color, form, line, space, composition, texture and emotion. Save as `style_analysis.md`.
+3. Generate the same subject separately in all 3 styles and compare results. Preserve the outputs.
+4. Select 2 styles. Identify their **shared principle**; derive explicit hybrid rules from the analysis and observable acceptance criteria in `rules.md`.
+5. Generate v1 from the saved prompt. Inspect the **actual image**. Mark every rule pass / partial / fail with visible evidence in `review.md`.
+6. Change only the failing rules in the next prompt. Regenerate and audit again; repeat or state remaining gaps.
+7. Save all prompts, images, analysis and checklist under `test/explore_visual_styles/testN/`. Never claim an untested step was completed.
 
-[Example: raven and key](../test/explore_visual_styles/test1/).
+[Example and its incomplete steps](../test/explore_visual_styles/test1/).
