@@ -326,7 +326,7 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-236** Georg Nees: early computer drawings (1965): algorithmic line permutations. Search: MOMA,GET.
 - [ ] **FS-237** Frieder Nake: Hommage à Paul Klee plotter graphics (1965): computed hatch and probabilistic geometry. Search: MOMA,GET.
 - [ ] **FS-238** Michael Noll: computer-generated Mondrian studies (1960s): statistical rectangular compositions. Search: MOMA,GET.
-- [ ] **FS-239** A. Michael Noll: Gaussian-quadratic plotter patterns (1960s): mechanical ribbon-like line fields. Search: MOMA,GET.
+- [ ] **FS-239** Charles Csuri: Sine Curve Man computer plotter drawing (1967): digitally distorted figure outlines. Search: MOMA,GET.
 - [ ] **FS-240** Manfred Mohr: cube-based plotter drawings (1970s): algorithmic spatial projection. Search: MOMA,GET.
 - [ ] **FS-241** Harold Cohen: AARON drawings (1970s–1990s): rule-based evolving line figures. Search: MOMA,GET.
 - [ ] **FS-242** Lillian Schwartz: computer films and digital collages (1960s–1980s): saturated optical pixel motion. Search: MOMA,GET.
