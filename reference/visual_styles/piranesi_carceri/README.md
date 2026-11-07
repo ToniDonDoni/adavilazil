@@ -26,14 +26,16 @@ These relations are visual comparisons rather than additional claims of historic
 ## Style Requirements
 
 - **Viewpoint:** Look upward or obliquely into a monumental interior; avoid a complete, easily surveyed floor plan.
-- **Scale:** Include small human figures whose size makes piers, stairs and vaults feel overwhelming.
+- **Scale:** Make human figures much shorter than adjacent structural supports; let architecture occupy most of the picture.
 - **Depth:** Overlap foreground supports, intermediate walkways and distant arches so that space continues beyond the visible frame.
 - **Circulation:** Let stairs and bridges disappear behind structures or leave the image without revealing a clear exit.
-- **Structure:** Give masonry and timber convincing weight even where their spatial connections remain ambiguous.
+- **Structure:** Show thick masonry piers, block joints and substantial beams; avoid thin, floating frames as the main construction.
 - **Line:** Build surfaces from irregular etched strokes and layered hatching; keep individual marks visible in lighter passages.
 - **Tone:** Set dense dark structural masses against areas of exposed paper and lighter distance. Preserve enough separation to read overlapping levels.
 - **Details:** Use ropes, chains, beams or lifting mechanisms selectively to interrupt sightlines and complicate the architecture.
 - **Palette:** Keep the image monochrome; obtain tonal variation through line density rather than colored lighting.
+
+Review at thumbnail size for dominant architecture, small figures and separated depth layers, then at full size for visible hatching and interrupted routes. A generic dark corridor with one clear vanishing point and an obvious exit does not satisfy this guide. Compare the result with the 1761 examples, not only the lighter early-state Met print.
 
 ## Sources
 

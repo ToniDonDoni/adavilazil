@@ -27,13 +27,15 @@ The requirements below are an editorial style guide, not an exact reconstruction
 
 - **Unit:** Use closed, unfilled squares of constant side length; do not deform them into arbitrary quadrilaterals.
 - **Initial order:** Establish a clearly legible rectangular lattice at the top of a portrait-oriented field.
-- **Progression:** Make displacement and angular variation visibly broader toward the bottom, preserving a gradual transition.
+- **Progression:** Compare the upper, middle and lower regions: positional scatter and the range of square angles should widen overall downward. Avoid an abrupt boundary between a perfect grid and an unrelated random pile.
 - **Variation:** Let individual squares differ within that progression; do not force every lower square to be more tilted than the one above.
 - **Overlap:** Allow increasingly disturbed squares to intersect while keeping each outline traceable.
 - **Mark:** Use thin, substantially uniform dark lines on a light ground, without shading, solid fills or simulated three-dimensional cubes.
-- **Composition:** Preserve the sense of an underlying grid even where its lower region breaks apart.
+- **Composition:** Keep roughly consistent square size and overall density across the field, so the lower disorder still reads as a disturbed grid rather than a change of scale or a perspective view.
 
-For an exact reconstruction, the ordering of the drawing operations and the random generators also matter. A new seed, a changed grid size or a row-only disturbance rule should be labeled as a variation. No reconstruction or generated artwork is included here.
+Review the top, middle and bottom at the same display scale; check both center displacement and angle variation, not just the amount of overlap. A uniform random scatter, a rigid grid of rotating squares with fixed centers, or a perspective stack of cubes each misses a defining feature.
+
+The familiar portrait composition has 12 squares across and 22 rows. For an exact reconstruction, the ordering of the drawing operations and the random generators also matter. A new seed, a changed grid size or a row-only disturbance rule should be labeled as a variation. No reconstruction or generated artwork is included here.
 
 ## Sources
 
