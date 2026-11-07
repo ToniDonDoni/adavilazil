@@ -16,4 +16,4 @@
 - [x] Remaining gaps explicitly recorded
 - [ ] All rules pass: F, L, T, E partial; S fails
 
-**Renderer:** editable deterministic SVG drawing from briefs, not image-model output. Two rejected image-model outputs are recorded in [attempt_log.md](attempt_log.md).
+**Renderer:** editable deterministic SVG drawing from briefs, not image-model output. Two rejected image-model outputs are recorded in [ATTEMPT-LOG.md](ATTEMPT-LOG.md).

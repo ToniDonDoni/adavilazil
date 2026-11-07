@@ -2,13 +2,13 @@
 
 - [x] Chosen subject: raven holding a gold key
 - [x] Chosen two hybrid styles; origins and rules referenced
-- [x] Per-style breakdown recorded in [style_analysis.md](style_analysis.md) **retrospectively**
+- [x] Per-style breakdown recorded in [STYLE-ANALYSIS.md](STYLE-ANALYSIS.md) **retrospectively**
 - [ ] Collect and save actual moodboards/references
 - [ ] Generate one subject separately in three styles
 - [x] Explain the styles' shared principle and interaction
-- [x] Set observable rules in [rules.md](rules.md)
+- [x] Set observable rules in [RULES.md](RULES.md)
 - [x] Save first prompt and artwork
-- [x] Inspect v1 criterion by criterion in [review.md](review.md)
+- [x] Inspect v1 criterion by criterion in [REVIEW.md](REVIEW.md)
 - [x] Save targeted revised prompt and v2 artwork
 - [x] Inspect v2 using the same criteria
 - [ ] All criteria fully passed: line, space, texture, emotion remain partial

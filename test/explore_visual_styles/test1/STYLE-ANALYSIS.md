@@ -13,6 +13,6 @@ This is a **retrospective reconstruction** of the style analysis missing before 
 | Texture | Rough ink/woodcut | Print grain | Distressed print surface with irregular cuts |
 | Emotion | Anxiety, urgency | Wonder, altered perception | Fascination and unease at the same time |
 
-**Shared principle:** both distort reality for emotion. The fusion changes the *same objects*, not separate foreground and background layers. See measurable criteria in [rules.md](rules.md).
+**Shared principle:** both distort reality for emotion. The fusion changes the *same objects*, not separate foreground and background layers. See measurable criteria in [RULES.md](RULES.md).
 
 **Missing evidence:** the required three separate style generations and the original reference moodboards were not created for this test. Do not treat this reconstructed analysis as proof they occurred.
