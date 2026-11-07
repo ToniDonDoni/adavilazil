@@ -5,4 +5,4 @@
 - [1960s psychedelic poster](psychedelic_poster/)
 - [Levitan-inspired watercolor](levitan_watercolor/)
 
-Each reference lists origin, visual rules and search terms. Combine mechanisms, not ready-made filters.
+Each reference must cite **at least one verified source URL** (museum, collection or scholarly publication) supporting its origin and traits. Distinguish sourced history from creative digital adaptations. Search terms alone are not sources.
