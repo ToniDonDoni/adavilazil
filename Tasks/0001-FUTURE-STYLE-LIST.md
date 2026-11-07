@@ -40,7 +40,7 @@ Additional discovery and terminology: [Getty Art & Architecture Thesaurus / Unio
 3. [Aesthetics](https://github.com/ZaynJarvis/aesthetics): 337 style prompts in YAML and a coverage audit. Mine narrower lanes, then cross-check that they are not merely moods, aesthetics or generic movements.
 4. [StableDiffusion-CheatSheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet): over 833 manually tested artist-inspired styles, searchable examples and metadata. Good high-volume artist discovery; do not assume model behavior accurately represents an artist's actual work.
 
-## Future style candidates (250)
+## Future style candidates
 
 Candidates below are deliberately concise and **unverified**. Not all source locations will carry every listed work. Source codes are intended as starting queries. Add precise object URLs and evidence only when promoting an item to a full reference entry.
 
