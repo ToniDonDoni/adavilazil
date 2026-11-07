@@ -4,6 +4,8 @@
 
 **Canonical task:** [SPEC-001-LAKE-AT-DUSK.md](SPEC-001-LAKE-AT-DUSK.md)
 
+**Historical reference requirements:** [snapshot of LW, GE and PP IDs](REFERENCE-REQUIREMENTS-SNAPSHOT.md), preserved because this test predates the catalog's flexible unnumbered Style Requirements.
+
 **Fixed subject:** one leaning pine beside a lake at dusk; distant hills, a moon and its reflection. Portrait art print, no people or lettering.
 
 **Preparation:** [style analysis](STYLE-ANALYSIS.md), [combined requirements](RULES.md).

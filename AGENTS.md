@@ -8,8 +8,10 @@ Collect reusable visual art techniques, style references and skills.
 - Repository rules: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## How To
-- Describe each reference style using [STYLE-TEMPLATE.md](engineering/STYLE-TEMPLATE.md): **Origin**, **Background**, testable **Style Requirements**, and credible **Sources**.
-- Define each visual experiment declaratively with [SPEC-TEMPLATE.md](engineering/SPEC-TEMPLATE.md); derive its **Acceptance Criteria** from Style Requirements.
-- Use the [exploration skill](skills/EXPLORE-VISUAL-STYLES.md) to generate, inspect and revise artwork.
+- Use [STYLE-TEMPLATE.md](engineering/STYLE-TEMPLATE.md) for each reference style: **Overview**, **Influenced By**, **Influenced To**, **Relations**, **Style Requirements**, **Sources**.
+- Describe influence and relations in plain text. When a style already has a catalog entry, linking to it is optional.
+- Keep **Style Requirements** as a flexible list of short, visually testable rules. Example categories are suggestions, not fixed fields or mandatory numbered IDs.
+- Formulate visual experiments declaratively using [SPEC-TEMPLATE.md](engineering/SPEC-TEMPLATE.md), with **Acceptance Criteria** derived from the selected Style Requirements.
+- Use [EXPLORE-VISUAL-STYLES.md](skills/EXPLORE-VISUAL-STYLES.md) to generate, inspect and revise images.
 
-Use English and ASCII-only English commits; lowercase `snake_case` directories and uppercase `KEBAB-CASE.md` filenames. Work in feature branches and PRs.
+Use English and ASCII-only English commits; lowercase `snake_case` directories and uppercase `KEBAB-CASE.md` filenames. Each style needs credible source URLs. Work in feature branches and PRs.

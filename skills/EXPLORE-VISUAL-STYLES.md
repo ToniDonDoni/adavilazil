@@ -1,13 +1,13 @@
 # Explore Visual Styles
 
-**Version:** 2.1.1
+**Version:** 2.1.2
 
 **Inspired by:** https://youtu.be/ftugIJ-NPEs
 
 **Goal:** Build reusable visual languages from testable Style Requirements.
 
 1. Choose one subject and three [reference styles](../reference/visual_styles/) structured using the [style template](../engineering/STYLE-TEMPLATE.md).
-2. Define the test **declaratively** using [SPEC-TEMPLATE.md](../engineering/SPEC-TEMPLATE.md). Link Acceptance Criteria to numbered Style Requirements.
+2. Define the test **declaratively** using [SPEC-TEMPLATE.md](../engineering/SPEC-TEMPLATE.md). Derive Acceptance Criteria from the applicable Style Requirements.
 3. Generate the same subject **according to each style's Style Requirements**. Save the three images and review their compliance.
 4. Choose two styles. Compare **which Style Requirements combine**, resolve conflicts and define the hybrid requirements.
 5. Write a prompt from the combined Style Requirements and generate v1.
