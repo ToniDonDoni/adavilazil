@@ -4,9 +4,7 @@
 
 ## Task
 
-Maintain an expandable list of **future visual styles to investigate** and suggested sources where they might be found. Add candidates that are not already covered by the [visual style catalog](../reference/visual_styles/README.md). Prefer specific artists, works or series, periods and techniques over broad art movements.
-
-**This task is only a research backlog.** Do not create style references as part of it. When a candidate is selected for a separate investigation, use the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md) and [contribution rules](../CONTRIBUTING.md).
+Select a candidate from the list below that is not yet in the [visual style catalog](../reference/visual_styles/README.md). Use the existing [STYLE-TEMPLATE.md](../engineering/STYLE-TEMPLATE.md) to implement its style reference and add it to the catalog, following the [contribution rules](../CONTRIBUTING.md).
 
 ## Museum and archive source directory
 
