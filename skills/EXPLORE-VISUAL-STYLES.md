@@ -2,6 +2,8 @@
 
 **Version:** 1.0.0
 
+**Inspired by:** https://youtu.be/ftugIJ-NPEs
+
 Goal: build a repeatable visual language, not a filter.
 
 1. Choose one subject and three [reference styles](../reference/visual_styles/).
