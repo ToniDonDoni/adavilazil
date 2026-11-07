@@ -6,6 +6,6 @@
 - [Levitan-inspired watercolor](levitan_watercolor/)
 - [Swiss Style poster](swiss_style_poster/)
 - [Fukuda negative space poster](fukuda_negative_space/)
-- [Nees plotter grid](nees_plotter_schotter/)
+- [Kruger image-text montage](kruger_image_text/)
 
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).

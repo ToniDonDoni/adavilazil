@@ -1,10 +1,10 @@
 # Fukuda Negative Space Poster
 
 ## Overview
-A poster idiom developed by the Japanese graphic designer Shigeo Fukuda (1932–2009): the image is reduced to two flat shapes whose shared edge can be read twice. In *Victory 1945* (1975) a shell returns into the barrel that fired it, so the same silhouette describes both the weapon and its defeat. The poster won the Grand Prix at the 1975 Warsaw International Poster Biennale and entered the collection of the Museum of Modern Art, New York. The effect is conceptual rather than decorative: the visual pun carries the argument.
+A poster idiom developed by the Japanese graphic designer Shigeo Fukuda (1932–2009): the image is reduced to two flat shapes whose shared edge can be read twice. In *Victory 1945* (1975) a shell returns into the barrel that fired it, so the same silhouette describes both the weapon and its defeat. The poster won a gold prize at the 1975 International Poster Biennale in Warsaw, and a 1976 screenprint reproduction is held by the University of Michigan Museum of Art. The effect is conceptual rather than decorative: the visual pun carries the argument.
 
 ## Influenced By
-- Swiss Style minimalism: reduction to flat shapes, minimal type and high value contrast.
+- Swiss Style minimalism: a shared economy of flat shapes, minimal type and high contrast, adopted as a starting vocabulary rather than a systematic grid.
 - Optical-illusion and reversible-figure traditions: the Gestalt figure–ground switch used as a communication device.
 - Japanese poster practice of the 1960s–1970s: economy of means and flat printed color.
 
@@ -25,6 +25,8 @@ A poster idiom developed by the Japanese graphic designer Shigeo Fukuda (1932–
 - **Axis:** Anchor the reversal on one strong axis, such as a barrel, a horizon or a mirror line, so the switch is immediate.
 - **Typography:** Add at most a single word, positioned to complete rather than caption the image.
 - **Scale:** Work at poster scale with large uninterrupted fields; small detail destroys the illusion.
+- **Reversal test:** Turn the composition 180 degrees; the second reading must survive the rotation, as the shell and the barrel do.
+- **Restraint:** Remove anything that does not serve the double reading — no border, no secondary illustration, no texture.
 
 ## Sources
 - [MoMA: Shigeo Fukuda, artist file](https://www.moma.org/artists/2026-shigeo-fukuda)

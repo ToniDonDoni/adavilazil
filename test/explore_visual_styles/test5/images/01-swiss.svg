@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Swiss Style study: blonde TV presenter on air">
+  <rect width="900" height="1200" fill="#f2ede3"/>
+
+  <!-- grid: four columns, rules left visible -->
+  <g stroke="#d8d1c2" stroke-width="2">
+    <line x1="80" y1="0" x2="80" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="520" y1="0" x2="520" y2="1200"/>
+    <line x1="740" y1="0" x2="740" y2="1200"/>
+    <line x1="860" y1="0" x2="860" y2="1200"/>
+    <line x1="0" y1="860" x2="900" y2="860"/>
+  </g>
+
+  <!-- type block, flush left on the first column -->
+  <text x="80" y="170" font-family="Helvetica, Arial, sans-serif" font-size="104" font-weight="700" fill="#111111">20:00</text>
+  <text x="80" y="218" font-family="Helvetica, Arial, sans-serif" font-size="30" letter-spacing="9" fill="#111111">STUDIO FOUR</text>
+  <rect x="80" y="240" width="220" height="14" fill="#e0a83c"/>
+
+  <!-- presenter: shoulders, blonde hair, face, earpiece -->
+  <path d="M300 1200 L300 900 Q600 760 860 900 L860 1200 Z" fill="#111111"/>
+  <path d="M600 300 Q800 300 800 520 L800 640 Q770 610 760 540 Q740 430 600 430 Q460 430 440 540 Q430 610 400 640 L400 520 Q400 300 600 300 Z" fill="#e0a83c"/>
+  <circle cx="600" cy="530" r="150" fill="#f2ede3"/>
+  <path d="M450 470 Q450 340 600 340 Q750 340 750 470 Q720 400 600 400 Q480 400 450 470 Z" fill="#e0a83c"/>
+  <circle cx="548" cy="520" r="13" fill="#8d9b9c"/>
+  <circle cx="652" cy="520" r="13" fill="#8d9b9c"/>
+  <rect x="566" y="596" width="68" height="10" fill="#111111"/>
+
+  <!-- rhythm: repeated arcs around the head -->
+  <circle cx="600" cy="530" r="246" fill="none" stroke="#e0a83c" stroke-width="16" stroke-dasharray="130 96"/>
+
+  <!-- microphone and earpiece -->
+  <line x1="742" y1="880" x2="806" y2="700" stroke="#111111" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="812" cy="676" r="28" fill="#111111"/>
+  <path d="M688 566 q44 40 24 100" fill="none" stroke="#111111" stroke-width="9" stroke-linecap="round"/>
+
+  <rect x="80" y="1100" width="220" height="12" fill="#111111"/>
+  <rect x="300" y="1100" width="120" height="12" fill="#e0a83c"/>
+</svg>

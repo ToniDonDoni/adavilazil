@@ -100,7 +100,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-051** Bonnie MacLean: Fillmore concert posters (1967–1969): curving lettering and outlined figures. Search: PH,CH.
 - [ ] **FS-052** Milton Glaser: Bob Dylan poster (1966): flat silhouette and colorful hair arabesques. Search: MOMA,PH.
 - [ ] **FS-053** Seymour Chwast: Push Pin Studio posters (1960s–1970s): decorative historical remix and flat illustration. Search: MOMA,PH.
-- [ ] **FS-054** Barbara Kruger: Your Body Is a Battleground (1989): red headline bars over split photographs. Search: MOMA,PH.
 - [ ] **FS-055** Emory Douglas: Black Panther newspaper covers (1960s–1970s): blunt woodcut-like figures and slogans. Search: MOMA,PH.
 - [ ] **FS-056** Shepard Fairey: early Obey Giant posters (1990s): stenciled portrait and propaganda geometry. Search: PH,MOMA.
 
@@ -309,6 +308,7 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 
 ### Early computer, generative and scientific visuals
 
+- [ ] **FS-236** Georg Nees: Schotter / Gravel (1968–1970): a regular square grid progressively disrupted by rotation and displacement. Search: VAM,GET.
 - [ ] **FS-237** Frieder Nake: Hommage à Paul Klee plotter graphics (1965): computed hatch and probabilistic geometry. Search: MOMA,GET.
 - [ ] **FS-238** Michael Noll: computer-generated Mondrian studies (1960s): statistical rectangular compositions. Search: MOMA,GET.
 - [ ] **FS-239** Charles Csuri: Sine Curve Man computer plotter drawing (1967): digitally distorted figure outlines. Search: MOMA,GET.

@@ -1,7 +1,7 @@
 # Swiss Style Poster
 
 ## Overview
-The International Typographic Style, known as Swiss Style, emerged in Zürich and Basel in the 1950s. Designers treated the poster as an information system: a modular grid, one sans-serif family, asymmetric balance and generous white space replaced illustration and ornament. Josef Müller-Brockmann's concert posters for the Tonhalle-Gesellschaft Zürich (from 1951) are a canonical example — pure geometric form repeated on a strict axis, with type set as a functional layer rather than decoration.
+The International Typographic Style, known as Swiss Style, emerged in Zürich and Basel in the 1950s. Designers treated the poster as an information system: a modular grid, one sans-serif family, asymmetric balance and generous white space replaced illustration and ornament. Josef Müller-Brockmann's concert posters for the Tonhalle-Gesellschaft Zürich (from the early 1950s) are a canonical example — pure geometric form repeated on a strict axis, with type set as a functional layer rather than decoration.
 
 ## Influenced By
 - Bauhaus and De Stijl: modular construction, primary geometry and the rejection of ornament.
@@ -25,6 +25,8 @@ The International Typographic Style, known as Swiss Style, emerged in Zürich an
 - **Depth:** Avoid shading and perspective; allow overlap or scale alone to create layering.
 - **Rhythm:** Produce motion through serial repetition with a controlled transformation, such as arcs rotating around a shared centre.
 - **Photography:** If an image is present, crop it to a geometric edge and reduce it to high-contrast tones so it reads as a shape.
+- **Asymmetry:** Balance the composition optically around an off-centre axis; avoid centred symmetry.
+- **Hierarchy:** Establish one dominant element and a reading order that resolves in a single glance.
 
 ## Sources
 - [MoMA: Josef Müller-Brockmann, Poster for a concert at Tonhalle Zürich, 1953](https://www.moma.org/collection/works/6257)

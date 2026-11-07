@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Hybrid v2: presenter on a Swiss grid with Kruger bars snapped to columns">
+  <rect width="900" height="1200" fill="#f2ede3"/>
+
+  <g stroke="#d8d1c2" stroke-width="2">
+    <line x1="80" y1="0" x2="80" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="520" y1="0" x2="520" y2="1200"/>
+    <line x1="740" y1="0" x2="740" y2="1200"/>
+    <line x1="860" y1="0" x2="860" y2="1200"/>
+    <line x1="0" y1="900" x2="900" y2="900"/>
+  </g>
+
+  <text x="80" y="164" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#111111">20:00</text>
+  <text x="80" y="212" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="9" fill="#111111">STUDIO FOUR</text>
+  <rect x="80" y="234" width="220" height="12" fill="#d0021b"/>
+
+  <path d="M300 1200 L300 900 Q600 760 860 900 L860 1200 Z" fill="#111111"/>
+  <path d="M600 340 Q786 340 786 546 Q786 752 600 786 Q414 752 414 546 Q414 340 600 340 Z" fill="#8f8f8f"/>
+  <path d="M600 340 Q414 340 414 546 Q414 752 600 786 Z" fill="#111111"/>
+  <path d="M600 340 Q786 340 786 546 Q786 752 600 786 Z" fill="#e8e8e8"/>
+  <path d="M410 470 Q410 318 600 318 Q790 318 790 470 L790 430 Q740 366 600 366 Q460 366 410 430 Z" fill="#e0a83c"/>
+  <circle cx="536" cy="520" r="15" fill="#8d9b9c"/>
+  <circle cx="668" cy="520" r="15" fill="#8d9b9c"/>
+  <path d="M694 520 q40 30 22 86" fill="none" stroke="#f2ede3" stroke-width="10" stroke-linecap="round"/>
+
+  <line x1="742" y1="880" x2="806" y2="700" stroke="#d0021b" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="812" cy="676" r="28" fill="#d0021b"/>
+
+  <!-- bars snapped to columns; the first crosses the face -->
+  <rect x="80" y="446" width="440" height="112" fill="#d0021b"/>
+  <text x="100" y="528" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" font-style="italic" fill="#ffffff">YOU ARE</text>
+  <rect x="300" y="588" width="560" height="96" fill="#d0021b"/>
+  <text x="322" y="660" font-family="Helvetica, Arial, sans-serif" font-size="50" font-weight="700" font-style="italic" fill="#ffffff">BEING WATCHED</text>
+
+  <rect x="80" y="1080" width="220" height="12" fill="#111111"/>
+  <rect x="300" y="1080" width="120" height="12" fill="#d0021b"/>
+</svg>
