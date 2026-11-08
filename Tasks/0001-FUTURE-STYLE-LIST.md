@@ -59,7 +59,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-011** Jan Tschichold: New Typography layouts (1920s–1930s): asymmetry and purposeful white space. Search: LA,VAM.
 - [ ] **FS-012** Willem Sandberg: Stedelijk catalogues (1940s–1960s): hand-torn letterforms, paper texture. Search: LA,MOMA.
 - [ ] **FS-013** Ladislav Sutnar: Sweet's catalog layouts (1940s–1950s): information hierarchy, tabular navigation. Search: MOMA,LA.
-- [ ] **FS-014** Josef Müller-Brockmann: Zurich concert posters (1950s–1960s): mathematical grids and optical rhythm. Search: MOMA,LA.
 - [ ] **FS-015** Armin Hofmann: Basel theater posters (1950s–1960s): stark photo/type contrasts. Search: LA,MOMA.
 - [ ] **FS-016** Karl Gerstner: Swiss programmatic graphic systems (1960s): modular systems and combinatorial grids. Search: MOMA,LA.
 - [ ] **FS-017** Otl Aicher: Munich Olympics pictograms (1972): standardized silhouettes and strict grids. Search: MOMA,LA.
@@ -87,14 +86,12 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-036** E. McKnight Kauffer: London Underground posters (1920s–1930s): abstracted movement and travel geometry. Search: PH,VAM.
 - [ ] **FS-037** Edward Bawden: London Transport posters (1930s): patterned linocut-like urban scenes. Search: PH,VAM.
 - [ ] **FS-038** Tom Purvis: LNER railway posters (1930s): compressed landscape color blocks. Search: PH,VAM.
-- [ ] **FS-039** Henryk Tomaszewski: Polish film posters (1940s–1960s): metaphorical brushstroke graphic design. Search: MOMA,PH.
 - [ ] **FS-040** Jan Lenica: Wozzeck opera poster (1964): distorted organic figure, psychedelic lines and oppressive contrast. Search: MOMA,PH.
 - [ ] **FS-041** Waldemar Świerzy: jazz and film posters (1950s–1980s): painterly portraits and rough gestures. Search: PH,MOMA.
 - [ ] **FS-042** Roman Cieślewicz: Polish-French posters (1960s–1970s): surreal mirror collage and high contrast. Search: MOMA,PH.
 - [ ] **FS-043** Franciszek Starowieyski: theater posters (1960s–1980s): dense baroque anatomical drawing. Search: PH,MOMA.
 - [ ] **FS-044** Yusaku Kamekura: Tokyo Olympics posters (1964): sun-disc geometry and photographic action. Search: MOMA,PH.
 - [ ] **FS-045** Ikko Tanaka: Nihon Buyo poster (1981): geometric face and color segmentation. Search: MOMA,PH.
-- [ ] **FS-046** Shigeo Fukuda: anti-war graphic posters (1970s–1990s): negative-space reversals and optical puns. Search: MOMA,PH.
 - [ ] **FS-047** Kazumasa Nagai: Life poster series (1980s–1990s): animal silhouettes and graphic gradients. Search: MOMA,PH.
 - [ ] **FS-048** Tadanori Yokoo: theater and event posters (1960s): pop collage, Japanese iconography, psychedelic density. Search: MOMA,PH.
 - [ ] **FS-049** Wes Wilson: Fillmore concert posters (1966–1967): compressed undulating lettering. Search: PH,CH.
@@ -102,7 +99,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-051** Bonnie MacLean: Fillmore concert posters (1967–1969): curving lettering and outlined figures. Search: PH,CH.
 - [ ] **FS-052** Milton Glaser: Bob Dylan poster (1966): flat silhouette and colorful hair arabesques. Search: MOMA,PH.
 - [ ] **FS-053** Seymour Chwast: Push Pin Studio posters (1960s–1970s): decorative historical remix and flat illustration. Search: MOMA,PH.
-- [ ] **FS-054** Barbara Kruger: Your Body Is a Battleground (1989): red headline bars over split photographs. Search: MOMA,PH.
 - [ ] **FS-055** Emory Douglas: Black Panther newspaper covers (1960s–1970s): blunt woodcut-like figures and slogans. Search: MOMA,PH.
 - [ ] **FS-056** Shepard Fairey: early Obey Giant posters (1990s): stenciled portrait and propaganda geometry. Search: PH,MOMA.
 
@@ -136,7 +132,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 
 - [ ] **FS-081** Katsushika Hokusai: Thirty-six Views of Mount Fuji (1830s): layered horizons and cropped wave geometry. Search: MET,RJK.
 - [ ] **FS-082** Katsushika Hokusai: Hokusai Manga sketches (1810s onward): economical motion studies and lively line. Search: MET,BL.
-- [ ] **FS-083** Utagawa Hiroshige: One Hundred Famous Views of Edo (1850s): foreground framing and atmospheric gradients. Search: MET,LOC.
 - [ ] **FS-084** Utagawa Hiroshige: Tōkaidō Road prints (1830s): weather, travel and spatial sequencing. Search: MET,LOC.
 - [ ] **FS-085** Kitagawa Utamaro: bijin-ga portraits (1790s): cropped heads and delicate pattern. Search: MET,LOC.
 - [ ] **FS-086** Torii Kiyonaga: theatrical triptychs (1780s): rhythmic kimono patterns and paired silhouettes. Search: MET,LOC.
@@ -239,7 +234,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-172** Eadweard Muybridge: Animal Locomotion plates (1887): gridded sequential silhouettes. Search: MET,GET.
 - [ ] **FS-173** Étienne-Jules Marey: chronophotographs (1880s–1890s): multiple motion phases in a single field. Search: MET,GET.
 - [ ] **FS-174** Alfred Stieglitz: Camera Work photogravures (1900s): tonal mist and Pictorialist softness. Search: MET,GET.
-- [ ] **FS-175** Edward Steichen: fashion photographs for Vogue (1920s–1930s): sculptural studio highlights. Search: MET,GET.
 - [ ] **FS-176** Paul Strand: Wall Street (1915): human scale versus architectural shadows. Search: MET,GET.
 - [ ] **FS-177** László Moholy-Nagy: New Vision architectural photographs (1920s): disorienting high/low viewpoints. Search: MOMA,GET.
 - [ ] **FS-178** Alexander Rodchenko: street photographs (1920s–1930s): extreme diagonal perspectives. Search: MOMA,GET.
@@ -250,7 +244,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-183** Walker Evans: FSA storefront photographs (1930s): flat signage, vernacular facades. Search: LOC,GET.
 - [ ] **FS-184** Gordon Parks: American Gothic, Washington, D.C. (1942): social portrait and emblematic staging. Search: LOC,GET.
 - [ ] **FS-185** Robert Frank: The Americans (1958–1959): off-balance candid framing and grain. Search: MET,GET.
-- [ ] **FS-186** Saul Leiter: New York color street photographs (1950s–1960s): reflections and translucent color veils. Search: MET,GET.
 - [ ] **FS-187** William Klein: New York street photographs (1950s): abrasive grain and close wide-angle energy. Search: MOMA,GET.
 - [ ] **FS-188** Daido Moriyama: Provoke-era photographs (late 1960s): high contrast, blur and coarse grain. Search: MOMA,GET.
 - [ ] **FS-189** Hiroshi Sugimoto: Seascapes (1980s onward): minimalist horizon and long exposure. Search: MET,GET.
