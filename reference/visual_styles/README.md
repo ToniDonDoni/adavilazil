@@ -15,4 +15,8 @@
 - [Hiroshige's One Hundred Famous Views of Edo](hiroshige_edo_views/)
 - [Henryk Tomaszewski's Polish film posters](tomaszewski_film_posters/)
 
+- [Piranesi's Carceri architectural etching](piranesi_carceri/)
+- [Ogata Korin's Irises screen painting](korin_irises/)
+- [Georg Nees's Schotter generative graphics](nees_schotter/)
+
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
