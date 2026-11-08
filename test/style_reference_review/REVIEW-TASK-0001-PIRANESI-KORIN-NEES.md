@@ -1,4 +1,10 @@
-# Piranesi, Korin and Nees Reference Review
+# Task 0001 Reference Audit: Piranesi, Korin and Nees
+
+**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Document purpose:** author review of the three researched style references.
+
+**Visual acceptance review:** [SPEC-006 review index](../explore_visual_styles/test8/REVIEW-SPEC-006.md).
 
 This historical audit covers the reference documents before later catalogue additions. The generated-image experiment, prompts, revisions and per-image acceptance review are in [test8](../explore_visual_styles/test8/README.md). Inventory counts below describe this audit stage, not the current catalogue.
 

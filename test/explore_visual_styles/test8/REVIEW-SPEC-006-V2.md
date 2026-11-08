@@ -1,4 +1,14 @@
-# Output Review V2
+# SPEC-006 Review V2: Piranesi, Korin and Nees Presenter
+
+**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** test8 / SPEC-006.
+
+**Document purpose:** Author review of the four revised images; remaining acceptance gaps.
+
+**Acceptance authority:** [SPEC-006](SPEC-006-TV-PRESENTER.md).
+
+**Results and navigation:** [experiment overview](README.md).
 
 Author visual inspection of the actual saved images, not an independent evaluation. Pass requires visible evidence; partial means not fully established; fail identifies a clear contradiction. Criteria and scopes were fixed before generation.
 

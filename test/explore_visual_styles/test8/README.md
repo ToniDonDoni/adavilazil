@@ -1,4 +1,12 @@
-# Test 8: Blonde Television Presenter with Gray Eyes
+# Test 8 / SPEC-006: Piranesi, Korin and Nees — Blonde Gray-Eyed Presenter
+
+**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** test8 / SPEC-006.
+
+**Document purpose:** Experiment overview and comparison of initial and revised images.
+
+**Acceptance authority:** [SPEC-006](SPEC-006-TV-PRESENTER.md).
 
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md) ([saved version](snapshots/EXPLORE-VISUAL-STYLES.md)).
 
@@ -6,11 +14,11 @@
 
 **Inputs:** [exact prompts and image lineage](IMPLEMENTATION.md).
 
-**Review:** [v1](REVIEW-V1.md) → [v2](REVIEW-V2.md).
+**Review:** [v1](REVIEW-SPEC-006-V1.md) → [v2](REVIEW-SPEC-006-V2.md).
 
 **Result:** **31 pass / 1 partial / 1 fail**. N1 remains partial in the Nees study and fails in the hybrid; full acceptance is not claimed.
 
-The subject is a fictional adult blonde television presenter with gray eyes. The three references added in PR #4 are tested through separate applications and one combined studio. The previous [documentation audit](../../style_reference_review/REVIEW.md) concerns the reference documents; this folder contains the actual generation experiment.
+The subject is a fictional adult blonde television presenter with gray eyes. The three references added in PR #4 are tested through separate applications and one combined studio. The previous [documentation audit](../../style_reference_review/REVIEW-TASK-0001-PIRANESI-KORIN-NEES.md) concerns the reference documents; this folder contains the actual generation experiment.
 
 ## Individual Studies: Original and Repeated Result
 

@@ -1,4 +1,14 @@
-# Implementation and Reproduction
+# SPEC-006 Implementation: Piranesi, Korin and Nees Presenter
+
+**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** test8 / SPEC-006.
+
+**Document purpose:** Generation procedure, exact inputs and image lineage.
+
+**Acceptance authority:** [SPEC-006](SPEC-006-TV-PRESENTER.md).
+
+**Results and navigation:** [experiment overview](README.md).
 
 Skill: [Explore Visual Styles v2.3.0 snapshot](snapshots/EXPLORE-VISUAL-STYLES.md). Reference revision: `9eeea3914787f8b788735d23af50b3a9de7d21dc`.
 
@@ -25,7 +35,7 @@ Every call used `transparent_background: false`.
 | 7 | [Nees v2](prompts/07-NEES-V2.md) | 03-nees-v1.png | [Nees v2](images/07-nees-v2.png) |
 | 8 | [Hybrid v2](prompts/08-HYBRID-V2.md) | 04-hybrid-v1.png | [Hybrid v2](images/08-hybrid-v2.png) |
 
-For a new generation, send the complete text after the prompt file's heading as `prompt`, with no reference-image argument. For an edit, send the prompt and the locally resolved input PNG through `referenced_image_paths`. No machine-specific path is part of this recipe.
+For a new generation, send only the text inside the prompt file's `text` code fence as `prompt` (exclude its navigation metadata), with no reference-image argument. For an edit, send the prompt and the locally resolved input PNG through `referenced_image_paths`. No machine-specific path is part of this recipe.
 
 ## Verification
 

@@ -9,33 +9,33 @@
   "files": [
     {
       "path": "IMPLEMENTATION.md",
-      "bytes": 2851,
-      "sha256": "873569c1e3e07e3997e1fb5956840c0a4c4609a366fe61af5fb0c0e9ab46f883"
+      "bytes": 3355,
+      "sha256": "74395dd957c9304d0ea99a164e90128aa22d6e35bb46e578cb6709296250b368"
     },
     {
       "path": "README.md",
-      "bytes": 2269,
-      "sha256": "2729b3f4809df46c2e593aedb2cc8cd4b4180a27c299ea8f4de1134f81c0164b"
+      "bytes": 2725,
+      "sha256": "2e02b4ab985d1f75fd9c628ec98ef49817223ce241663fa8a6c82f5c793e0e26"
     },
     {
-      "path": "REVIEW-V1.md",
-      "bytes": 4797,
-      "sha256": "a6fe5573267684b1cb0d4d0af5bc7dd3ecbc349141dac685815b4cfa18a217ec"
+      "path": "REVIEW-SPEC-006-V1.md",
+      "bytes": 5288,
+      "sha256": "4dbc60a2514b0237d1c37acf187be0d537f6d34dfa737ff69e6da74fca9a0abb"
     },
     {
-      "path": "REVIEW-V2.md",
-      "bytes": 5883,
-      "sha256": "eeae3773714db925ad14b35a97bf2526b544cb0f4af9401b28f9f934d7ce446d"
+      "path": "REVIEW-SPEC-006-V2.md",
+      "bytes": 6371,
+      "sha256": "8456541671d64b0d5e204a283acec76ee8169a9781b67667db2c2aa25dc83240"
     },
     {
-      "path": "REVIEW.md",
-      "bytes": 612,
-      "sha256": "2b8cfdb75cd4d365681b22412f10226dc623907399f76aab09f272b280764675"
+      "path": "REVIEW-SPEC-006.md",
+      "bytes": 1080,
+      "sha256": "2959f7a8b3f9bb5c515a65871fa18bfbe4881eea772b238a02e063cbd3b5d10f"
     },
     {
       "path": "SPEC-006-TV-PRESENTER.md",
-      "bytes": 7384,
-      "sha256": "66f2e6cd8fb0173e470c3928c475c956237930355028e0e9e72720133455fe7b"
+      "bytes": 7768,
+      "sha256": "d086226ce57fba9d565abfb41988df50925a4563f112cb963deb0316c0eab432"
     },
     {
       "path": "images/01-piranesi-v1.png",
@@ -95,43 +95,43 @@
     },
     {
       "path": "prompts/01-PIRANESI.md",
-      "bytes": 2020,
-      "sha256": "3c801530d62753cd9f05455f8bb1758c63cf2ce6d394b603d4208eead2b812a3"
+      "bytes": 2721,
+      "sha256": "6c582a3699db5a6cb652069822d10c2de349d612521e47c7f5c37a49a84f1fd4"
     },
     {
       "path": "prompts/02-KORIN.md",
-      "bytes": 2159,
-      "sha256": "4053673b9bb1181798b9b4a475a828ab84bbaaa1242be740bd492513eb9fc31c"
+      "bytes": 2851,
+      "sha256": "e80d70d9901903b2b79be9805effda738e69163d6adfe11fe79155d2b4236288"
     },
     {
       "path": "prompts/03-NEES.md",
-      "bytes": 2105,
-      "sha256": "755de3ee918e3d6fca647eba185b1f2cf8ab0f59752657700ccf0fe1828295a6"
+      "bytes": 2818,
+      "sha256": "f953969ddd819efffdffab61124c302ba81786da7f0c2231691dc7335dc6503e"
     },
     {
       "path": "prompts/04-HYBRID-V1.md",
-      "bytes": 2640,
-      "sha256": "b68d6ec9a4a76e7f161c680d192acca16435d49b4088f3897c218d5fa0788532"
+      "bytes": 3332,
+      "sha256": "07cbce528e7b60be068c0950bfea7736473057f32ea9eae09ba3132349d847ba"
     },
     {
       "path": "prompts/05-PIRANESI-V2.md",
-      "bytes": 677,
-      "sha256": "4d22e02e4a1478814eb26726d65093856b6c53d3cd2832f408c9e1f735d19924"
+      "bytes": 1399,
+      "sha256": "29dbe8925b6b42e5c8ce1aab8198c81a9e78e09e3db939ce320d920f1561365d"
     },
     {
       "path": "prompts/06-KORIN-V2.md",
-      "bytes": 570,
-      "sha256": "f0c86edeea6a94f80101e3b97e6a98e99709a865683662d6c64dc3e21019bb20"
+      "bytes": 1280,
+      "sha256": "dbf841ad3a3f89e7ceeb84e3012147b6a564d7e11a5a46202fc92abcda1c649c"
     },
     {
       "path": "prompts/07-NEES-V2.md",
-      "bytes": 1143,
-      "sha256": "c93ac498d21a8c3baff8ce364068b5bbac0933917bc1351345234fc3a6292638"
+      "bytes": 1873,
+      "sha256": "02e9e3c940f56a298b1d8b835a5e7296971222aebcd21c8899ecfb5c405b1b58"
     },
     {
       "path": "prompts/08-HYBRID-V2.md",
-      "bytes": 1271,
-      "sha256": "6e564f08747b797a6267ad382ce35e51f12206b3b95d91780232cc988ef76152"
+      "bytes": 1985,
+      "sha256": "b219bc117493e0a4c6b100a66cc2d60e6d286774aeca1e94069255200dded1a9"
     },
     {
       "path": "snapshots/EXPLORE-VISUAL-STYLES.md",
@@ -163,5 +163,8 @@
       "bytes": 821,
       "sha256": "67f0c3ab2af8ab87421fff63bdd024412809c6e72b19324ba2e47faf472ab100"
     }
-  ]
+  ],
+  "task": "../../../Tasks/0001-PIRANESI-KORIN-NEES.md",
+  "pull_request": "https://github.com/ToniDonDoni/adavilazil/pull/4",
+  "specification": "SPEC-006-TV-PRESENTER.md"
 }
