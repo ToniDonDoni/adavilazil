@@ -1,5 +1,7 @@
 # Piranesi, Korin and Nees Reference Review
 
+This historical audit covers the reference documents before later catalogue additions. The generated-image experiment, prompts, revisions and per-image acceptance review are in [test8](../explore_visual_styles/test8/README.md). Inventory counts below describe this audit stage, not the current catalogue.
+
 Date: 2026-11-08
 
 Scope: PR #4, three style references, catalogue index and candidate-list changes.

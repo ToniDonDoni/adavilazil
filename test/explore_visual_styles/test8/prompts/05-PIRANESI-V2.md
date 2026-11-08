@@ -1,0 +1,3 @@
+# 05-PIRANESI-V2
+
+Edit only the supplied Piranesi-style presenter artwork. Keep the composition, blonde bob silhouette, face, microphone, blank cue card, desk, camera, vast architecture, bridges, pulley, rope, hatching, and all fine engraved marks unchanged. Remove the global warm sepia cast: the entire artwork must be neutral black and gray ink on neutral pale off-white paper. Her irises must read unmistakably as LIGHT NEUTRAL GRAY, with dark pupils and no brown, amber, green or blue tint. Keep the blonde hair very pale so it continues to read as blonde rather than dark hair. This is a monochrome print; no colored accents. No text. Preserve the portrait aspect ratio.
