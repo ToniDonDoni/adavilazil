@@ -1,8 +1,8 @@
 # SPEC-006: Blonde Television Presenter with Gray Eyes
 
-**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+**Task:** [0001 — Future Style List](../../../Tasks/0001-FUTURE-STYLE-LIST.md).
 
-**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** test8 / SPEC-006.
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** Piranesi, Korin and Nees presenter / SPEC-006.
 
 **Document purpose:** Acceptance criteria for the presenter experiment.
 
@@ -80,10 +80,10 @@ Generate each study separately using the built-in image generator. Save each exa
 
 ## 7. Implementation Verification
 
-The [pre-generation specification](snapshots/SPEC-PRE-GENERATION.md) preserves the original wording. Acceptance criteria and their scopes were not relaxed after generation; only completion/status and this verification section were updated.
+The [pre-generation specification](snapshots/SPEC-PRE-GENERATION-PIRANESI-KORIN-NEES.md) preserves the original wording. Acceptance criteria and their scopes were not relaxed after generation; only completion/status and this verification section were updated.
 
-[REVIEW-V1.md](REVIEW-SPEC-006-V1.md) and [REVIEW-V2.md](REVIEW-SPEC-006-V2.md) evaluate every applicable criterion per image. Latest results: **31 pass / 1 partial / 1 fail** across 32 visual checks and one package check. N1 remains partial in the Nees study and fails in the hybrid: lower squares vary in size and some hybrid outlines remain broken. All other applicable checks pass at the documented visual-review level.
+[REVIEW-PIRANESI-KORIN-NEES-V1.md](REVIEW-PIRANESI-KORIN-NEES-V1.md) and [REVIEW-PIRANESI-KORIN-NEES-V2.md](REVIEW-PIRANESI-KORIN-NEES-V2.md) evaluate every applicable criterion per image. Latest results: **31 pass / 1 partial / 1 fail** across 32 visual checks and one package check. N1 remains partial in the Nees study and fails in the hybrid: lower squares vary in size and some hybrid outlines remain broken. All other applicable checks pass at the documented visual-review level.
 
 The production and revision loop is complete; **full visual acceptance is not claimed**. An unchecked N1 is not accepted. No procedural replacement of generated geometry was performed.
 
-[IMPLEMENTATION.md](IMPLEMENTATION.md) records tool settings, exact prompts and image lineage. [MANIFEST.json](MANIFEST.json) records asset dimensions, sizes and SHA-256 hashes. Repeating the procedure is supported; identical pixels are not guaranteed.
+[IMPLEMENTATION-PIRANESI-KORIN-NEES.md](IMPLEMENTATION-PIRANESI-KORIN-NEES.md) records tool settings, exact prompts and image lineage. [MANIFEST-PIRANESI-KORIN-NEES.json](MANIFEST-PIRANESI-KORIN-NEES.json) records asset dimensions, sizes and SHA-256 hashes. Repeating the procedure is supported; identical pixels are not guaranteed.

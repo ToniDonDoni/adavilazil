@@ -6,10 +6,6 @@
 
 Select a candidate below that does not already have a style reference under [Visual Styles](../reference/visual_styles/). Create its style reference using the [style template](../engineering/STYLE-TEMPLATE.md), follow the [contribution rules](../CONTRIBUTING.md), and add the new style reference to that folder.
 
-## Execution Records
-
-- [Piranesi, Korin and Nees — PR #4, SPEC-006 presenter experiment](0001-PIRANESI-KORIN-NEES.md): research, prompts, results, initial review and revised review. This records one batch, not completion of the full backlog.
-
 ## Museum and archive source directory
 
 Source IDs used in the candidate list are **search starting points**, not claims that a specific work is currently held by a given institution. Confirm each item, attribution and availability during research.

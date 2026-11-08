@@ -8,34 +8,39 @@
   "model_version": null,
   "files": [
     {
-      "path": "IMPLEMENTATION.md",
-      "bytes": 3355,
-      "sha256": "74395dd957c9304d0ea99a164e90128aa22d6e35bb46e578cb6709296250b368"
+      "path": "IMPLEMENTATION-PIRANESI-KORIN-NEES.md",
+      "bytes": 3581,
+      "sha256": "d169b6e85ba63aa874c9ecc4b3c1364ed8a036edddc651139913ed09b196d3ae"
     },
     {
       "path": "README.md",
-      "bytes": 2725,
-      "sha256": "2e02b4ab985d1f75fd9c628ec98ef49817223ce241663fa8a6c82f5c793e0e26"
+      "bytes": 3813,
+      "sha256": "527c68595cf6099ec77fb9d2feae0e1b8349ec055afb192ab1afdc1f1a277eae"
     },
     {
-      "path": "REVIEW-SPEC-006-V1.md",
-      "bytes": 5288,
-      "sha256": "4dbc60a2514b0237d1c37acf187be0d537f6d34dfa737ff69e6da74fca9a0abb"
+      "path": "REFERENCE-REVIEW-PIRANESI-KORIN-NEES.md",
+      "bytes": 4751,
+      "sha256": "cd822c7f1de989666aa865783ae05d798c8e13b2e9297f5c08aad8deb663ecad"
     },
     {
-      "path": "REVIEW-SPEC-006-V2.md",
-      "bytes": 6371,
-      "sha256": "8456541671d64b0d5e204a283acec76ee8169a9781b67667db2c2aa25dc83240"
+      "path": "REVIEW-PIRANESI-KORIN-NEES-V1.md",
+      "bytes": 5336,
+      "sha256": "1840b5543421eadc72c710ab9d32de35bd3cf2485055b7286591df04e26d3bef"
     },
     {
-      "path": "REVIEW-SPEC-006.md",
-      "bytes": 1080,
-      "sha256": "2959f7a8b3f9bb5c515a65871fa18bfbe4881eea772b238a02e063cbd3b5d10f"
+      "path": "REVIEW-PIRANESI-KORIN-NEES-V2.md",
+      "bytes": 6459,
+      "sha256": "d07cff9133ea0e45831fbe6f850e7bb2f77a1a68800ff324bb8abfc9e7938dd2"
     },
     {
-      "path": "SPEC-006-TV-PRESENTER.md",
-      "bytes": 7768,
-      "sha256": "d086226ce57fba9d565abfb41988df50925a4563f112cb963deb0316c0eab432"
+      "path": "REVIEW-PIRANESI-KORIN-NEES.md",
+      "bytes": 1170,
+      "sha256": "9aeae9cfb9a1f9e7ec928e72b3c613d16b1a263753eb97506596240bf2015103"
+    },
+    {
+      "path": "SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md",
+      "bytes": 7918,
+      "sha256": "9f7752e97bb69f520ba2b05897658a6d3f71900e6a4816f89cd20e0b92577216"
     },
     {
       "path": "images/01-piranesi-v1.png",
@@ -59,7 +64,7 @@
       "height": 1536
     },
     {
-      "path": "images/04-hybrid-v1.png",
+      "path": "images/04-hybrid-piranesi-korin-nees-v1.png",
       "bytes": 4438894,
       "sha256": "e3267e8c2a123c14f790581d40ef310c89ba563d0bdb2038d10ceab1a31067a3",
       "width": 1024,
@@ -87,7 +92,7 @@
       "height": 1536
     },
     {
-      "path": "images/08-hybrid-v2.png",
+      "path": "images/08-hybrid-piranesi-korin-nees-v2.png",
       "bytes": 3917951,
       "sha256": "d57e48780dae0b0860361bc88cf362fd34daba88c93d35450c84686ac8787292",
       "width": 1024,
@@ -95,76 +100,77 @@
     },
     {
       "path": "prompts/01-PIRANESI.md",
-      "bytes": 2721,
-      "sha256": "6c582a3699db5a6cb652069822d10c2de349d612521e47c7f5c37a49a84f1fd4"
+      "bytes": 2774,
+      "sha256": "964ef0627b0443533a38fe86a47a8bbd43367b2bb08195c9bc195dada6cb4c46"
     },
     {
       "path": "prompts/02-KORIN.md",
-      "bytes": 2851,
-      "sha256": "e80d70d9901903b2b79be9805effda738e69163d6adfe11fe79155d2b4236288"
+      "bytes": 2904,
+      "sha256": "c905c14f4c10c786a45a509baa7bb021c4c8c7b4b60ce9befc8c3c8d4c8a8302"
     },
     {
       "path": "prompts/03-NEES.md",
-      "bytes": 2818,
-      "sha256": "f953969ddd819efffdffab61124c302ba81786da7f0c2231691dc7335dc6503e"
+      "bytes": 2871,
+      "sha256": "0e903d3cf7078ecd454ba4de9cf26b0604917414833f1e551822ab45499cf8ce"
     },
     {
-      "path": "prompts/04-HYBRID-V1.md",
-      "bytes": 3332,
-      "sha256": "07cbce528e7b60be068c0950bfea7736473057f32ea9eae09ba3132349d847ba"
+      "path": "prompts/04-HYBRID-PIRANESI-KORIN-NEES-V1.md",
+      "bytes": 3425,
+      "sha256": "4f40cf9c275968706f58ba47251f37c79980a3a43b7c566e070a676c17d305fe"
     },
     {
       "path": "prompts/05-PIRANESI-V2.md",
-      "bytes": 1399,
-      "sha256": "29dbe8925b6b42e5c8ce1aab8198c81a9e78e09e3db939ce320d920f1561365d"
+      "bytes": 1452,
+      "sha256": "b8503d9e0e91a58b245d18a8a310c14f43c6ded3c77186fcb2766ca18fe32c12"
     },
     {
       "path": "prompts/06-KORIN-V2.md",
-      "bytes": 1280,
-      "sha256": "dbf841ad3a3f89e7ceeb84e3012147b6a564d7e11a5a46202fc92abcda1c649c"
+      "bytes": 1333,
+      "sha256": "7b9f9ac5048adfb1094568d66f3488f6f126ecd098b08d733dd7af5b1c9ad9a7"
     },
     {
       "path": "prompts/07-NEES-V2.md",
-      "bytes": 1873,
-      "sha256": "02e9e3c940f56a298b1d8b835a5e7296971222aebcd21c8899ecfb5c405b1b58"
+      "bytes": 1926,
+      "sha256": "92442c32d1728632d04ede566110597afc0d11c9727cf6ccfdd71910a22a3b26"
     },
     {
-      "path": "prompts/08-HYBRID-V2.md",
-      "bytes": 1985,
-      "sha256": "b219bc117493e0a4c6b100a66cc2d60e6d286774aeca1e94069255200dded1a9"
+      "path": "prompts/08-HYBRID-PIRANESI-KORIN-NEES-V2.md",
+      "bytes": 2098,
+      "sha256": "105528fc48ad52969a18b41e9b938aeb41c0b6b1a31e25e85a8ef376d4b774d5"
     },
     {
-      "path": "snapshots/EXPLORE-VISUAL-STYLES.md",
+      "path": "snapshots/EXPLORE-VISUAL-STYLES-PIRANESI-KORIN-NEES.md",
       "bytes": 1614,
       "sha256": "5099265fd173c85131d4131a565b8b0071f64831f0c6f21293be3f5c15a837de"
     },
     {
-      "path": "snapshots/KORIN.md",
+      "path": "snapshots/REFERENCE-KORIN-IRISES.md",
       "bytes": 5504,
       "sha256": "4164520564ad3b94cd32820600e2f976d2df6d31bdbf88cd3324b56beb4a9ee7"
     },
     {
-      "path": "snapshots/NEES.md",
+      "path": "snapshots/REFERENCE-NEES-SCHOTTER.md",
       "bytes": 5821,
       "sha256": "5112d8a5b1410d48abde587a50ad631484947fdcf9308fe8b9aecba1b8ed48c1"
     },
     {
-      "path": "snapshots/PIRANESI.md",
+      "path": "snapshots/REFERENCE-PIRANESI-CARCERI.md",
       "bytes": 4920,
       "sha256": "daa9f7795844108984290354f585db5f1e70fc979c2018e4e95bbeb088e19544"
     },
     {
-      "path": "snapshots/SPEC-PRE-GENERATION.md",
+      "path": "snapshots/SPEC-PRE-GENERATION-PIRANESI-KORIN-NEES.md",
       "bytes": 6482,
       "sha256": "bd4cd40f44b754beac89bb4497b37a51cb572b81341f5a75839aa07b2f0cfd44"
     },
     {
-      "path": "snapshots/SPEC-TEMPLATE.md",
+      "path": "snapshots/SPEC-TEMPLATE-PIRANESI-KORIN-NEES.md",
       "bytes": 821,
       "sha256": "67f0c3ab2af8ab87421fff63bdd024412809c6e72b19324ba2e47faf472ab100"
     }
   ],
-  "task": "../../../Tasks/0001-PIRANESI-KORIN-NEES.md",
+  "task": "../../../Tasks/0001-FUTURE-STYLE-LIST.md",
   "pull_request": "https://github.com/ToniDonDoni/adavilazil/pull/4",
-  "specification": "SPEC-006-TV-PRESENTER.md"
+  "specification": "SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md",
+  "experiment": "piranesi_korin_nees_tv_presenter"
 }

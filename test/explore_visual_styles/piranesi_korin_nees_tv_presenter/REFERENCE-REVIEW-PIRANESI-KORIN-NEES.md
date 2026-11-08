@@ -1,12 +1,12 @@
 # Task 0001 Reference Audit: Piranesi, Korin and Nees
 
-**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+**Task:** [0001 — Future Style List](../../../Tasks/0001-FUTURE-STYLE-LIST.md).
 
 **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Document purpose:** author review of the three researched style references.
 
-**Visual acceptance review:** [SPEC-006 review index](../explore_visual_styles/test8/REVIEW-SPEC-006.md).
+**Visual acceptance review:** [SPEC-006 review index](REVIEW-PIRANESI-KORIN-NEES.md).
 
-This historical audit covers the reference documents before later catalogue additions. The generated-image experiment, prompts, revisions and per-image acceptance review are in [test8](../explore_visual_styles/test8/README.md). Inventory counts below describe this audit stage, not the current catalogue.
+This historical audit covers the reference documents before later catalogue additions. The generated-image experiment, prompts, revisions and per-image acceptance review are in [Piranesi, Korin and Nees presenter experiment](README.md). Inventory counts below describe this audit stage, not the current catalogue.
 
 Date: 2026-11-08
 
@@ -29,9 +29,9 @@ Method: author self-review; not an independent reviewer approval.
 
 ## Evidence and Coverage
 
-- [Piranesi reference](../../reference/visual_styles/piranesi_carceri/README.md): the Met object record was reread for architectural scale, spatial ambiguity and the use of several printmaking techniques. The existing Princeton and Morgan sources distinguish early publication from the 1761 revision. The museum source on Escher supports the stated reception; visual comparisons remain labeled as editorial.
-- [Korin reference](../../reference/visual_styles/korin_irises/README.md): the Nezu exhibition text was reread for rhythmic grouping, pigment colors and followers. Both screen images linked from the Nezu object page were inspected in the browser. Their different relationships to the lower edge support the added placement rule. This remains a reference to the Nezu pair, not the Met's separate bridge composition.
-- [Nees reference](../../reference/visual_styles/nees_schotter/README.md): Hunter's account was reread and its reproduction of the V&A image inspected in the browser. The lower field contains both gaps and overlaps, making uniform local density an inappropriate requirement. The cited reconstruction distinguishes changes in position from changes in angle.
+- [Piranesi reference](../../../reference/visual_styles/piranesi_carceri/README.md): the Met object record was reread for architectural scale, spatial ambiguity and the use of several printmaking techniques. The existing Princeton and Morgan sources distinguish early publication from the 1761 revision. The museum source on Escher supports the stated reception; visual comparisons remain labeled as editorial.
+- [Korin reference](../../../reference/visual_styles/korin_irises/README.md): the Nezu exhibition text was reread for rhythmic grouping, pigment colors and followers. Both screen images linked from the Nezu object page were inspected in the browser. Their different relationships to the lower edge support the added placement rule. This remains a reference to the Nezu pair, not the Met's separate bridge composition.
+- [Nees reference](../../../reference/visual_styles/nees_schotter/README.md): Hunter's account was reread and its reproduction of the V&A image inspected in the browser. The lower field contains both gaps and overlaps, making uniform local density an inappropriate requirement. The cited reconstruction distinguishes changes in position from changes in angle.
 
 ## Verification
 

@@ -1,14 +1,14 @@
 # SPEC-006 Prompt 05: Piranesi V2
 
-**Task:** [0001 / Piranesi, Korin and Nees](../../../../Tasks/0001-PIRANESI-KORIN-NEES.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
+**Task:** [0001 — Future Style List](../../../../Tasks/0001-FUTURE-STYLE-LIST.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
 
-**Experiment:** [test8 / SPEC-006 overview](../README.md). **Acceptance criteria:** [SPEC-006](../SPEC-006-TV-PRESENTER.md).
+**Experiment:** [Piranesi, Korin and Nees presenter / SPEC-006 overview](../README.md). **Acceptance criteria:** [SPEC-006](../SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md).
 
 **Subject:** fictional adult female television presenter, blonde bob, gray eyes.
 
 **Input image:** [Initial image](../images/01-piranesi-v1.png).
 
-**Output:** [05-piranesi-v2.png](../images/05-piranesi-v2.png). **Evaluation:** [V2 review](../REVIEW-SPEC-006-V2.md#piranesi).
+**Output:** [05-piranesi-v2.png](../images/05-piranesi-v2.png). **Evaluation:** [V2 review](../REVIEW-PIRANESI-KORIN-NEES-V2.md#piranesi).
 
 ## Exact Tool Prompt
 

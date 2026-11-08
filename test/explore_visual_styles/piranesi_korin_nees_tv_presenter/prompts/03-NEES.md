@@ -1,14 +1,14 @@
 # SPEC-006 Prompt 03: Nees application V1
 
-**Task:** [0001 / Piranesi, Korin and Nees](../../../../Tasks/0001-PIRANESI-KORIN-NEES.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
+**Task:** [0001 — Future Style List](../../../../Tasks/0001-FUTURE-STYLE-LIST.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
 
-**Experiment:** [test8 / SPEC-006 overview](../README.md). **Acceptance criteria:** [SPEC-006](../SPEC-006-TV-PRESENTER.md).
+**Experiment:** [Piranesi, Korin and Nees presenter / SPEC-006 overview](../README.md). **Acceptance criteria:** [SPEC-006](../SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md).
 
 **Subject:** fictional adult female television presenter, blonde bob, gray eyes.
 
 **Input image:** None (new generation).
 
-**Output:** [03-nees-v1.png](../images/03-nees-v1.png). **Evaluation:** [V1 review](../REVIEW-SPEC-006-V1.md#nees-application).
+**Output:** [03-nees-v1.png](../images/03-nees-v1.png). **Evaluation:** [V1 review](../REVIEW-PIRANESI-KORIN-NEES-V1.md#nees-application).
 
 ## Exact Tool Prompt
 

@@ -1,12 +1,12 @@
 # SPEC-006 Review V1: Piranesi, Korin and Nees Presenter
 
-**Task:** [0001 / Piranesi, Korin and Nees research and presenter experiment](../../../Tasks/0001-PIRANESI-KORIN-NEES.md).
+**Task:** [0001 — Future Style List](../../../Tasks/0001-FUTURE-STYLE-LIST.md).
 
-**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** test8 / SPEC-006.
+**Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** Piranesi, Korin and Nees presenter / SPEC-006.
 
 **Document purpose:** Author review of the four initial images; findings that drive revision.
 
-**Acceptance authority:** [SPEC-006](SPEC-006-TV-PRESENTER.md).
+**Acceptance authority:** [SPEC-006](SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md).
 
 **Results and navigation:** [experiment overview](README.md).
 
@@ -60,7 +60,7 @@ Revision target: Turn camera toward host and repair square closure/size with a s
 
 ## Hybrid
 
-Image: [04-hybrid-v1.png](images/04-hybrid-v1.png).
+Image: [04-hybrid-piranesi-korin-nees-v1.png](images/04-hybrid-piranesi-korin-nees-v1.png).
 
 | Criterion | Status | Evidence |
 | --- | --- | --- |
