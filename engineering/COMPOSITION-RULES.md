@@ -144,11 +144,3 @@ The source lesson contains ten main sections. Some sections describe several dis
 4. **Build the viewing path.** Use lines, rhythm, depth, and framing.
 5. **Control visual weight.** Use scale, brightness, movement, and color.
 6. **Remove distractions.** Keep elements that support the intended meaning.
-
-## Application Example: AI-Free Programming
-
-For an illustration about AI, a programmer, nature, and creativity, these principles should communicate a process rather than merely arrange attractive objects:
-
-**AI takes over utilitarian programming -> the programmer becomes free to investigate nature -> algorithms become tools of artistic creation.**
-
-Leading lines, visual hierarchy, depth, and rhythm can connect the stages into a coherent viewing path.
