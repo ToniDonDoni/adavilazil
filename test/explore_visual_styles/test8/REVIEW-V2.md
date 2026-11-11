@@ -4,7 +4,7 @@
 **V1 prompt:** [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md).
 **V1 review:** [REVIEW-V1.md](REVIEW-V1.md).
 **V2 prompt:** [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md), derived from actual V1 defects.
-**V2 image actually reviewed:** second user-submitted PNG in the ChatGPT conversation, locally named `image(20261111-183101).png`; proposed repository filename `images/02-HYBRID-V2.png`.
+**V2 image actually reviewed:** second user-submitted PNG in the ChatGPT conversation, locally named `image(20261111-183101).png`; proposed repository filename `images/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.png`.
 **V2 source asset:** 1024 x 1536 PNG (RGB), 3,996,696 bytes; SHA-256 `84eb1de282044baee7e9f2f54d0c68b7d1a55b01714863798c7bf79e12f36ba2`.
 **V1 source asset for comparison:** 1024 x 1536 PNG (RGB), 3,502,335 bytes; SHA-256 `caca45fc4ebb0ab35e8357b825f9191d86e8315a0c35894fd417c0adbcf0d3ed`.
 **Model:** V1 was reported by the user as "GPT Images 2". The V2 image was explicitly described as generated from the second prompt; V2 runtime model ID/settings were not independently supplied or verified.
