@@ -1,6 +1,6 @@
 # Visual Composition: Techniques and Rules
 
-**Version:** 2.3.0
+**Version:** 1.0.0
 
 **Inspired by:** [https://youtu.be/osr259qQmHk?si=NuEvEN9BR9xtGFma](https://youtu.be/osr259qQmHk?si=NuEvEN9BR9xtGFma)
 
