@@ -1,22 +1,25 @@
 # Generation Plan and Provenance
 
-**Status:** pending manual execution by the repository owner.
+**Status:** awaiting manual V1 generation by the repository owner.
 **Requested generator:** OpenAI GPT Image via the Images API.
-**Explicit target model ID:** gpt-image-2.5-flare (not yet used).
-**Parameters:** size 1024x1536; output format png; n=1 per prompt; quality/model defaults unless specifically captured.
+**Target model ID:** `gpt-image-2.5-flare` (planned, not executed).
+**Parameters:** size 1024x1536; output format png; n=1; otherwise capture actual settings used.
 **Documentation:** https://developers.openai.com/api/docs/guides/tools-image-generation
 
-## Order and output names
+## Current prompt and output
 
 | Stage | Saved prompt | Expected filename | Status |
 | --- | --- | --- | --- |
-| Dore individual study | [01-DORE-STUDY.md](prompts/01-DORE-STUDY.md) | images/01-DORE-STUDY.png | not generated |
-| Sims individual study | [02-SIMS-STUDY.md](prompts/02-SIMS-STUDY.md) | images/02-SIMS-STUDY.png | not generated |
-| Hybrid V1 | [03-HYBRID-V1.md](prompts/03-HYBRID-V1.md) | images/03-HYBRID-V1.png | not generated |
-| Hybrid V2 | [04-HYBRID-V2-CANDIDATE.md](prompts/04-HYBRID-V2-CANDIDATE.md) | images/04-HYBRID-V2.png | not generated |
+| Hybrid V1 | [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md) | images/01-HYBRID-V1.png | not generated |
 
-The prompt file body beneath the 'Exact generation prompt' heading is intended to be passed verbatim. Record in a separate review or manifest the actual date/time, returned model ID if exposed, generation tool/API, size, prompt SHA-256, asset SHA-256 and deviations. An interface that hides the model version cannot justify a claim of exact runtime model provenance. Record it as 'not exposed' instead.
+The only generation prompt is the verbatim text below the 'Exact generation prompt' heading of the linked file.
 
-The V2 candidate exists so the user has a usable second prompt. It is **not** an improvement validated by V1 yet: once V1 is reviewed, preserve this candidate and add a separate final V2 prompt file containing actual changes justified by observed failures if applicable. Do not backfill fake V1/V2 reviews.
+## Required next steps
 
-No image-generation tools were called for this PR.
+1. Run the V1 prompt exactly as saved and preserve the resulting PNG.
+2. Record the actual generation date/time, tool/API, model ID if exposed, size, executed prompt and artifact SHA-256, and any deviations.
+3. Review the real V1 image against every applicable AC in [REVIEW-TEMPLATE.md](REVIEW-TEMPLATE.md); record concrete visual evidence.
+4. **Create the V2 prompt only after this V1 review**. Use actual failed or partial criteria to justify every requested change.
+5. Preserve both executed prompts and both images for later comparative verification. Do not overwrite the first version.
+
+If the runtime hides its model version, write 'not exposed' rather than claiming a model was observed. No images or reviews have been produced in this PR.

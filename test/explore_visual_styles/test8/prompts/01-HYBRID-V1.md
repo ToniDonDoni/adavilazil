@@ -1,9 +1,9 @@
-# Prompt 03: Hybrid V1
+# Prompt 01: Hybrid V1
 
 **Stage:** first combined experiment.
 **Target image model:** gpt-image-2.5-flare.
 **Target output:** PNG 1024x1536, portrait.
-**Related criteria:** AC-01 and AC-04 through AC-12.
+**Related criteria:** AC-01 through AC-11.
 **Status:** saved, not executed.
 
 ## Exact generation prompt

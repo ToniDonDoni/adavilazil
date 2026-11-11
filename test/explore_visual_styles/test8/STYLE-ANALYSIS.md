@@ -34,9 +34,8 @@ Both were absent from the existing reference catalog before this change. This pa
 - **Static poster versus animated source:** show stages of propagation in one spatial image. Do not claim motion was rendered.
 - **Copyright/originality:** avoid references to any specific plate, movie frame, character, or recognizable morphology. The modern artist informs concepts only.
 
-## Individual studies and hybrid scope
+## Test scope and sequencing
 
-- Dore study focuses on R1-R4 with the same explorer/seed/world subject.
-- Sims study focuses on R5-R7 with the same explorer/seed/world subject.
-- Hybrid V1 integrates R1-R11 as one artwork.
-- V2 is a **prewritten candidate prompt**, not an evidence-based revision yet. Update it only after observing V1; keep all original prompts and acceptance criteria stable.
+Only **one hybrid V1 image** is planned initially, applying R1-R11 together. Individual artist studies are deliberately omitted from this first phase, while both artist contributions remain testable in the combined image.
+
+A second prompt does **not** exist yet. After the actual V1 image is reviewed against the fixed acceptance criteria, derive V2 from precisely documented shortcomings, retaining all prior inputs and results.

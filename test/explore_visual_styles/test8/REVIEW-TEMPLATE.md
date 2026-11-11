@@ -1,43 +1,34 @@
-# Visual Review Template: Pending Real Images
+# Hybrid V1 Visual Review Template
 
-**Status:** NO IMAGE REVIEW HAS OCCURRED. This is a checklist template, not evidence.
+**Status:** NOT YET EVALUATED. No generated image exists.
 **Specification:** [SPEC-007-AI-FREE-PROGRAMMING.md](SPEC-007-AI-FREE-PROGRAMMING.md)
+**Planned image:** images/01-HYBRID-V1.png
 
-After generating all relevant images, replace 'not evaluated' only when visual evidence supports pass, partial or fail. Do not infer a pass from prompt wording. Verify text at 100% zoom; verify composition at thumbnail and full resolution. The originality check requires comparison with the cited references; it cannot be guaranteed from the prompt alone.
+After the first image is generated, inspect it at full view and title-detail zoom. For each criterion, record pass / partial / fail with a concrete observable justification. Do not infer success from a prompt. The originality check requires comparison with the cited references.
 
-| AC | Dore study | Sims study | Hybrid V1 | Hybrid V2 | Required evidence |
-| --- | --- | --- | --- | --- | --- |
-| AC-01 | not evaluated | not evaluated | not evaluated | not evaluated | Explorer, seed and environment visible in all |
-| AC-02 | not evaluated | N/A | N/A | N/A | Scale, spatial depth, hatching and light |
-| AC-03 | N/A | not evaluated | N/A | N/A | Seed, branch differences and growth |
-| AC-04 | N/A | N/A | not evaluated | not evaluated | One continuous poster |
-| AC-05 | N/A | N/A | not evaluated | not evaluated | Explorer and layered monumental terrain |
-| AC-06 | N/A | N/A | not evaluated | not evaluated | Illuminated threshold and engraved marks |
-| AC-07 | N/A | N/A | not evaluated | not evaluated | Connected code seed and living network |
-| AC-08 | N/A | N/A | not evaluated | not evaluated | Three distinct branches and progression |
-| AC-09 | N/A | N/A | not evaluated | not evaluated | Ecosystem shares perspective with terrain |
-| AC-10 | N/A | N/A | not evaluated | not evaluated | World inquiry without office AI cliches |
-| AC-11 | N/A | N/A | not evaluated | not evaluated | Exact title spelling and punctuation |
-| AC-12 | not evaluated | not evaluated | not evaluated | not evaluated | No copied reference composition or film frame |
-| AC-13 | not evaluated | not evaluated | not evaluated | not evaluated | Files, prompts, model and reviews preserved |
+| Criterion | V1 status | Evidence to capture |
+| --- | --- | --- |
+| AC-01 | not evaluated | One coherent portrait artwork |
+| AC-02 | not evaluated | Human investigator, seed and environment |
+| AC-03 | not evaluated | Monumental scale and three depth layers |
+| AC-04 | not evaluated | Light threshold, dark masses and hatching |
+| AC-05 | not evaluated | Direct connection from seed to emerging forms |
+| AC-06 | not evaluated | Three distinct connected branches |
+| AC-07 | not evaluated | Simple-to-complex growth in shared perspective |
+| AC-08 | not evaluated | Exploration and worldmaking, no corporate motifs |
+| AC-09 | not evaluated | Exact title spelling and punctuation |
+| AC-10 | not evaluated | No copied composition, film frame or organism |
+| AC-11 | not evaluated | Exact actual prompt, PNG, model, hashes and review |
 
-## Review notes to fill after V1
+## Fill in only after inspecting V1
 
-- Observed passes:
-- Observed partials:
-- Observed failures:
-- Exact visual evidence (areas of image):
-- Root cause hypotheses:
-- Changes to V2 prompt (quoted diff):
-- Status totals (pass / partial / fail / not evaluated):
+- Observed passes and evidence:
+- Observed partials and evidence:
+- Observed failures and evidence:
+- Likely causes grounded in the image:
+- Specific changes needed in a **new V2 prompt**:
+- V1 total (pass / partial / fail):
+- Actual runtime model identifier or 'not exposed':
+- Image dimensions and asset checksum:
 
-## V2 comparison to fill only after V2
-
-- Differences directly visible:
-- Previous failures corrected:
-- Regressions introduced:
-- Unresolved requirements:
-- Final status totals:
-- Actual runtime model ID and output asset hashes:
-
-**Current verdict:** no acceptance assessment is possible without generated images.
+**Do not create a V2 prompt until this review is completed.**
