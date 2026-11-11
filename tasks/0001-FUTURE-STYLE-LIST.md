@@ -111,7 +111,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-062** Francisco Goya: Los Caprichos etchings (1799): satirical darkness and aquatint atmospheres. Search: MET,NGA.
 - [ ] **FS-063** Francisco Goya: Disasters of War prints (1810s): stark figures and unstable tonal fields. Search: MET,NGA.
 - [ ] **FS-064** William Blake: illuminated books (1790s–1820s): handwritten text merging with mythic ornament. Search: MET,BL.
-- [ ] **FS-065** Gustave Doré: Dante engravings (1861): extreme scale, luminous atmospheric hatching. Search: MET,BL.
 - [ ] **FS-066** Honoré Daumier: lithographic caricatures (1830s–1860s): compressed faces and expressive tonal marks. Search: MET,NGA.
 - [ ] **FS-067** Käthe Kollwitz: Weavers series (1890s): distressed black masses and social emotion. Search: MOMA,MET.
 - [ ] **FS-068** Käthe Kollwitz: War woodcuts (1920s): grieving gestures and carved silhouettes. Search: MOMA,MET.
@@ -318,5 +317,4 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-250** Refik Anadol: data-driven installation visuals (2010s–2020s): fluid volumetric data fields. Search: MOMA,GET.
 - [ ] **FS-251** Aaron Koblin: Flight Patterns visualization (2005): luminous aggregated trajectories. Search: MOMA,GET.
 - [ ] **FS-252** Marius Watz: generative geometric screenprints (2000s–2010s): parametric polygon growth. Search: GET,MOMA.
-- [ ] **FS-253** Karl Sims: Panspermia procedural animation (1990): branching artificial-life forms and dynamic simulated growth. Search: MOMA,BFI.
 

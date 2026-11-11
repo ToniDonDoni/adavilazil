@@ -1,6 +1,6 @@
 # SPEC-006: Blonde Television Presenter with Gray Eyes
 
-**Task:** [0001 — Future Style List](../../../Tasks/0001-FUTURE-STYLE-LIST.md).
+**Task:** [0001 — Future Style List](../../../tasks/0001-FUTURE-STYLE-LIST.md).
 
 **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4). **Experiment:** Piranesi, Korin and Nees presenter / SPEC-006.
 
