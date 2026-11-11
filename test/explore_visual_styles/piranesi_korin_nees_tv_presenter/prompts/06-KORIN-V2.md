@@ -1,6 +1,6 @@
 # SPEC-006 Prompt 06: Korin V2
 
-**Task:** [0001 — Future Style List](../../../../Tasks/0001-FUTURE-STYLE-LIST.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
+**Task:** [0001 — Future Style List](../../../../tasks/0001-FUTURE-STYLE-LIST.md). **Change:** [PR #4](https://github.com/ToniDonDoni/adavilazil/pull/4).
 
 **Experiment:** [Piranesi, Korin and Nees presenter / SPEC-006 overview](../README.md). **Acceptance criteria:** [SPEC-006](../SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md).
 

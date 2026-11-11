@@ -169,7 +169,7 @@
       "sha256": "67f0c3ab2af8ab87421fff63bdd024412809c6e72b19324ba2e47faf472ab100"
     }
   ],
-  "task": "../../../Tasks/0001-FUTURE-STYLE-LIST.md",
+  "task": "../../../tasks/0001-FUTURE-STYLE-LIST.md",
   "pull_request": "https://github.com/ToniDonDoni/adavilazil/pull/4",
   "specification": "SPEC-006-PIRANESI-KORIN-NEES-TV-PRESENTER.md",
   "experiment": "piranesi_korin_nees_tv_presenter"
