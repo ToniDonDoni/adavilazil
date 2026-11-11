@@ -11,7 +11,6 @@ Gustave Dore (1832-1883) designed illustrations for Dante's Inferno, published i
 - Later fantasy and literary illustration: Dore's epic visual language became an enduring reference for depicting speculative worlds, without implying that all later fantasy imagery derives from him.
 
 ## Relations
-- [Karl Sims: Panspermia and Procedural Life](../sims_panspermia_procedural_life/README.md): both visualize otherwise inaccessible worlds. Dore organizes scale and light through human-directed image making; Sims investigates form emerging from computational rules.
 - [Piranesi's Carceri](../piranesi_carceri/README.md): both use overwhelming scale and complex depth; Dore's chosen series depicts literary worlds rather than Piranesi's architectural prisons.
 
 ## Style Requirements

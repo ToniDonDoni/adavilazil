@@ -12,7 +12,6 @@ Karl Sims created the computer animation Panspermia in 1990. According to Sims's
 - Generative-art and artificial-life practice: the project is an instructive historical example of simulated emergence, without asserting direct influence on individual later artists.
 
 ## Relations
-- [Gustave Dore: Dante Engraving and the Sublime](../dore_dante_engraving/README.md): the proposed experiment maps computational emergence into an immense exploratory environment, combining procedural form with engraved spatial drama.
 - [Georg Nees: Schotter](../nees_schotter/README.md): both expose computational variation; Sims explores evolving organic structures rather than progressively scattered square outlines.
 
 ## Style Requirements
