@@ -6,5 +6,5 @@ Collect reusable visual art techniques, style references and skills.
 - [Future tasks](Tasks/TODO.md)
 - [Practical skills](skills/)
 - [Experiments](test/)
-- [Engineering templates](engineering/)
+- Engineering
 - [Repository contribution rules](CONTRIBUTING.md)
