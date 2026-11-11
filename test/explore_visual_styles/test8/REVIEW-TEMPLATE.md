@@ -1,34 +1,33 @@
-# Hybrid V1 Visual Review Template
+# Visual Review Protocol
 
-**Status:** NOT YET EVALUATED. No generated image exists.
 **Specification:** [SPEC-007-AI-FREE-PROGRAMMING.md](SPEC-007-AI-FREE-PROGRAMMING.md)
-**Planned image:** images/01-HYBRID-V1.png
+**Completed first review:** [REVIEW-V1.md](REVIEW-V1.md)
 
-After the first image is generated, inspect it at full view and title-detail zoom. For each criterion, record pass / partial / fail with a concrete observable justification. Do not infer success from a prompt. The originality check requires comparison with the cited references.
+Use the same checklist and evidence standards for V2. All eleven criteria must be inspected on actual pixels. Do not infer a pass from prompt text. Originality claims require comparing documented references and acknowledging limits. Model provenance must distinguish a user-reported UI label from a verified runtime ID.
 
-| Criterion | V1 status | Evidence to capture |
+| Criterion | V1 status | V2 status |
 | --- | --- | --- |
-| AC-01 | not evaluated | One coherent portrait artwork |
-| AC-02 | not evaluated | Human investigator, seed and environment |
-| AC-03 | not evaluated | Monumental scale and three depth layers |
-| AC-04 | not evaluated | Light threshold, dark masses and hatching |
-| AC-05 | not evaluated | Direct connection from seed to emerging forms |
-| AC-06 | not evaluated | Three distinct connected branches |
-| AC-07 | not evaluated | Simple-to-complex growth in shared perspective |
-| AC-08 | not evaluated | Exploration and worldmaking, no corporate motifs |
-| AC-09 | not evaluated | Exact title spelling and punctuation |
-| AC-10 | not evaluated | No copied composition, film frame or organism |
-| AC-11 | not evaluated | Exact actual prompt, PNG, model, hashes and review |
+| AC-01 Unified composition | pass | not evaluated |
+| AC-02 Fixed subject | pass | not evaluated |
+| AC-03 Scale and depth | pass | not evaluated |
+| AC-04 Light and mark-making | pass | not evaluated |
+| AC-05 Emergence connection | pass | not evaluated |
+| AC-06 Branch variation | pass | not evaluated |
+| AC-07 Growth sequence and integration | partial | not evaluated |
+| AC-08 Programming as world investigation | partial | not evaluated |
+| AC-09 Exact title | pass | not evaluated |
+| AC-10 Originality | partial | not evaluated |
+| AC-11 Provenance and evaluation | partial | not evaluated |
 
-## Fill in only after inspecting V1
+**V1:** 7 pass / 4 partial / 0 fail.
 
-- Observed passes and evidence:
-- Observed partials and evidence:
-- Observed failures and evidence:
-- Likely causes grounded in the image:
-- Specific changes needed in a **new V2 prompt**:
-- V1 total (pass / partial / fail):
-- Actual runtime model identifier or 'not exposed':
-- Image dimensions and asset checksum:
+## V2 review, to fill only after second image exists
 
-**Do not create a V2 prompt until this review is completed.**
+- Actual model label/identifier:
+- Exact executed prompt and deviations:
+- File details and SHA-256:
+- Per-criterion visual findings:
+- V2 pass / partial / fail totals:
+- V1 partials corrected:
+- New defects or regressions:
+- Remaining open acceptance conditions:

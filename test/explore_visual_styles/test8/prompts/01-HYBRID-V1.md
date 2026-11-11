@@ -1,10 +1,12 @@
 # Prompt 01: Hybrid V1
 
 **Stage:** first combined experiment.
-**Target image model:** gpt-image-2.5-flare.
-**Target output:** PNG 1024x1536, portrait.
+**Planned image model:** `gpt-image-2.5-flare` (original planning target; not proven used).
+**User-reported actual generation:** ChatGPT "GPT Images 2"; exact internal identifier not exposed.
+**Observed image:** `Beyond the Algorithm: Alien Seedscape.png`, 1024 x 1536 PNG, user supplied.
+**Review:** [REVIEW-V1.md](../REVIEW-V1.md).
 **Related criteria:** AC-01 through AC-11.
-**Status:** saved, not executed.
+**Status:** executed by user; exact body retained below.
 
 ## Exact generation prompt
 

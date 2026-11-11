@@ -1,11 +1,11 @@
 # Test 8: AI-Free Programming: Beyond the Algorithm
 
-**Status:** one initial hybrid prompt; image generation and visual acceptance pending.
+**Status:** V1 image reviewed; second prompt ready. User-supplied V1 PNG has not yet been committed to the branch.
 
 - [Specification and acceptance criteria](SPEC-007-AI-FREE-PROGRAMMING.md)
 - [Consolidated artist contributions and rationale](STYLE-ANALYSIS.md)
-- [Generation plan and provenance](GENERATION-PLAN.md)
-- [Blank V1 review template](REVIEW-TEMPLATE.md)
+- [Generation plan and source checksum](GENERATION-PLAN.md)
+- [Actual V1 visual review](REVIEW-V1.md)
 - [Execution checklist](CHECKLIST.md)
 - [Project skill](../../../skills/EXPLORE-VISUAL-STYLES.md)
 
@@ -14,14 +14,17 @@
 - **FS-065:** [Gustave Dore, nineteenth-century engraving](../../../reference/visual_styles/dore_dante_engraving/README.md): magnitude, dramatic light and exploratory depth.
 - **FS-253:** [Karl Sims, Panspermia (1990)](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md): emergence, branching variation and generated ecology.
 
-## Single prompt ready for generation
+## Prompts
 
-**[Hybrid V1: exact custom prompt](prompts/01-HYBRID-V1.md)**
+1. [Hybrid V1, exact original prompt](prompts/01-HYBRID-V1.md). The user also supplied the historical `03-HYBRID-V1.md` link, used before the prompt renaming.
+2. **[Hybrid V2, refined after inspecting V1](prompts/02-HYBRID-V2.md)**.
 
-A V2 prompt will be written only **after visually reviewing the actual first hybrid**. No individual artist prompts and no provisional second prompt are included.
+## V1 findings
 
-## Concept
+The user's 1024 x 1536 PNG titled `Beyond the Algorithm: Alien Seedscape.png` shows a tiny explorer amid immense finely engraved cliffs, bright distant light, a raised seed and a varied luminous ecosystem. The readable title is correct. The seed, however, resembles a decorative flower or magical emblem, and the causal generative rule is hard to identify. [Review details](REVIEW-V1.md).
 
-AI frees programming from a purely instrumental obligation to ship business software. Code becomes an exploratory medium, like a painter's pigments or a scientific instrument, for observing nature, experimenting with rules and making possible worlds. The poster combines an immense engraved world with original procedural-looking ecosystems born from one abstract symbolic code seed.
+**V1: 7 pass / 4 partial / 0 fail** against the fixed 11 criteria. V2 emphasizes explicit geometric rule-to-ecosystem lineage, fewer generic cosmic distractions and uninterrupted connected growth. V2 has **not** been generated or reviewed.
 
-**No images or accepted visual criteria are claimed in this PR.**
+## Binary asset status
+
+The V1 original PNG was located and inspected in the user's ChatGPT file library. Its dimensions, byte count and SHA-256 are preserved in [GENERATION-PLAN.md](GENERATION-PLAN.md). The GitHub branch does not yet contain the original image bytes; the PR must not imply otherwise.

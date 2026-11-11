@@ -3,23 +3,24 @@
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)
 **Template:** [SPEC-TEMPLATE.md](../../../engineering/SPEC-TEMPLATE.md)
 **Artists:** [Gustave Dore, nineteenth-century engraved sublime](../../../reference/visual_styles/dore_dante_engraving/README.md) and [Karl Sims, 1990 procedural emergence](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md)
-**Planned generator:** OpenAI GPT Image, API model ID `gpt-image-2.5-flare` (not run)
-**Output target:** PNG, portrait 1024 x 1536
-**Status:** exactly one V1 generation prompt exists. No images or reviews yet.
+**V1 generator (user-reported):** ChatGPT "GPT Images 2". Internal/API model identifier not exposed.
+**Initial planned API model:** `gpt-image-2.5-flare` (planning metadata only; not verified as the V1 runtime model).
+**Output target:** PNG, portrait 1024 x 1536.
+**Status:** V1 image externally supplied and visually reviewed; V2 prompt prepared from partial results. The PNG is not yet committed to GitHub.
 
 ## 1. Problem and Current State
 
-The project has now added two previously absent backlog references (FS-065 and FS-253). This experiment tests whether their complementary general principles can express an original idea: AI frees programming from purely utilitarian software production, turning code into a medium for investigating nature and creating possible worlds. Do not recreate an existing work or closely imitate a living artist's distinctive style.
+Two previously absent backlog references (FS-065 and FS-253) were added to this repository. This experiment tests whether their complementary general principles can express an original idea: AI frees programming from purely utilitarian software production, turning code into a medium for investigating nature and creating possible worlds. Do not recreate an existing work or closely imitate a living artist's distinctive style.
 
 ## 2. Required State
 
-Create **one original hybrid V1** showing a small human investigator at the threshold of an immense imagined world. A symbolic code seed visibly develops into varied, branching speculative life integrated into the terrain. Preserve the dramatic spatial organization of nineteenth-century engraving and the abstract concept of computational emergence in one coherent portrait poster. The exact artwork title is **AI-Free Programming: Beyond the Algorithm**.
+Create one original hybrid V1 showing a small human investigator at the threshold of an immense imagined world. A symbolic code seed visibly develops into varied, branching speculative life integrated into the terrain. Preserve the dramatic spatial organization of nineteenth-century engraving and the abstract concept of computational emergence in one coherent portrait poster. The exact artwork title is **AI-Free Programming: Beyond the Algorithm**.
 
-**Current boundary:** only [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md) is authorized as a generation prompt. **Do not write a V2 prompt before reviewing the actual V1 image.** Standalone artist studies are out of scope for this one-image phase; the hybrid must nevertheless be tested against both documented contributions.
+After inspecting the actual V1 image, derive one targeted V2 prompt from the observed partial/failed criteria. Retain both prompts and both images if uploaded. Standalone artist studies are out of scope for this experiment; assess both artists' contributions in the unified hybrid.
 
 ## 3. Acceptance Criteria
 
-The following criteria apply to the real hybrid V1 image. They are not marked as passed until observable evidence is recorded.
+These criteria were fixed before V1 generation. Check completion using actual visual evidence, not compliance asserted in the prompt.
 
 - [ ] **AC-01 Unified composition:** one coherent 2:3 portrait poster, not separate panels or a collage.
 - [ ] **AC-02 Fixed subject:** a recognizable human investigator, one symbolic code seed and an original environment are visible.
@@ -35,29 +36,27 @@ The following criteria apply to the real hybrid V1 image. They are not marked as
 
 ## 4. Analysis
 
-[STYLE-ANALYSIS.md](STYLE-ANALYSIS.md) documents the single consolidated R1-R11 list, identifying each selected artistic principle, the artist behind it, why it belongs, compatibility and conflicts. Dore supplies the grandeur of exploration; Sims supplies rule-driven emergence and variation. The new work supplies its own subject and composition.
+[STYLE-ANALYSIS.md](STYLE-ANALYSIS.md) contains the consolidated R1-R11 list with origin, compatibility, conflicts and rationale. Dore contributes spatial experience and discovery; Sims contributes systems that turn simple code-like rules into novel forms. Neither provides a composition to copy.
 
 ## 5. Proposed Solution
 
-1. Generate hybrid V1 from the **single exact custom prompt** in [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md), using planned model `gpt-image-2.5-flare`.
-2. Save the actual image as `images/01-HYBRID-V1.png`; record model and artifact provenance.
-3. Inspect V1 at full view and title-detail scale. Review every AC using [REVIEW-TEMPLATE.md](REVIEW-TEMPLATE.md) with actual evidence and pass/partial/fail statuses.
-4. **Only after that review**, create a new, targeted V2 prompt addressing observed defects. Preserve V1 and the first prompt; generate V2 and compare it in a later change.
-
-No V2 prompt or image is part of the current proposal.
+1. V1 used the original custom body in [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md); the user reported running it in ChatGPT "GPT Images 2". The previous `03-HYBRID-V1.md` link refers to the same prompt body before the prompt-only cleanup.
+2. Real V1 was inspected. [REVIEW-V1.md](REVIEW-V1.md) documents observable evidence, specific partial criteria, image dimensions and source checksum.
+3. The **new [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md) prompt was written after that inspection**, targeting weak rule-to-growth legibility and the otherwise magical seed. It preserves V1's successful spatial scale, hatching and title.
+4. The next action is to generate V2, commit its image and the V1 source PNG, then compare both outputs with unchanged AC and record [REVIEW-V2.md](REVIEW-V2.md) when the second image exists.
 
 ## 6. ToDo
 
 - [x] Add two new sourced artist references and update the catalog/backlog.
 - [x] Select and justify consolidated requirements.
-- [x] Write a declarative specification and criteria.
-- [x] Save exactly one executable custom prompt for hybrid V1.
-- [ ] Generate V1 and preserve its actual image and model information.
-- [ ] Inspect V1 against every acceptance criterion.
-- [ ] Write and save an evidence-based V1 review.
-- [ ] Derive and save a V2 prompt from the observed V1 shortcomings.
-- [ ] Generate V2 and compare both results in a subsequent update.
+- [x] Save exactly one first-generation prompt.
+- [x] Inspect the user-supplied V1 image and document actual visual results.
+- [x] Derive and save the V2 prompt from observed partial criteria.
+- [ ] Commit the supplied V1 PNG to the repository.
+- [ ] Generate and commit the V2 PNG.
+- [ ] Compare both results and write an evidence-based V2 review.
+- [ ] Complete repository asset and model-provenance inventory.
 
 ## 7. Implementation Verification
 
-**Not started.** No image is committed and no acceptance criterion has been visually verified. The next prompt will be created only after the real first image has been inspected.
+[REVIEW-V1.md](REVIEW-V1.md) records **7 pass / 4 partial / 0 fail**. Specifically AC-07, AC-08, AC-10 and AC-11 remain partial. Passing V1 visual criteria are **not** proof of final package acceptance: the V1 image file has not yet been committed and V2 has not been generated. No V2 outcomes are asserted.

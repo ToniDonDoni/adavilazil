@@ -1,25 +1,30 @@
 # Generation Plan and Provenance
 
-**Status:** awaiting manual V1 generation by the repository owner.
-**Requested generator:** OpenAI GPT Image via the Images API.
-**Target model ID:** `gpt-image-2.5-flare` (planned, not executed).
-**Parameters:** size 1024x1536; output format png; n=1; otherwise capture actual settings used.
-**Documentation:** https://developers.openai.com/api/docs/guides/tools-image-generation
+## First generation (completed externally)
 
-## Current prompt and output
+- **Prompt:** [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md); prompt body originated in the previously named `03-HYBRID-V1.md` used by the owner.
+- **Actual image:** `Beyond the Algorithm: Alien Seedscape.png`, supplied by the owner in ChatGPT and found in the owner's file library.
+- **Reported model:** "GPT Images 2" in ChatGPT (user statement). Exact underlying/API model identifier **not exposed**.
+- **Previous planned model:** `gpt-image-2.5-flare`; do not describe this as the executed runtime model.
+- **Actual file:** 1024 x 1536 PNG, RGB, 4,339,805 bytes.
+- **SHA-256:** `8d25ba9cbe46bfbd65e0b9c602acfeb0c8711b39daed94f8529569487fe62bd7`
+- **Repository destination:** `images/01-HYBRID-V1.png`; **pending binary upload**.
+- **Visual inspection:** [REVIEW-V1.md](REVIEW-V1.md).
 
-| Stage | Saved prompt | Expected filename | Status |
-| --- | --- | --- | --- |
-| Hybrid V1 | [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md) | images/01-HYBRID-V1.png | not generated |
+## Second generation (not yet executed)
 
-The only generation prompt is the verbatim text below the 'Exact generation prompt' heading of the linked file.
+- **Prompt:** [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md), created only after reviewing actual V1.
+- **Suggested model:** same ChatGPT "GPT Images 2" model as V1 for comparable results, if available.
+- **Target:** PNG, portrait 1024 x 1536.
+- **Repository destination:** `images/02-HYBRID-V2.png`.
+- **Status:** awaiting owner generation.
 
-## Required next steps
+## Procedure
 
-1. Run the V1 prompt exactly as saved and preserve the resulting PNG.
-2. Record the actual generation date/time, tool/API, model ID if exposed, size, executed prompt and artifact SHA-256, and any deviations.
-3. Review the real V1 image against every applicable AC in [REVIEW-TEMPLATE.md](REVIEW-TEMPLATE.md); record concrete visual evidence.
-4. **Create the V2 prompt only after this V1 review**. Use actual failed or partial criteria to justify every requested change.
-5. Preserve both executed prompts and both images for later comparative verification. Do not overwrite the first version.
+1. Use V2 exact prompt body verbatim; preserve any tool alterations actually made.
+2. Preserve the original PNG bytes for both versions; do not replace V1 with a reconstruction.
+3. Record actual date, model UI label and API ID only if exposed, dimensions, size, exact executed prompt and SHA-256.
+4. Visually compare V1 and V2 against every acceptance criterion, with concrete evidence, noting regressions and partial results.
+5. Store a distinct V2 review rather than overwriting V1 findings.
 
-If the runtime hides its model version, write 'not exposed' rather than claiming a model was observed. No images or reviews have been produced in this PR.
+No V2 visual claims are made here. The V1 source file is identified and checksummed but is not yet in the Git branch.

@@ -6,12 +6,14 @@
 - [x] Update reference index and remove only the selected backlog candidates.
 - [x] Define consolidated general principles with origin and rationale.
 - [x] Write the declarative hybrid specification and acceptance criteria.
-- [x] Save **one exact Hybrid V1 prompt**, target model and intended asset path.
-- [ ] Generate Hybrid V1 and retain the actual PNG.
-- [ ] Visually review V1 against every criterion with evidence.
-- [ ] **Only then** create a new V2 prompt based on the actual review.
-- [ ] Generate and retain Hybrid V2, compare against V1 and review again.
-- [ ] Preserve original and revised prompts, images, reviews and model provenance.
-- [ ] Mark criteria as accepted only where visual output supports them.
+- [x] Save one original Hybrid V1 prompt.
+- [x] Locate and inspect the owner's actual V1 PNG (outside GitHub).
+- [x] Review the actual V1 image against all eleven criteria with evidence.
+- [x] Create a V2 prompt derived from observed V1 partials.
+- [ ] Commit V1's original PNG bytes to the GitHub branch.
+- [ ] Generate and commit Hybrid V2 PNG.
+- [ ] Visually review V2 against the same criteria and record changes.
+- [ ] Preserve both versions and actual model provenance in the repository.
+- [ ] Mark final acceptance only when every applicable criterion is supported.
 
-This PR intentionally stops before image generation at the user's request.
+V1: 7 pass / 4 partial / 0 fail; asset provenance remains incomplete pending repository binary upload.
