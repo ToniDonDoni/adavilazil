@@ -15,6 +15,7 @@
 ## New Workshop: AI Liberates Programmers
 
 - [Independent specification, version 1.2.1](SPEC-008-AI-LIBERATES-PROGRAMMERS.md)
+- [Targeted image 4 refinement prompt (SPEC-008 v1.2.1)](prompts/06-IMAGE-4-REFINEMENT-SPEC-008-v1.2.1.md)
 - [Copy-ready generation prompt, checked against SPEC-008 v1.2.1](prompts/05-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.1.md)
 - [Previous cold-fire prompt (SPEC-008 v1.2.0)](prompts/04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md)
 - [Previous warm-gold generation prompt (SPEC-008 v1.0.1)](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)
