@@ -2,13 +2,13 @@
 
 **Specification:** [SPEC-007-AI-FREE-PROGRAMMING.md](SPEC-007-AI-FREE-PROGRAMMING.md)
 **Source prompt:** [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md). This prompt body matches the previously named `03-HYBRID-V1.md` linked by the user before the prompt-only cleanup.
-**Image:** `Beyond the Algorithm: Alien Seedscape.png`, supplied by the repository owner in ChatGPT and located in the owner's connected file library. **The PNG is not committed to this Git branch.**
+**Image:** `Beyond the Algorithm: Alien Seedscape.png`, supplied by the repository owner in ChatGPT. The matching attachment supplied in this conversation is committed as `images/01-HYBRID-V1.png`; its checksum differs from the prior file recorded in earlier PR commits.
 **Reported generation model:** "GPT Images 2", ChatGPT UI, **user-reported**. Actual internal/API model identifier and inference settings not exposed; do not substitute the originally planned `gpt-image-2.5-flare` as a claim about execution.
 **Image dimensions:** 1024 x 1536 PNG, RGB.
-**Source asset bytes:** 4,339,805.
-**Source asset SHA-256:** `8d25ba9cbe46bfbd65e0b9c602acfeb0c8711b39daed94f8529569487fe62bd7`.
+**Source asset bytes:** 3,502,335.
+**Source asset SHA-256:** `caca45fc4ebb0ab35e8357b825f9191d86e8315a0c35894fd417c0adbcf0d3ed`.
 **Review basis:** actual image pixels inspected at full poster scale; no automated similarity audit or reference-image matching was performed.
-**Review status:** completed for AC-01 through AC-10. AC-11 remains partial because the source image has not been committed to the repository.
+**Review status:** completed for AC-01 through AC-10. AC-11 remains partial because the exact V2 runtime model identifier is not exposed.
 
 ## Observed image
 

@@ -19,10 +19,10 @@
 
 ## Which reviewed image is which?
 
-- **V1** (`Beyond the Algorithm: Alien Seedscape.png`, SHA-256 `8d25ba9cbe46bfbd65e0b9c602acfeb0c8711b39daed94f8529569487fe62bd7`): tiny explorer holds a flower-like glow beneath oversized planets and stars; plant-life spreads through a monumental extraterrestrial valley. [Review](REVIEW-V1.md).
-- **V2** (`image(20261111-183101).png`, SHA-256 `8bd47860437a417c2573415a25addece93a45245d9d118567957647304cbba2e`): tiny explorer holds a four-cell geometric seed, feeding clear recursive branches across the valley, without giant planets. [Review](REVIEW-V2.md).
+- **V1** (`Beyond the Algorithm: Alien Seedscape.png`, SHA-256 `caca45fc4ebb0ab35e8357b825f9191d86e8315a0c35894fd417c0adbcf0d3ed`): tiny explorer holds a flower-like glow beneath oversized planets and stars; plant-life spreads through a monumental extraterrestrial valley. [Review](REVIEW-V1.md).
+- **V2** (`image(20261111-183101).png`, SHA-256 `84eb1de282044baee7e9f2f54d0c68b7d1a55b01714863798c7bf79e12f36ba2`): tiny explorer holds a four-cell geometric seed, feeding clear recursive branches across the valley, without giant planets. [Review](REVIEW-V2.md).
 
-**The reviews describe the exact original PNGs the user supplied in ChatGPT.** These hash-linked descriptions allow the source files to be matched unambiguously when later added to this branch. The files are not already embedded here.
+**The review documents now identify the exact PNG attachments supplied in this conversation and committed in `images/`. Their byte hashes differ from files previously recorded before this upload; the attached visuals correspond to the reviewed V1 and V2 variants.**
 
 ## Visual results
 
@@ -34,4 +34,4 @@
 | Originality comparison (AC-10) | partial | partial |
 | Original binary archive / provenance (AC-11) | partial | partial |
 
-The artistic idea is code as a new research medium for discovering nature and creating possible worlds. The second image clarifies the rule-to-growth process, but still reads partly as speculative fantasy rather than an observable research procedure. Final archival acceptance is pending the original PNGs in GitHub.
+The artistic idea is code as a new research medium for discovering nature and creating possible worlds. The second image clarifies the rule-to-growth process, but still reads partly as speculative fantasy rather than an observable research procedure. The supplied PNG attachments are now archived in GitHub.

@@ -5,10 +5,10 @@
 **V1 review:** [REVIEW-V1.md](REVIEW-V1.md).
 **V2 prompt:** [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md), derived from actual V1 defects.
 **V2 image actually reviewed:** second user-submitted PNG in the ChatGPT conversation, locally named `image(20261111-183101).png`; proposed repository filename `images/02-HYBRID-V2.png`.
-**V2 source asset:** 1024 x 1536 PNG (RGBA), 4,894,011 bytes; SHA-256 `8bd47860437a417c2573415a25addece93a45245d9d118567957647304cbba2e`.
-**V1 source asset for comparison:** 1024 x 1536 PNG (RGB), 4,339,805 bytes; SHA-256 `8d25ba9cbe46bfbd65e0b9c602acfeb0c8711b39daed94f8529569487fe62bd7`.
+**V2 source asset:** 1024 x 1536 PNG (RGB), 3,996,696 bytes; SHA-256 `84eb1de282044baee7e9f2f54d0c68b7d1a55b01714863798c7bf79e12f36ba2`.
+**V1 source asset for comparison:** 1024 x 1536 PNG (RGB), 3,502,335 bytes; SHA-256 `caca45fc4ebb0ab35e8357b825f9191d86e8315a0c35894fd417c0adbcf0d3ed`.
 **Model:** V1 was reported by the user as "GPT Images 2". The V2 image was explicitly described as generated from the second prompt; V2 runtime model ID/settings were not independently supplied or verified.
-**Image-attachment limitation:** both original PNGs were inspected in the conversation's working container; neither binary PNG is present in this GitHub branch. These hashes and unambiguous source labels identify exactly which images were reviewed. Do not portray this file as containing embedded images.
+**Image attachment:** the two PNG attachments supplied in the 2026-11-11 conversation are committed at the paths shown in `GENERATION-PLAN.md`. Their bytes differ from the previously recorded files, so the checksums below identify the committed attachments.
 **Method:** direct visual inspection of both original user-supplied PNGs, not inference from the prompt.
 
 ## Actual V2 visual evidence
@@ -29,7 +29,7 @@ The V2 poster retains a tiny cloaked human explorer on a lower-left rocky ledge 
 | **AC-08 Concept** | partial | **partial** | The mathematical seed and repeatable subdivisions show rule-based creation better than V1's floral emblem. No office, robots, brands or software dashboards appear. However, without the title, the explorer still reads partly as invoking or planting magical growth rather than observing or experimentally testing nature. The research aspect remains open to interpretation. |
 | **AC-09 Exact title** | pass | **pass** | The four-line title reads "AI-Free Programming: Beyond the Algorithm" with correct spelling, hyphen and colon. Line breaks do not change the words. |
 | **AC-10 Originality** | partial | **partial** | No immediately recognizable historical plate or specific Panspermia frame is apparent in either image. This is not sufficient to certify comprehensive non-derivation; no exhaustive source comparison was made. |
-| **AC-11 Provenance and evaluation** | partial | **partial** | Both original PNGs were accessible for inspection, file sizes and SHA-256 recorded, and reviews/prompts kept. The image binaries are still not committed to the GitHub repository, and V2's exact runtime model ID is unknown. |
+| **AC-11 Provenance and evaluation** | partial | **partial** | Both original PNGs were accessible for inspection, file sizes and SHA-256 recorded, and reviews/prompts kept. The supplied image binaries are now committed to the GitHub repository; V2's exact runtime model ID is unknown. |
 
 **V2 total: 8 pass / 3 partial / 0 fail.**
 **V1 total: 7 pass / 4 partial / 0 fail.**
@@ -44,6 +44,6 @@ The V2 poster retains a tiny cloaked human explorer on a lower-left rocky ledge 
 
 ## Final verification caveats
 
-The V2 improvement is visually supported for AC-07 only. AC-08 remains partial; claims of historical originality (AC-10) and full package reproducibility (AC-11) remain unresolved. The original images are individually identified by source filename, dimensions, byte count and SHA-256, but binary files are not GitHub-hosted. This is an honest **visual review of supplied artifacts**, not a complete image archive.
+The V2 improvement is visually supported for AC-07 only. AC-08 remains partial; claims of historical originality (AC-10) and full package reproducibility (AC-11) remain unresolved. The committed attachments are identified by dimensions, byte count and SHA-256. They match the reviewed visual variants, although their byte hashes differ from the earlier files documented before this upload.
 
-Do not mark final acceptance complete until binary image files are stored in the branch and those additional checks are addressed.
+The image files are now stored in the branch. Keep final acceptance open until the remaining originality and model provenance checks are addressed.
