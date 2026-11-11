@@ -14,8 +14,9 @@
 
 ## New Workshop: AI Liberates Programmers
 
-- [Independent specification, version 1.0.1](SPEC-008-AI-LIBERATES-PROGRAMMERS.md)
-- [Copy-ready generation prompt (SPEC-008)](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)
+- [Independent specification, version 1.2.0](SPEC-008-AI-LIBERATES-PROGRAMMERS.md)
+- [Copy-ready generation prompt, cold-fire palette (SPEC-008 v1.2.0)](prompts/04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md)
+- [Previous warm-gold generation prompt (SPEC-008 v1.0.1)](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)
 
 This is a proposed new composition. No image has been generated or reviewed for this specification yet. The earlier V1 and V2 artifacts remain below as the historical experiment.
 

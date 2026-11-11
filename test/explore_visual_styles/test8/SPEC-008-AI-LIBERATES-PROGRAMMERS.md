@@ -1,12 +1,12 @@
 # SPEC-008: AI Liberates Programmers: Beyond the Algorithm
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Composition rules:** [Composition Rules v1.0.0](../../../engineering/COMPOSITION-RULES.md)  
 **Color rules:** [Color Rules v1.0.0](../../../engineering/COLOR-RULES.md)  
 **Source methods:** [Engraved sublime](../../../reference/visual_styles/dore_dante_engraving/README.md) and [Procedural life](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md)  
-**Generation prompt:** [03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)  
+**Generation prompt:** [04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md](prompts/04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md)  
 **Output:** Original illustrated poster, portrait 2:3, target 1024 x 1536 PNG  
 **Status:** Ready for generation; image not yet produced.
 
@@ -34,7 +34,7 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 
 - [ ] **S1 Scale and depth:** A small human is subordinate to an immense environment; foreground, middle, and distance separate through overlap, size, and tone.
 - [ ] **S2 Light and tonal structure:** A single bright transfer region punctuates deep dark masses, intermediate values, and a secondary, quieter distant atmosphere.
-- [ ] **S3 Engraved surface:** Selected cliffs, city structures, and terrain use varied-density directional hatch-like marks in a predominantly black-and-ivory, print-like language.
+- [ ] **S3 Engraved surface:** Selected cliffs, city structures, and terrain use varied-density directional hatch-like marks in a print-like language, with deep ultramarine ink-dark masses, restrained pale highlights, and preserved tonal texture.
 - [ ] **S4 Narrative atmosphere:** An asymmetrical diagonal path carries the eye from a technology-bound world through a threshold toward discovery.
 - [ ] **S5 Emergence:** A visible simple geometric rule develops into increasingly complex structures.
 - [ ] **S6 Branching and variation:** Readable parent-child or recursive relationships yield distinct directions, densities, scales, and invented morphologies.
@@ -50,6 +50,15 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 - [ ] **P4 Scale Contrast:** The titan is colossal and the programmer small, but the hands and human action remain readable.
 - [ ] **P5 Negative Space:** The area around the exchange is uncluttered, despite detailed surrounding textures.
 
+### Selected Color Requirements
+
+- [ ] **K1 Palette and roles:** Deep ultramarine dominates the technological environment; electric cyan marks the transfer; muted sage green marks nature and growth; restrained coral marks the human presence.
+- [ ] **K2 Cold-fire meaning fracture:** The flame remains recognizable as a hand-to-hand gift but clearly reads as a geometric, cold computational fire, not conventional orange or gold combustion.
+- [ ] **K3 Luminance hierarchy:** The exchange is uniquely brightest, with no comparable glow in the city, sky, or generated ecology.
+- [ ] **K4 Engraving compatibility:** Dark blue masses retain variable hatch-like textures, intermediate tonal values, and legible depth.
+- [ ] **K5 Contextual growth:** The sage-green accents support identifiable natural patterns and gradual rule-derived variation, not generic green decoration.
+- [ ] **K6 Human contrast:** Coral stays subdued, localized, and secondary to the cyan transfer; the human's gesture and instrument remain legible.
+
 ### Output
 
 - [ ] **O1:** One coherent original 2:3 poster, without split panels or explanatory labels.
@@ -61,7 +70,7 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 
 | Chosen composition rule | Use | Why it works |
 | --- | --- | --- |
-| Visual Hierarchy | Warm brightest light where the two hands meet | Makes liberation, rather than titan worship, the narrative center |
+| Visual Hierarchy | Near-white electric-cyan light where the two hands meet | Makes liberation, rather than titan worship, the narrative center |
 | Leading Lines | City → titan → flame → programmer → natural growth | Communicates cause and consequence without captions |
 | Three-Plane Composition | Automated city near, human exchange in the middle, open nature beyond | Separates existing labor from newly enabled activity |
 | Scale Contrast | Colossal intelligence, small active human, boundless terrain | Gives AI power without making human action insignificant |
@@ -71,33 +80,37 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 
 **Conflict and resolution:** Dense engraved texture could hide recursive growth; reserve intricate marks for solid masses and keep the rule-to-growth network clear. Monumental mythology could hide AI's role; visibly connect the titan's computational body to the city's functioning infrastructure.
 
-## Color Strategy: Palette and Rationale
+## Color Strategy: Cold Promethean Fire
 
 **Reference:** [Color Rules v1.0.0](../../../engineering/COLOR-RULES.md)
 
 ### Authorial Interpretation
 
-- **What should the viewer feel?** Liberation, discovery, and creative possibility rather than danger, submission, or technological domination.
-- **How should color be distributed?** Keep most of the engraving neutral, concentrate the strongest warm color at the hand-to-hand transfer, and apply a smaller, quieter cool accent only along the resulting computational growth.
-- **What role should color play?** Charcoal, ivory, and gray form the environment; gold marks the pivotal event; muted teal traces the new creative capability.
+Answer the three authorial questions before applying symbolic color associations:
 
-### Selected Color Rules
+- **What should the viewer feel?** The scale of AI's capabilities, followed by an unexpected moment of liberation, human curiosity, and the possibility of discovery. AI should feel powerful and precise, not inherently threatening; the human should feel active, not rescued or worshipful.
+- **How should color be distributed?** Make deep, subdued ultramarine the dominant environment across the automated city, AI titan, and connected air. Concentrate the only near-white electric-cyan brilliance where the geometric flame changes hands. Reserve muted sage green for natural observation and the emerging ecology, and a small amount of desaturated coral for the programmer and selected nearby rock planes.
+- **What role should color play?** Ultramarine establishes the technological world; cyan identifies the decisive transfer; sage green connects research to growth and living systems; coral subtly distinguishes human presence from the machine environment.
 
-| Rule | Color choice and application | Why it works |
+### Selected Color Rules and Rationale
+
+| Engineering rule | Decision | Narrative and perceptual rationale |
 | --- | --- | --- |
-| **Color Context and Contrast** | Set luminous warm gold against charcoal-black cliffs, with ivory and intermediate grays for the engraved surroundings. | The local light-dark contrast makes the transfer readable without requiring the whole poster to become brightly colored. |
-| **Saturation and Color Dominance** | Give the flame the highest concentration of warm gold. Keep other gold reflections scarce, muted, and visibly dimmer; use teal sparingly. | Prevents the intricate ecology or city from competing with the act of liberation for attention. |
-| **Color Temperature and Immersive Light: Color Temperature** | Keep the technological city in cool, low-saturation charcoal-gray; use warm gold at the exchange and muted teal on rule-derived forms in the landscape. | Separates existing automated labor from the warm moment of freedom and the subsequent computational exploration. |
-| **Authorial Interpretation** | Use a restrained engraved palette rather than total color immersion or deliberately contradictory symbolic colors. | Preserves the selected print-like visual language and gives each accent a clear narrative function. |
+| **1. Color Context and Contrast** | Put a near-white electric-cyan flame against deeper, less saturated ultramarine ink-dark masses. Preserve tonal gradients and fine engraved marks instead of uniformly filling all surfaces with blue. | Strong local light-dark contrast draws the eye to the exchange while preserving the monumental engraved landscape. |
+| **2. Authorial Interpretation** | Distribute color by narrative function rather than by the historic palette of a Prometheus image. | A cold technological realm and a warm but small human remain distinct, while the moment of emancipation is unmistakable. |
+| **5. Saturation and Color Dominance** | Give cyan the highest brightness and strongest focal chroma. Keep ultramarine dark, sage green subdued, and coral minimal; prohibit equally bright glow in the city or distant ecology. | Secondary scenes remain readable without stealing the focal event. |
+| **6. Color Temperature and Immersive Light** | Extend ultramarine through the city, titan, and atmosphere as a coherent cool environment; contrast it locally with muted coral around the human. | Makes the AI-managed world feel continuous and separates human agency without an artificial split-panel composition. |
+| **7. Pattern Disruption and Meaning Fracture** | Depict Prometheus's recognizable fire gesture using a forked, geometric, electric-cyan flame instead of expected orange or gold fire. | The contradiction invites a second look and reframes the gift as computational knowledge, not physical combustion or a generic fantasy spell. |
+| **3. Biological Color Signals (contextual association)** | Use low-saturation sage green along observable vegetation and the recursively generated life-like forms. | Reinforces the nature-and-growth reading without asserting that green creates a universal physiological response. |
 
-**Color hierarchy to verify:** The flame is the brightest and most saturated focal accent; the distant opening remains secondary; teal and any gold within the grown forms remain subdued and cannot form a competing focal point. Color must clarify the city → exchange → discovery sequence, not decorate it.
+**Color hierarchy and constraints:** The cyan flame is the single brightest event; distant openings, circuits, and generative branches are dimmer. Ultramarine is dominant but not uniformly saturated. Coral remains a human-scale counterpoint, not a competing second glow. Sage green develops within the landscape without coloring the entire natural world. No warm gold or orange fire, no neon rainbow, and no mechanical blue-versus-green panels. The story stays legible in grayscale through tonal contrast, gesture, and leading lines.
 
 ## 5. Proposed Solution
 
 - **Foreground / lower left:** A compact city of independently operating software infrastructure, visibly connected by a controlled network to the titan.
 - **Middle / cliffs:** A colossal non-robotic computational titan on the left transfers the geometric flame to a small programmer on a distinct right-hand ledge. Their meeting hands occupy an off-center focal region with clean surrounding space.
 - **Distance / right:** An immense natural valley with legible water, geological, and plant patterns. From the programmer's instrument, the flame's simple geometric grammar extends through intermediate branching stages into multiple new, varied life-like forms integrated with the valley.
-- **Visual treatment:** Black-and-ivory engraved terrain, graduated dark tones, warm gold concentrated at the exchange, restrained teal on the emerging structures. Preserve a quiet area for the exact title; do not compete with the exchange in brightness.
+- **Visual treatment:** Deep, subdued ultramarine dominates the AI titan, operating city, and connected atmosphere; directional engraved hatching remains visible in the dark surfaces. The transferred algorithmic flame has a near-white electric-cyan core, the brightest focal point. Low-saturation sage green marks observed natural growth and invented computational ecology, while restrained muted coral warms the small human and select nearby rock surfaces. Preserve graduated values and a quiet title area; no secondary color competes with the cyan exchange.
 
 ## 6. ToDo
 
