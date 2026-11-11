@@ -6,7 +6,7 @@
 **V1 generator (user-reported):** ChatGPT "GPT Images 2". Internal/API model identifier not exposed.
 **Initial planned API model:** `gpt-image-2.5-flare` (planning metadata only; not verified as the V1 runtime model).
 **Output target:** PNG, portrait 1024 x 1536.
-**Status:** V1 image externally supplied and visually reviewed; V2 prompt prepared from partial results. The PNG is not yet committed to GitHub.
+**Status:** both user-supplied original images visually inspected; V1 and V2 reviews completed. Neither original PNG binary is committed to GitHub; AC-11 remains partial.
 
 ## 1. Problem and Current State
 
@@ -43,7 +43,7 @@ These criteria were fixed before V1 generation. Check completion using actual vi
 1. V1 used the original custom body in [01-HYBRID-V1.md](prompts/01-HYBRID-V1.md); the user reported running it in ChatGPT "GPT Images 2". The previous `03-HYBRID-V1.md` link refers to the same prompt body before the prompt-only cleanup.
 2. Real V1 was inspected. [REVIEW-V1.md](REVIEW-V1.md) documents observable evidence, specific partial criteria, image dimensions and source checksum.
 3. The **new [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md) prompt was written after that inspection**, targeting weak rule-to-growth legibility and the otherwise magical seed. It preserves V1's successful spatial scale, hatching and title.
-4. The next action is to generate V2, commit its image and the V1 source PNG, then compare both outputs with unchanged AC and record [REVIEW-V2.md](REVIEW-V2.md) when the second image exists.
+4. The user generated V2 from [02-HYBRID-V2.md](prompts/02-HYBRID-V2.md). [REVIEW-V2.md](REVIEW-V2.md) compares both real PNGs against the same criteria. The originals are identified by filenames and SHA-256 in [GENERATION-PLAN.md](GENERATION-PLAN.md). Uploading both original binaries to the repository is still pending.
 
 ## 6. ToDo
 
@@ -53,10 +53,11 @@ These criteria were fixed before V1 generation. Check completion using actual vi
 - [x] Inspect the user-supplied V1 image and document actual visual results.
 - [x] Derive and save the V2 prompt from observed partial criteria.
 - [ ] Commit the supplied V1 PNG to the repository.
-- [ ] Generate and commit the V2 PNG.
-- [ ] Compare both results and write an evidence-based V2 review.
+- [x] Inspect the user-supplied V2 PNG and record its image hash.
+- [x] Compare both results and write an evidence-based [V2 review](REVIEW-V2.md).
+- [ ] Commit the unmodified original V2 PNG to the repository.
 - [ ] Complete repository asset and model-provenance inventory.
 
 ## 7. Implementation Verification
 
-[REVIEW-V1.md](REVIEW-V1.md) records **7 pass / 4 partial / 0 fail**. Specifically AC-07, AC-08, AC-10 and AC-11 remain partial. Passing V1 visual criteria are **not** proof of final package acceptance: the V1 image file has not yet been committed and V2 has not been generated. No V2 outcomes are asserted.
+[REVIEW-V1.md](REVIEW-V1.md) records **7 pass / 4 partial / 0 fail**. Specifically AC-07, AC-08, AC-10 and AC-11 are partial in V1. [REVIEW-V2.md](REVIEW-V2.md) records **8 pass / 3 partial / 0 fail** for the user-supplied V2 image: AC-07 improved to pass while AC-08, AC-10 and AC-11 remain partial. Neither original PNG has been committed to the branch; no final package acceptance is claimed.

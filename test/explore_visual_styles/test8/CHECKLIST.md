@@ -1,19 +1,19 @@
 # Experiment Checklist
 
-- [x] Start on an isolated feature branch from latest main.
-- [x] Select two previously unreferenced artists from Task 0001.
-- [x] Document both artists in the repository's six-section style format.
-- [x] Update reference index and remove only the selected backlog candidates.
-- [x] Define consolidated general principles with origin and rationale.
-- [x] Write the declarative hybrid specification and acceptance criteria.
-- [x] Save one original Hybrid V1 prompt.
-- [x] Locate and inspect the owner's actual V1 PNG (outside GitHub).
-- [x] Review the actual V1 image against all eleven criteria with evidence.
-- [x] Create a V2 prompt derived from observed V1 partials.
-- [ ] Commit V1's original PNG bytes to the GitHub branch.
-- [ ] Generate and commit Hybrid V2 PNG.
-- [ ] Visually review V2 against the same criteria and record changes.
-- [ ] Preserve both versions and actual model provenance in the repository.
-- [ ] Mark final acceptance only when every applicable criterion is supported.
+- [x] Use an isolated feature branch; never modify main directly.
+- [x] Add two new academic references and a consolidated artistic specification.
+- [x] Preserve first hybrid prompt and V1 visual review.
+- [x] Derive the second prompt from actual V1 observations.
+- [x] Inspect the actual user-supplied V2 original image.
+- [x] Compare V2 against all 11 unchanged acceptance criteria.
+- [x] Save an evidence-based [V2 review](REVIEW-V2.md), including observed improvements and remaining partials.
+- [x] Record both user-provided image filenames, sizes, modes and SHA-256 values for reproducible identity checks.
+- [ ] Commit **unmodified original** V1 PNG to `images/01-HYBRID-V1.png`.
+- [ ] Commit **unmodified original** V2 PNG to `images/02-HYBRID-V2.png`.
+- [ ] Verify checksums after both binaries appear in GitHub.
+- [ ] Complete originality comparison if a stronger claim is required.
+- [ ] Confirm V2 runtime model if its generator provides it; otherwise leave unexposed.
 
-V1: 7 pass / 4 partial / 0 fail; asset provenance remains incomplete pending repository binary upload.
+**V1:** 7 pass / 4 partial / 0 fail.
+**V2:** 8 pass / 3 partial / 0 fail.
+The image upload gap means AC-11 remains partial, not passed.
