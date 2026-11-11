@@ -1,11 +1,11 @@
 # SPEC-008: AI Liberates Programmers: Beyond the Algorithm
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Composition rules:** [Composition Rules v1.0.0](../../../engineering/COMPOSITION-RULES.md)  
 **Source methods:** [Engraved sublime](../../../reference/visual_styles/dore_dante_engraving/README.md) and [Procedural life](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md)  
-**Generation prompt:** [03-AI-LIBERATES-PROGRAMMERS-SPEC-008.md](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008.md)  
+**Generation prompt:** [03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)  
 **Output:** Original illustrated poster, portrait 2:3, target 1024 x 1536 PNG  
 **Status:** Ready for generation; image not yet produced.
 
