@@ -19,4 +19,7 @@
 - [Ogata Korin's Irises screen painting](korin_irises/)
 - [Georg Nees's Schotter generative graphics](nees_schotter/)
 
+- [Gustave Dore: Dante Engraving and the Sublime](dore_dante_engraving/)
+- [Karl Sims: Panspermia and Procedural Life](sims_panspermia_procedural_life/)
+
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
