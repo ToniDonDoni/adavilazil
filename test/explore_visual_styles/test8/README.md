@@ -12,6 +12,13 @@
 - [Checklist](CHECKLIST.md)
 - [Project skill](../../../skills/EXPLORE-VISUAL-STYLES.md)
 
+## New Workshop: AI Liberates Programmers
+
+- [Independent specification, version 1.0.0](SPEC-008-AI-LIBERATES-PROGRAMMERS.md)
+- [Copy-ready generation prompt (SPEC-008)](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008.md)
+
+This is a proposed new composition. No image has been generated or reviewed for this specification yet. The earlier V1 and V2 artifacts remain below as the historical experiment.
+
 ## Selected artists
 
 - **FS-065:** [Gustave Dore, nineteenth-century engraving](../../../reference/visual_styles/dore_dante_engraving/README.md): magnitude, dramatic light and exploratory depth.
