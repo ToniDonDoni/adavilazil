@@ -14,7 +14,6 @@ Yuri Ivanovich Pimenov (1903-1977) was a Moscow-born painter, graphic artist and
 
 ## Relations
 - [Saul Leiter Early Color](../leiter_early_color/README.md): both can foreground fragmented urban atmosphere; Pimenov builds painted daylight scenes while Leiter uses photographic occlusion and reflections.
-- [Edward Steichen Vogue portraits](../steichen_vogue_portraits/README.md): portrait prominence may be combined experimentally, but Steichen's engineered studio highlights differ from Pimenov's diffused street daylight.
 - [Levitan-inspired watercolor](../levitan_watercolor/README.md): atmospheric softness is related, while Pimenov focuses on inhabited modern streets rather than mainly landscape.
 
 ## Style Requirements

@@ -12,7 +12,6 @@ A 1960s San Francisco counterculture concert-poster language that uses curling o
 
 ## Relations
 - [German Expressionist poster](../german_poster/README.md): both reshape the subject for emotional intensity, but psychedelia uses loops and waves rather than angular cuts.
-- [Levitan-inspired watercolor](../levitan_watercolor/README.md): the contrasting palettes can be combined through subtle waves in atmospheric landscapes.
 
 ## Style Requirements
 - **Color:** Place at least three visibly contrasting, saturated hues in the composition.
