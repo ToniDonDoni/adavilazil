@@ -1,9 +1,10 @@
 # SPEC-008: AI Liberates Programmers: Beyond the Algorithm
 
-**Version:** 1.0.1
+**Version:** 1.1.0
 
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Composition rules:** [Composition Rules v1.0.0](../../../engineering/COMPOSITION-RULES.md)  
+**Color rules:** [Color Rules v1.0.0](../../../engineering/COLOR-RULES.md)  
 **Source methods:** [Engraved sublime](../../../reference/visual_styles/dore_dante_engraving/README.md) and [Procedural life](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md)  
 **Generation prompt:** [03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md](prompts/03-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.0.1.md)  
 **Output:** Original illustrated poster, portrait 2:3, target 1024 x 1536 PNG  
@@ -69,6 +70,27 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 **Artistic synthesis:** The flame is both the dramatic light source and the initiating computational rule. Engraved geological contours echo, then diverge from, visible recursive branching. Both methods share one perspective, one light hierarchy, and one causal sequence.
 
 **Conflict and resolution:** Dense engraved texture could hide recursive growth; reserve intricate marks for solid masses and keep the rule-to-growth network clear. Monumental mythology could hide AI's role; visibly connect the titan's computational body to the city's functioning infrastructure.
+
+## Color Strategy: Palette and Rationale
+
+**Reference:** [Color Rules v1.0.0](../../../engineering/COLOR-RULES.md)
+
+### Authorial Interpretation
+
+- **What should the viewer feel?** Liberation, discovery, and creative possibility rather than danger, submission, or technological domination.
+- **How should color be distributed?** Keep most of the engraving neutral, concentrate the strongest warm color at the hand-to-hand transfer, and apply a smaller, quieter cool accent only along the resulting computational growth.
+- **What role should color play?** Charcoal, ivory, and gray form the environment; gold marks the pivotal event; muted teal traces the new creative capability.
+
+### Selected Color Rules
+
+| Rule | Color choice and application | Why it works |
+| --- | --- | --- |
+| **Color Context and Contrast** | Set luminous warm gold against charcoal-black cliffs, with ivory and intermediate grays for the engraved surroundings. | The local light-dark contrast makes the transfer readable without requiring the whole poster to become brightly colored. |
+| **Saturation and Color Dominance** | Give the flame the highest concentration of warm gold. Keep other gold reflections scarce, muted, and visibly dimmer; use teal sparingly. | Prevents the intricate ecology or city from competing with the act of liberation for attention. |
+| **Color Temperature and Immersive Light: Color Temperature** | Keep the technological city in cool, low-saturation charcoal-gray; use warm gold at the exchange and muted teal on rule-derived forms in the landscape. | Separates existing automated labor from the warm moment of freedom and the subsequent computational exploration. |
+| **Authorial Interpretation** | Use a restrained engraved palette rather than total color immersion or deliberately contradictory symbolic colors. | Preserves the selected print-like visual language and gives each accent a clear narrative function. |
+
+**Color hierarchy to verify:** The flame is the brightest and most saturated focal accent; the distant opening remains secondary; teal and any gold within the grown forms remain subdued and cannot form a competing focal point. Color must clarify the city → exchange → discovery sequence, not decorate it.
 
 ## 5. Proposed Solution
 
