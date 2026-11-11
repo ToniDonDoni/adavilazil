@@ -1,12 +1,12 @@
 # SPEC-008: AI Liberates Programmers: Beyond the Algorithm
 
-**Version:** 1.2.0
+**Version:** 1.2.1
 
 **Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
 **Composition rules:** [Composition Rules v1.0.0](../../../engineering/COMPOSITION-RULES.md)  
 **Color rules:** [Color Rules v1.0.0](../../../engineering/COLOR-RULES.md)  
 **Source methods:** [Engraved sublime](../../../reference/visual_styles/dore_dante_engraving/README.md) and [Procedural life](../../../reference/visual_styles/sims_panspermia_procedural_life/README.md)  
-**Generation prompt:** [04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md](prompts/04-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.0.md)  
+**Generation prompt:** [05-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.1.md](prompts/05-AI-LIBERATES-PROGRAMMERS-SPEC-008-v1.2.1.md)  
 **Output:** Original illustrated poster, portrait 2:3, target 1024 x 1536 PNG  
 **Status:** Ready for generation; image not yet produced.
 
@@ -54,7 +54,7 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 
 - [ ] **K1 Palette and roles:** Deep ultramarine dominates the technological environment; electric cyan marks the transfer; muted sage green marks nature and growth; restrained coral marks the human presence.
 - [ ] **K2 Cold-fire meaning fracture:** The flame remains recognizable as a hand-to-hand gift but clearly reads as a geometric, cold computational fire, not conventional orange or gold combustion.
-- [ ] **K3 Luminance hierarchy:** The exchange is uniquely brightest, with no comparable glow in the city, sky, or generated ecology.
+- [ ] **K3 Luminance and saturation hierarchy:** The exchange has the brightest near-white flame core and a vivid, more saturated electric-cyan outer flame. The core is not required to be the most saturated pixel; no competing glow appears in the city, sky, or generated ecology.
 - [ ] **K4 Engraving compatibility:** Dark blue masses retain variable hatch-like textures, intermediate tonal values, and legible depth.
 - [ ] **K5 Contextual growth:** The sage-green accents support identifiable natural patterns and gradual rule-derived variation, not generic green decoration.
 - [ ] **K6 Human contrast:** Coral stays subdued, localized, and secondary to the cyan transfer; the human's gesture and instrument remain legible.
@@ -89,7 +89,7 @@ In a single monumental scene, a Prometheus-like **computational titan** controls
 Answer the three authorial questions before applying symbolic color associations:
 
 - **What should the viewer feel?** The scale of AI's capabilities, followed by an unexpected moment of liberation, human curiosity, and the possibility of discovery. AI should feel powerful and precise, not inherently threatening; the human should feel active, not rescued or worshipful.
-- **How should color be distributed?** Make deep, subdued ultramarine the dominant environment across the automated city, AI titan, and connected air. Concentrate the only near-white electric-cyan brilliance where the geometric flame changes hands. Reserve muted sage green for natural observation and the emerging ecology, and a small amount of desaturated coral for the programmer and selected nearby rock planes.
+- **How should color be distributed?** Make deep, subdued ultramarine the dominant environment across the automated city, AI titan, and connected air. Concentrate the only near-white brilliance in the flame core where the geometric flame changes hands; surround it with a vivid, saturated electric-cyan flame edge. Reserve muted sage green for natural observation and the emerging ecology, and a small amount of desaturated coral for the programmer and selected nearby rock planes.
 - **What role should color play?** Ultramarine establishes the technological world; cyan identifies the decisive transfer; sage green connects research to growth and living systems; coral subtly distinguishes human presence from the machine environment.
 
 ### Selected Color Rules and Rationale
@@ -98,19 +98,19 @@ Answer the three authorial questions before applying symbolic color associations
 | --- | --- | --- |
 | **1. Color Context and Contrast** | Put a near-white electric-cyan flame against deeper, less saturated ultramarine ink-dark masses. Preserve tonal gradients and fine engraved marks instead of uniformly filling all surfaces with blue. | Strong local light-dark contrast draws the eye to the exchange while preserving the monumental engraved landscape. |
 | **2. Authorial Interpretation** | Distribute color by narrative function rather than by the historic palette of a Prometheus image. | A cold technological realm and a warm but small human remain distinct, while the moment of emancipation is unmistakable. |
-| **5. Saturation and Color Dominance** | Give cyan the highest brightness and strongest focal chroma. Keep ultramarine dark, sage green subdued, and coral minimal; prohibit equally bright glow in the city or distant ecology. | Secondary scenes remain readable without stealing the focal event. |
+| **5. Saturation and Color Dominance** | Give the flame a near-white, highest-luminance core and a more saturated electric-cyan rim with the strongest accent chroma. Keep ultramarine dark, sage green subdued, and coral minimal; prohibit equally bright glow in the city or distant ecology. | Secondary scenes remain readable without stealing the focal event. |
 | **6. Color Temperature and Immersive Light** | Extend ultramarine through the city, titan, and atmosphere as a coherent cool environment; contrast it locally with muted coral around the human. | Makes the AI-managed world feel continuous and separates human agency without an artificial split-panel composition. |
 | **7. Pattern Disruption and Meaning Fracture** | Depict Prometheus's recognizable fire gesture using a forked, geometric, electric-cyan flame instead of expected orange or gold fire. | The contradiction invites a second look and reframes the gift as computational knowledge, not physical combustion or a generic fantasy spell. |
 | **3. Biological Color Signals (contextual association)** | Use low-saturation sage green along observable vegetation and the recursively generated life-like forms. | Reinforces the nature-and-growth reading without asserting that green creates a universal physiological response. |
 
-**Color hierarchy and constraints:** The cyan flame is the single brightest event; distant openings, circuits, and generative branches are dimmer. Ultramarine is dominant but not uniformly saturated. Coral remains a human-scale counterpoint, not a competing second glow. Sage green develops within the landscape without coloring the entire natural world. No warm gold or orange fire, no neon rainbow, and no mechanical blue-versus-green panels. The story stays legible in grayscale through tonal contrast, gesture, and leading lines.
+**Color hierarchy and constraints:** The near-white flame core is the single brightest event, surrounded by an intense cyan boundary (the stronger color accent); distant openings, circuits, and generative branches are dimmer. Ultramarine is dominant but not uniformly saturated. Coral remains a human-scale counterpoint, not a competing second glow. Sage green develops within the landscape without coloring the entire natural world. No warm gold or orange fire, no neon rainbow, and no mechanical blue-versus-green panels. The story stays legible in grayscale through tonal contrast, gesture, and leading lines.
 
 ## 5. Proposed Solution
 
 - **Foreground / lower left:** A compact city of independently operating software infrastructure, visibly connected by a controlled network to the titan.
 - **Middle / cliffs:** A colossal non-robotic computational titan on the left transfers the geometric flame to a small programmer on a distinct right-hand ledge. Their meeting hands occupy an off-center focal region with clean surrounding space.
-- **Distance / right:** An immense natural valley with legible water, geological, and plant patterns. From the programmer's instrument, the flame's simple geometric grammar extends through intermediate branching stages into multiple new, varied life-like forms integrated with the valley.
-- **Visual treatment:** Deep, subdued ultramarine dominates the AI titan, operating city, and connected atmosphere; directional engraved hatching remains visible in the dark surfaces. The transferred algorithmic flame has a near-white electric-cyan core, the brightest focal point. Low-saturation sage green marks observed natural growth and invented computational ecology, while restrained muted coral warms the small human and select nearby rock surfaces. Preserve graduated values and a quiet title area; no secondary color competes with the cyan exchange.
+- **Distance / right:** An immense natural valley with legible water, geological, and plant patterns. The geometric rule passes visibly from the flame through the programmer's instrument into intermediate branching stages and then multiple new, varied life-like forms integrated with the valley.
+- **Visual treatment:** Deep, subdued ultramarine dominates the AI titan, operating city, and connected atmosphere; directional engraved hatching remains visible in the dark surfaces. The transferred algorithmic flame has a near-white brightest core with a vivid electric-cyan rim, preserving a single dominant focal point. Low-saturation sage green marks observed natural growth and invented computational ecology, while restrained muted coral warms the small human and select nearby rock surfaces. Preserve graduated values and a quiet title area; no secondary color competes with the cyan exchange.
 
 ## 6. ToDo
 
