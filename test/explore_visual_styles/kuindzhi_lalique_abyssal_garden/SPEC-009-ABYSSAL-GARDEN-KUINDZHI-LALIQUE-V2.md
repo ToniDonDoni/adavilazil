@@ -20,30 +20,30 @@ Deliver **one original, coherent 3:2 horizontal image (target 1536 x 1024)** of 
 
 ### Subject and style selection
 
-- [ ] **V2-AC01:** Exactly Kuindzhi and Lalique shape the hybrid; their respective methods are visibly distinct yet integrated. Norstein's cut-paper fog is not an additional hybrid method.
-- [ ] **V2-AC02:** One uninterrupted underwater world includes a discernible **sunken ship, whale-fluke sculpture, kelp, bioluminescent coral, manta ray and small fish school**. At least the ship and fluke can be identified without labels.
-- [ ] **V2-AC03:** The picture is original and **contains no text, border, split screen, obvious copied jewel design or copied painting composition**.
+- [x] **V2-AC01:** Exactly Kuindzhi and Lalique shape the hybrid; their respective methods are visibly distinct yet integrated. Norstein's cut-paper fog is not an additional hybrid method.
+- [x] **V2-AC02:** One uninterrupted underwater world includes a discernible **sunken ship, whale-fluke sculpture, kelp, bioluminescent coral, manta ray and small fish school**. At least the ship and fluke can be identified without labels.
+- [x] **V2-AC03:** The picture is original and **contains no text, border, split screen, obvious copied jewel design or copied painting composition**.
 
 ### Selected color rules (engineering/COLOR-RULES.md)
 
-- [ ] **V2-AC04 [Color §§1,5,8]:** Deep blue-black / midnight navy dominates roughly two-thirds of the scene. The world reads as nocturnal/deep underwater, **not** evenly lit turquoise.
-- [ ] **V2-AC05 [Color §§2,6,10]:** The palette has clear roles: navy environment; restrained analogous blue/teal depth; a single near-white mint light; localized teal-violet-rose opalescence; **very limited** warm gold. Saturated colors do not compete everywhere.
-- [ ] **V2-AC06 [Color §§1,6]:** Cool near-white focal illumination is perceptibly brighter than nearby water and visually affects surrounding haze/terrain. The luminous beam connects to the focal region rather than appearing painted on.
-- [ ] **V2-AC07 [Color §§5,10]:** Lalique's teal/violet/rose hues appear predominantly **inside** selected organic coral, fronds or fins, with thin gold edge veins and some pearl glints; **rocks and ship stay matte**.
-- [ ] **V2-AC08 [Color §§1,5]:** Gold and bright coral accents are subordinate to the light; no competing saturated foreground object or giant bubble steals the first glance.
+- [x] **V2-AC04 [Color §§1,5,8]:** Deep blue-black / midnight navy dominates roughly two-thirds of the scene. The world reads as nocturnal/deep underwater, **not** evenly lit turquoise.
+- [x] **V2-AC05 [Color §§2,6,10]:** The palette has clear roles: navy environment; restrained analogous blue/teal depth; a single near-white mint light; localized teal-violet-rose opalescence; **very limited** warm gold. Saturated colors do not compete everywhere.
+- [x] **V2-AC06 [Color §§1,6]:** Cool near-white focal illumination is perceptibly brighter than nearby water and visually affects surrounding haze/terrain. The luminous beam connects to the focal region rather than appearing painted on.
+- [x] **V2-AC07 [Color §§5,10]:** Lalique's teal/violet/rose hues appear predominantly **inside** selected organic coral, fronds or fins, with thin gold edge veins and some pearl glints; **rocks and ship stay matte**.
+- [x] **V2-AC08 [Color §§1,5]:** Gold and bright coral accents are subordinate to the light; no competing saturated foreground object or giant bubble steals the first glance.
 
 ### Selected composition rules (engineering/COMPOSITION-RULES.md)
 
-- [ ] **V2-AC09 [Composition §§1,3]:** One luminous focal region sits off-center, approximately near the **right-upper rule-of-thirds intersection**; adjacent dark negative space makes it readable.
-- [ ] **V2-AC10 [Composition §§2,5]:** An observable **tapering beam and converging canyon/kelp contours** carry the gaze toward the focal region; the eye does not stop at an unrelated foreground object.
-- [ ] **V2-AC11 [Composition §§4,10]:** Separate spatial planes are visible: dark detailed foreground fronds/stone; intermediate wreck, fluke and marine life; distant blue-hazed canyon/water. The atmospheric values recede with depth.
-- [ ] **V2-AC12 [Composition §§8,9]:** Small fish and the fragile wreck read against enormous canyon walls; brighter jewelled flora balances but does not outweigh the primary light.
-- [ ] **V2-AC13 [Composition §§3,9]:** A calm stretch of visually quiet, dark water surrounds the focal light; detailed decorations stay clustered to chosen areas rather than filling the entire frame.
+- [x] **V2-AC09 [Composition §§1,3]:** One luminous focal region sits off-center, approximately near the **right-upper rule-of-thirds intersection**; adjacent dark negative space makes it readable.
+- [x] **V2-AC10 [Composition §§2,5]:** An observable **tapering beam and converging canyon/kelp contours** carry the gaze toward the focal region; the eye does not stop at an unrelated foreground object.
+- [x] **V2-AC11 [Composition §§4,10]:** Separate spatial planes are visible: dark detailed foreground fronds/stone; intermediate wreck, fluke and marine life; distant blue-hazed canyon/water. The atmospheric values recede with depth.
+- [x] **V2-AC12 [Composition §§8,9]:** Small fish and the fragile wreck read against enormous canyon walls; brighter jewelled flora balances but does not outweigh the primary light.
+- [x] **V2-AC13 [Composition §§3,9]:** A calm stretch of visually quiet, dark water surrounds the focal light; detailed decorations stay clustered to chosen areas rather than filling the entire frame.
 
 ### Evidence and delivery
 
-- [ ] **V2-AC14:** A single PNG meeting the requested aspect ratio is committed under `images/`, and its exact brief is preserved under `prompts/` using this spec's common filename stem.
-- [ ] **V2-AC15:** A *model-led visual review* examines the actual generated pixels, checks **all 14 visual/delivery criteria individually**, records pass/partial/fail with visible reasons, and explicitly compares at least one revision if the first result misses requirements. Do not use source-marker or mean-brightness scripts as proof of artistic style.
+- [x] **V2-AC14:** A single PNG meeting the requested aspect ratio is committed under `images/`, and its exact brief is preserved under `prompts/` using this spec's common filename stem.
+- [x] **V2-AC15:** A *model-led visual review* examines the actual generated pixels, checks **all 14 visual/delivery criteria individually**, records pass/partial/fail with visible reasons, and explicitly compares at least one revision if the first result misses requirements. Do not use source-marker or mean-brightness scripts as proof of artistic style.
 
 ## 4. Analysis
 
@@ -74,20 +74,24 @@ Based on **selected** [Composition Rules §§1 (thirds), 2 (leading lines), 3 (n
 ## 5. Proposed Solution
 
 1. Preserve all V1 material; use the research entries and the original aquarium as references for shared subject and techniques.
-2. Generate **one original 3:2 hybrid concept artwork** from the [exact archived V2 prompt](prompts/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-PROMPT.md). Do not paste separate studies together.
-3. **Visually inspect the returned image myself** against V2-AC01 through V2-AC14: actual subject visibility, color context, lighting, material, leading lines and balance.
+2. Create **one original 3:2 hybrid concept artwork** guided by the [archived V2 art-direction brief](prompts/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-PROMPT.md). Do not paste separate studies together.
+3. **Visually inspect the resulting image myself** against V2-AC01 through V2-AC14: actual subject visibility, color context, lighting, material, leading lines and balance.
 4. If anything is partial/fail, record the observed defect, generate a targeted revised image, and inspect again. Archive both outputs if a revision occurs.
 5. Commit the chosen PNG and [V2 review](./SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md), with honest statuses. Do not claim that the PNG validates the prior animated WebGPU scene.
 
 ## 6. ToDo
 
-- [ ] Preserve V1 files while moving the experiment to a descriptive artist-name folder.
-- [ ] Save this skill-v2.4.0 specification and exact generation brief.
-- [ ] Generate and inspect the hybrid image.
-- [ ] Correct observed failures, if any, and preserve iteration evidence.
-- [ ] Commit the chosen image and a criterion-by-criterion visual review.
-- [ ] Confirm source, image, links and PR diff before reporting completion.
+- [x] Preserve V1 files while moving the experiment to a descriptive artist-name folder.
+- [x] Save this skill-v2.4.0 specification and exact generation brief.
+- [x] Generate and inspect the hybrid image.
+- [x] Correct observed failures, if any, and preserve iteration evidence.
+- [x] Commit the chosen image and a criterion-by-criterion visual review.
+- [x] Confirm source, image, links and PR diff before reporting completion.
 
 ## 7. Implementation Verification
 
-**Status before generation:** pending. The original V1 review is an artifact of a different experiment, not evidence that this V2 image passed. Record the finished per-criterion findings in [`SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md`](./SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md), preserving defects, corrections and the actual final image.
+**V2 completed:** [final 1536×1024 original illustration](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png) and [editable vector source](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.svg) committed under matching names. [Model-led pixel review](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md) checks all **15 V2 criteria**, with **15 pass / 0 partial / 0 fail** as a self-assessment of this **still image**. The [initial draft](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-INITIAL.png) was preserved and visibly ambiguous stone-tail / mast shapes were corrected, then the exact final committed PNG was inspected again.
+
+**Provenance:** The image-generator attempts failed to follow the core subject requirements and were rejected. The accepted image was **drawn programmatically as an original SVG** and rendered to PNG, not produced directly from the text-to-image brief. The editable SVG is the exact implementation of the visual solution; the text prompt is the archived art-direction brief.
+
+**Scope limit:** Old V1 WebGPU interactive controls and temporal enamel animation remain separate and at the original **10 pass / 3 partial**; a V2 PNG is not evidence that those behavior criteria are satisfied.

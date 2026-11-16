@@ -39,3 +39,10 @@ The V2 image has a separate model-led visual review. GitHub Actions validates th
 ## Validation report
 
 [GitHub Actions run 43937856296](https://github.com/ToniDonDoni/adavilazil/actions/runs/43937856296) passed SVG raster checks, JavaScript syntax, Naga WGSL validation and two actual Chrome SwiftShader WebGPU render smoke screenshots. See [REVIEW.md](REVIEW.md) for acceptance criteria, remaining partial observations, and limitations of software rather than hardware rendering.
+
+
+## V2 final still image (skill 2.4.0)
+
+[**Final 1536×1024 PNG**](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png) | [Editable SVG](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.svg) | [V2 specification](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.md) | [Model-led visual review](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md)
+
+The first [draft image](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-INITIAL.png) remains available to show the correction of the ship and whale-fluke silhouettes. The final image is an **original procedural vector illustration** rendered to PNG, after three unrelated image-generator attempts were rejected. All **15 V2 still-image criteria** are reviewed and marked pass; this does **not** change the separate older interactive WebGPU V1 findings (10 pass / 3 partial).
