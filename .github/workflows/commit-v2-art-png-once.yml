@@ -1,0 +1,43 @@
+name: One-time V2 artwork PNG render
+
+on:
+  push:
+    branches:
+      - feat/abyssal-garden-kuindzhi-lalique
+    paths:
+      - .github/workflows/commit-v2-art-png-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  commit-image:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render the committed V2 SVG to PNG
+        run: |
+          python -m pip install --disable-pip-version-check cairosvg==2.7.1
+          python - <<'PY'
+          from pathlib import Path
+          import cairosvg
+          root=Path('test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/images')
+          src=root / 'SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.svg'
+          dst=root / 'SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png'
+          cairosvg.svg2png(url=str(src),write_to=str(dst),output_width=1536,output_height=1024)
+          assert dst.exists() and dst.stat().st_size > 10000
+          print('PNG image:',dst, 'bytes:',dst.stat().st_size)
+          PY
+      - name: Commit PNG and remove this one-time workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png'
+          git rm '.github/workflows/commit-v2-art-png-once.yml'
+          git commit -m "Render and archive V2 Kuindzhi Lalique PNG artwork"
+          git push origin HEAD:feat/abyssal-garden-kuindzhi-lalique
