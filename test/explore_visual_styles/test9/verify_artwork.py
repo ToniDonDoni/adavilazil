@@ -24,7 +24,7 @@ for filename, key in items:
     assert required <= ids, (filename, required - ids)
     assert ("translucent-enamel-flora" in ids) == (key in ("lalique", "hybrid")), filename
     assert ("cutpaper-mist" in ids) == (key == "norstein"), filename
-    assert "<image" not in svg and "http://" not in svg, filename
+    assert "<image" not in svg and "http://" not in svg.replace("http://www.w3.org/2000/svg", ""), filename
     dst = out / filename.replace(".svg", ".png")
     cairosvg.svg2png(bytestring=svg.encode(), write_to=str(dst))
     im = Image.open(dst).convert("RGB")
