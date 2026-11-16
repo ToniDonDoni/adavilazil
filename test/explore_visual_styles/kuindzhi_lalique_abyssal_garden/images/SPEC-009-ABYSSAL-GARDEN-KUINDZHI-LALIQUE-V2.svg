@@ -65,15 +65,15 @@
 <g id="sunken-ship" transform="translate(495 752) rotate(-9 183 65)">
 <path d="M0 70Q166 118 356 52L317 130Q194 185 64 138Z" fill="url(#ship)" stroke="#53887e" stroke-opacity=".8" stroke-width="4"/>
 <path d="M31 82Q180 138 339 68M57 104Q176 164 324 99M82 122Q176 167 300 123" fill="none" stroke="#c0a46a" stroke-opacity=".25" stroke-width="3"/>
-<path d="M123 102L127 -149M238 105L232 -208" stroke="#47716b" stroke-width="11"/>
+<path d="M123 102L126 -81M130 -94L141 -146M238 105L234 -127M230 -140L218 -177" stroke="#47716b" stroke-width="11"/><path d="M126 -81L134 -91L126 -94M234 -127L226 -137L230 -140" fill="none" stroke="#b5c8ab" stroke-opacity=".6" stroke-width="3"/>
 <path d="M116 -121Q178 -117 207 -79L129 -63Z" fill="#7ba69a" fill-opacity=".28" stroke="#8bcab1" stroke-opacity=".25"/>
 <path d="M239 -188Q287 -150 300 -103L236 -115Z" fill="#acc1a4" fill-opacity=".20" stroke="#74aa94" stroke-opacity=".38"/>
 <path d="M91 -59L273 -96" stroke="#5f9585" stroke-width="4"/>
 <path d="M111 130L160 166L177 139M203 139L222 164L235 130" stroke="#263c38" stroke-width="3" fill="none"/>
 <path d="M47 79L11 44M347 63L369 39" stroke="#608778" stroke-width="4"/></g>
 <g id="stone-whale-fluke" transform="translate(1153 747)">
-<path d="M-13 206Q-23 115 -15 27Q-77 -33 -135 -113Q-77 -119 -30 -96Q-7 -79 2 -56Q17 -85 63 -109Q107 -132 162 -126Q129 -62 65 -16Q35 11 25 34Q18 112 19 206Z" fill="#193b43" stroke="#73a99e" stroke-width="5" stroke-opacity=".67"/>
-<path d="M-1 191Q-4 93 2 -50M2 -45Q-55 -91 -102 -108M7 -51Q52 -100 127 -119" fill="none" stroke="#a1cfb3" stroke-opacity=".36" stroke-width="5"/>
+<path d="M-18 204L-27 56Q-34 16 -90 -36Q-156 -78 -190 -136Q-128 -121 -70 -126Q-18 -120 1 -66Q28 -121 97 -135Q154 -153 195 -140Q171 -83 118 -58Q51 -29 34 24L20 204Z" fill="#253c43" stroke="#6f8580" stroke-width="6" stroke-opacity=".85"/><path d="M-184 -133Q-116 -124 -62 -100L-5 -64Q53 -121 181 -141" fill="none" stroke="#acc6b1" stroke-width="2" stroke-opacity=".34"/><path d="M-27 83L-21 50L-34 -18M20 87L30 31L58 -19" fill="none" stroke="#071822" stroke-opacity=".48" stroke-width="7"/><path d="M-131 -104L-111 -98M102 -118L140 -123M2 -10L-7 22L3 38" fill="none" stroke="#98a9a3" stroke-opacity=".35" stroke-width="3"/>
+<path d="M-7 186Q-17 107 -12 24M14 183Q22 105 16 25M-54 -99L-29 -90M68 -105L104 -117" fill="none" stroke="#789693" stroke-opacity=".36" stroke-width="4"/>
 <ellipse cx="0" cy="207" rx="67" ry="20" fill="#08202a"/></g>
 <path id="manta-ray" d="M768 465Q807 442 837 457Q858 435 924 448Q875 467 850 498Q824 467 768 465Z" fill="#316f7a" stroke="#a9dfc2" stroke-opacity=".5" stroke-width="3"/>
 <path d="M839 469Q841 510 847 542" stroke="#5a9e97" stroke-width="2" fill="none"/>
