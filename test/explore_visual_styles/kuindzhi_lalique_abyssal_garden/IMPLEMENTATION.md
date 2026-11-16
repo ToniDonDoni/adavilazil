@@ -17,7 +17,7 @@ Three original independent SVG studies and one combined SVG preserve the same su
 
 ## Reproducible verification
 
-`python test/explore_visual_styles/test9/verify_artwork.py` checks SVG structural layers, renders PNGs, verifies luminance focal hierarchy and inspects key runtime markers. `node test/explore_visual_styles/test9/tools/validate.mjs` extracts inline WGSL, checks JavaScript syntax and compiles both shader modules using Naga CLI 30.0.1. CI executes both. Missing GPU-browser visual observations are disclosed in [REVIEW.md](REVIEW.md).
+`python test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/verify_artwork.py` checks SVG structural layers, renders PNGs, verifies luminance focal hierarchy and inspects key runtime markers. `node test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/tools/validate.mjs` extracts inline WGSL, checks JavaScript syntax and compiles both shader modules using Naga CLI 30.0.1. CI executes both. Missing GPU-browser visual observations are disclosed in [REVIEW.md](REVIEW.md).
 
 ## Executed tests and observations
 

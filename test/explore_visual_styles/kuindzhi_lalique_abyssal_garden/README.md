@@ -1,7 +1,11 @@
-# Test 9: Moonlit Enamel Abyssal Garden
+# Abyssal Garden: Kuindzhi x Lalique
 
-**Skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
-**Spec:** [SPEC-009](SPEC-009-ABYSSAL-GARDEN.md)  
+**Original V1 skill:** [Explore Visual Styles v2.3.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
+**V1 spec:** [SPEC-009](SPEC-009-ABYSSAL-GARDEN.md) (archived unchanged)  
+**V2 skill:** [Explore Visual Styles v2.4.0](../../../skills/EXPLORE-VISUAL-STYLES.md)  
+**V2 spec:** [SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.md)  
+**V2 hybrid image:** [image](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png)  
+**V2 visual review:** [review](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md)  
 **Selected hybrid:** Kuindzhi (FS-153, nocturnal light) + Lalique (FS-225, opalescent enamel).  
 **Independent third candidate:** Norstein (FS-209, multiplane fog).
 
@@ -30,7 +34,7 @@ Open [index.html](index.html) in a WebGPU-enabled Chrome browser; click to captu
 - [Reproducible raster and HTML checks](verify_artwork.py)
 - [JavaScript and Naga WGSL validator](tools/validate.mjs)
 
-GitHub Actions validates the source and renders study previews. A synthetic SVG preview or shader compilation is not a substitute for inspection of a real GPU-rendered browser frame.
+The V2 image has a separate model-led visual review. GitHub Actions validates the source and renders study previews. A synthetic SVG preview or shader compilation is not a substitute for inspection of a real GPU-rendered browser frame.
 
 ## Validation report
 
