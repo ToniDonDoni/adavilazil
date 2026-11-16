@@ -39,11 +39,12 @@ async def main():
                 "--ignore-gpu-blocklist",
             ],
         )
-        page = await browser.new_page(viewport={"width": 1100, "height": 700}, device_scale_factor=1)
+        page = await browser.new_page(viewport={"width": 960, "height": 600}, device_scale_factor=1)
         page.on("pageerror", lambda exc: errors.append(str(exc)))
         url = f"http://127.0.0.1:{server.server_port}/index.html"
         await page.goto(url, wait_until="load", timeout=30000)
         await page.wait_for_function("Boolean(window.__abyssal)", timeout=60000)
+        await page.evaluate("() => { document.getElementById('veil').style.display = 'none'; document.getElementById('hud').style.display = 'none'; }")
         if errors:
             raise RuntimeError("Runtime page error: " + repr(errors))
         poses = [
@@ -52,7 +53,7 @@ async def main():
         ]
         for index, pose in enumerate(poses):
             await page.evaluate("(p) => window.__abyssal.setPose(...p)", pose)
-            await page.wait_for_timeout(3000)
+            await page.wait_for_timeout(1800)
             dest = OUT / f"WEBGPU-POSE-{index+1:02d}.png"
             await page.screenshot(path=str(dest), timeout=60000)
             frame = Image.open(dest).convert("RGB")
