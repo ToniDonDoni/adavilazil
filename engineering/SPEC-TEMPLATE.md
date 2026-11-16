@@ -4,16 +4,17 @@
 <!-- Optional when no previous state exists. -->
 
 ## 2. Required State
-<!-- Declarative description of the desired visual result. -->
+<!-- Declarative description of the desired visual result, including the artistic concept, color solution, and composition solution. -->
 
 ## 3. Acceptance Criteria
-- [ ] <Observable, testable outcome derived from the applicable Style Requirements>
+<!-- Checklist verifying the Required State, including every selected artistic method and their combination, every selected color solution, and every selected composition solution. Each decision must have observable, testable criteria. -->
+- [ ] <Observable, testable outcome derived from the requirements and proposed solutions.>
 
 ## 4. Analysis
 <!-- Evidence, compatible requirements and conflicts. -->
 
 ## 5. Proposed Solution
-<!-- Proposed process and revisions. -->
+<!-- Proposed artistic methods, color and composition solutions, and revisions. -->
 
 ## 6. ToDo
 - [ ] <Action>
