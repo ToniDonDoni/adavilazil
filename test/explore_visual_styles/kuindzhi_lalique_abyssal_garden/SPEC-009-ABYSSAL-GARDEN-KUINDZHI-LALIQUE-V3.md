@@ -131,4 +131,4 @@ V2 used an off-center light. V3 intentionally changes to a **central** source an
 
 ## 7. Implementation Verification
 
-**Pending V3 reference creation and inspection.** Detailed evidence, criterion statuses, visual observations and any revisions belong exclusively in the separate [V3 verification v1](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v1.md). The report's filename contains this spec's exact stem and verification version; the spec is not used as a verification ledger.
+**Latest report:** [SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v2.md](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v2.md). **Historical initial check:** [SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v1.md](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v1.md). Both files carry this specification's exact filename stem and verification version. All per-criterion evidence, results, unresolved findings and image-revision comparisons are in those files, **not** in this specification.

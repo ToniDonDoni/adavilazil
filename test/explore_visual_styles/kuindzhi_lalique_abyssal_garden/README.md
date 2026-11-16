@@ -46,3 +46,14 @@ The V2 image has a separate model-led visual review. GitHub Actions validates th
 [**Final 1536×1024 PNG**](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.png) | [Editable SVG](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.svg) | [V2 specification](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2.md) | [Model-led visual review](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-REVIEW.md)
 
 The first [draft image](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-INITIAL.png) remains available to show the correction of the ship and whale-fluke silhouettes. The final image is an **original procedural vector illustration** rendered to PNG, after three unrelated image-generator attempts were rejected. All **15 V2 still-image criteria** are reviewed and marked pass; this does **not** change the separate older interactive WebGPU V1 findings (10 pass / 3 partial).
+
+## V3: reference for a future JavaScript scene (no JS work yet)
+
+**Template:** [SPEC-TEMPLATE 2.0.0](../../../engineering/SPEC-TEMPLATE.md) | **Skill:** [Explore Visual Styles 2.4.0](../../../skills/EXPLORE-VISUAL-STYLES.md)
+
+- [**V3 specification**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3.md) describes the desired artistic methods, color, composition, **central focal light**, and future implementation-readiness.
+- [**Final editable SVG concept**](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3.svg) and [1536 × 1024 PNG preview](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3.png). [Initial SVG](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-INITIAL.svg) and [initial preview](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-INITIAL.png) are preserved as revision evidence.
+- [**Verification v1**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v1.md): 14 pass, 3 partial, 1 fail, identifying the initial shortcomings. [**Verification v2**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v2.md): **17 pass, 1 partial, 0 fail** after visual correction. One remaining issue: the whale-tail silhouette can still resemble a stylized plant.
+- [**V3 scene map**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-SCENE-MAP.md) decomposes 13 named SVG groups, materials, light, layout and viewport adaptation for a *future* JavaScript implementation.
+
+**Decision gate:** review and approve or amend the SVG reference before building any JavaScript page. The preserved older `index.html` is from V1, **not** a V3 implementation.
