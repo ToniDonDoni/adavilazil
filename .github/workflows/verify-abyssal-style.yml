@@ -44,3 +44,22 @@ jobs:
           naga --version
       - name: Validate inline JavaScript and WGSL
         run: node test/explore_visual_styles/test9/tools/validate.mjs
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser smoke dependencies
+        run: |
+          python -m pip install --disable-pip-version-check playwright==1.56.0 Pillow==11.3.0
+          python -m playwright install --with-deps chromium
+      - name: Smoke test WebGPU rendering via SwiftShader
+        run: python test/explore_visual_styles/test9/browser_smoke.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: abyssal-swiftshader-screenshots
+          path: test/explore_visual_styles/test9/rendered/WEBGPU-POSE-*.png
