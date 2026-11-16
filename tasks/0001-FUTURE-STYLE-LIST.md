@@ -205,7 +205,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-150** Gustav Klimt: Beethoven Frieze (1902): gold ornament and flattened decorative figures. Search: MET,VAM.
 - [ ] **FS-151** Ivan Bilibin: Russian fairy-tale illustrations (1899–1900s): decorative borders and stylized folk figures. Search: BL,VAM.
 - [ ] **FS-152** Anna Ostroumova-Lebedeva: Saint Petersburg color woodcuts (1902–1908): layered printed color and rhythmic architectural silhouettes. Search: RUS,MET.
-- [x] **FS-153** Arkhip Kuindzhi: Moonlit Night on the Dnieper (1880): concentrated luminous moonlight against almost-black river and sky. Search: RUS,MET.
 
 ### Surrealism, assemblage, collage and conceptual graphics
 
@@ -268,7 +267,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-206** Osamu Tezuka: Phoenix manga pages (1950s–1980s): cinematic transitions and elastic figures. Search: BL,VAM.
 - [ ] **FS-207** Taiyō Matsumoto: Tekkonkinkreet pages (1990s): nervous architecture and floating camera. Search: BL,VAM.
 - [ ] **FS-208** Lotte Reiniger: The Adventures of Prince Achmed (1926): layered cut-paper silhouettes. Search: BFI,VAM.
-- [x] **FS-209** Yuri Norstein: Hedgehog in the Fog (1975): cutout depth, fine haze and staged light. Search: BFI,VAM.
 - [ ] **FS-210** Jiří Trnka: puppet-film miniature sets (1940s–1960s): carved folk forms and theatrical staging. Search: BFI,VAM.
 - [ ] **FS-211** Jan Švankmajer: Dimensions of Dialogue (1982): tactile stop-motion surreal transformations. Search: BFI,VAM.
 - [ ] **FS-212** René Laloux: Fantastic Planet (1973): surreal flat-color worlds and alien biology. Search: BFI,VAM.
@@ -287,7 +285,6 @@ Candidates below are deliberately concise and **unverified**. Not all source loc
 - [ ] **FS-222** Alphonse Mucha: Seasons lithographs (1896): halo framing and interlaced decorative hair. Search: MET,VAM.
 - [ ] **FS-223** Hector Guimard: Paris Métro entrance designs (1900): cast-iron organic lettering and structures. Search: VAM,MAK.
 - [ ] **FS-224** Émile Gallé: cameo-glass floral designs (1890s–1900s): layered translucent botanical silhouettes. Search: VAM,MET.
-- [x] **FS-225** René Lalique: dragonfly and insect jewels (1890s–1900s): iridescent translucent biomorphic ornament. Search: MET,VAM.
 - [ ] **FS-226** Mariano Fortuny: Delphos dresses and printed silks (1900s–1920s): pleats and metallic textile layers. Search: MET,VAM.
 - [ ] **FS-227** Anni Albers: Bauhaus wall hangings (1920s–1930s): woven structural abstraction. Search: MOMA,MET.
 - [ ] **FS-228** Gunta Stölzl: Bauhaus weaving samples (1920s–1930s): rhythmic warp/weft blocks. Search: MOMA,VAM.
