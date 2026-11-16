@@ -18,3 +18,13 @@ Three original independent SVG studies and one combined SVG preserve the same su
 ## Reproducible verification
 
 `python test/explore_visual_styles/test9/verify_artwork.py` checks SVG structural layers, renders PNGs, verifies luminance focal hierarchy and inspects key runtime markers. `node test/explore_visual_styles/test9/tools/validate.mjs` extracts inline WGSL, checks JavaScript syntax and compiles both shader modules using Naga CLI 30.0.1. CI executes both. Missing GPU-browser visual observations are disclosed in [REVIEW.md](REVIEW.md).
+
+## Executed tests and observations
+
+GitHub Actions [run 43937856296](https://github.com/ToniDonDoni/adavilazil/actions/runs/43937856296) completed all three jobs successfully:
+
+- `artwork`: rendered each editable SVG at 1200 x 800 with CairoSVG and checked object layers, center/corner light, original file integrity and scene markers.
+- `shaders`: validated the embedded JavaScript with Node.js 22 and both WGSL modules with Naga.
+- `browser`: rendered the actual `index.html` with GPU-API-enabled headless Chrome and SwiftShader software WebGPU at two fixed 960 x 600 camera positions. The script rejected JS runtime errors and uniform/blank frames and uploaded the screenshots.
+
+The SVGs were directly inspected after the initial grain overlay produced an unnaturally dark image; their grain opacity and fill were corrected. First browser screenshots showed overbright kelp and an oversized luminous bubble, corrected by reducing light emission and bubble geometry and opening the central corridor. A localized light source/shaft was added, and final browser screenshots were inspected. This is **real software-WebGPU raster output**, not evidence of RTX hardware frame times. Pointer-lock input and temporal iridescence have not been exercised in an interactive browser test; see [REVIEW.md](REVIEW.md).

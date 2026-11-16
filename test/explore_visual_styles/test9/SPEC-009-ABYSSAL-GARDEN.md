@@ -13,19 +13,19 @@ Register and study **FS-153 Arkhip Kuindzhi**, **FS-225 René Lalique** and **FS
 
 ## 3. Acceptance Criteria
 
-- [ ] **AC-01 References:** Three newly added styles originate in Task 0001, use every six-section style-template heading, state visually testable requirements and cite credible art sources.
-- [ ] **AC-02 Shared subject:** The three original SVG studies and hybrid SVG all contain the same clearly identifiable underwater canyon, kelp, sunken ship, stone fluke and living creatures.
-- [ ] **AC-03 Selection:** Exactly two styles are implemented in the live hybrid, Kuindzhi and Lalique; Norstein is an unselected comparison, not secretly counted as a third.
-- [ ] **AC-04 Dark field:** The hybrid is substantially darker than the Lalique and Norstein studies; matte rock and wood remain dark rather than evenly cyan lit.
-- [ ] **AC-05 Focus and light path:** One concentrated cool light is brighter than the surrounding dark water, with a continuous tapering cool beam/path.
-- [ ] **AC-06 Three-plane depth:** Overlapping canyon and kelp, a navigable mid-scene ship/fluke and distant blue mist offer near/middle/far separation and negative space.
+- [x] **AC-01 References:** Three newly added styles originate in Task 0001, use every six-section style-template heading, state visually testable requirements and cite credible art sources.
+- [x] **AC-02 Shared subject:** The three original SVG studies and hybrid SVG all contain the same clearly identifiable underwater canyon, kelp, sunken ship, stone fluke and living creatures.
+- [x] **AC-03 Selection:** Exactly two styles are implemented in the live hybrid, Kuindzhi and Lalique; Norstein is an unselected comparison, not secretly counted as a third.
+- [x] **AC-04 Dark field:** The hybrid is substantially darker than the Lalique and Norstein studies; matte rock and wood remain dark rather than evenly cyan lit.
+- [x] **AC-05 Focus and light path:** One concentrated cool light is brighter than the surrounding dark water, with a continuous tapering cool beam/path.
+- [x] **AC-06 Three-plane depth:** Overlapping canyon and kelp, a navigable mid-scene ship/fluke and distant blue mist offer near/middle/far separation and negative space.
 - [ ] **AC-07 Opalescence:** Selected coral/foliage and manta-like forms vary between cool teal, violet and pink; shaders depend on facing angle and animated phase.
 - [ ] **AC-08 Gold filigree:** Thin warm-gold boundary/vein strokes on selected organic forms remain secondary to the cool light and are absent from matte geology.
-- [ ] **AC-09 Jewel glints:** A few concentrated pearls/sparkles appear on flora and fauna, not as uniform glare over all surfaces.
-- [ ] **AC-10 Integration:** One unified 3D view combines atmospheric lighting and enamel-like material rather than a pasted poster overlay or side-by-side studies.
+- [x] **AC-09 Jewel glints:** A few concentrated pearls/sparkles appear on flora and fauna, not as uniform glare over all surfaces.
+- [x] **AC-10 Integration:** One unified 3D view combines atmospheric lighting and enamel-like material rather than a pasted poster overlay or side-by-side studies.
 - [ ] **AC-11 Self-contained controls:** One `index.html` uses WebGPU/WGSL, procedural scene, WASD/mouse/Q/E/Shift fly-camera and no external textures/models/engines.
-- [ ] **AC-12 Compile and raster checks:** JS syntax, two WGSL modules, SVG/XML integrity, images, luminance hierarchy and structural scene markers are checked by CI.
-- [ ] **AC-13 Reproducibility and disclosure:** Source styles, exact study briefs, previous version, hybrid implementation, test tooling and criterion-by-criterion statuses are preserved; unexecuted GPU tests are labeled unverified.
+- [x] **AC-12 Compile and raster checks:** JS syntax, two WGSL modules, SVG/XML integrity, images, luminance hierarchy and structural scene markers are checked by CI.
+- [x] **AC-13 Reproducibility and disclosure:** Source styles, exact study briefs, previous version, hybrid implementation, test tooling and criterion-by-criterion statuses are preserved; unexecuted GPU tests are labeled unverified.
 
 ## 4. Analysis
 
@@ -37,13 +37,13 @@ Use the initial WebGPU page as a baseline. Make three same-subject static style 
 
 ## 6. ToDo
 
-- [ ] Register three researched reference entries.
-- [ ] Produce three SVG style studies and a hybrid composition study.
-- [ ] Modify and preserve one self-contained WebGPU `index.html`.
-- [ ] Validate actual SVG raster output and script/shader compilation.
-- [ ] Record per-criterion results and limitations.
-- [ ] Open a pull request after test results are reviewed.
+- [x] Register three researched reference entries.
+- [x] Produce three SVG style studies and a hybrid composition study.
+- [x] Modify and preserve one self-contained WebGPU `index.html`.
+- [x] Validate actual SVG raster output and script/shader compilation.
+- [x] Record per-criterion results and limitations.
+- [x] Open a pull request after test results are reviewed.
 
 ## 7. Implementation Verification
 
-See [REVIEW.md](REVIEW.md) for the verification ledger and links to rendered studies / GitHub Actions. Visual GPU and interactive controls require a WebGPU-capable browser to claim runtime pass.
+See [REVIEW.md](REVIEW.md) for the criterion-by-criterion verification ledger. The GitHub Actions jobs passed SVG raster validation, WGSL compilation and a real Chrome/WebGPU rendering smoke test with SwiftShader at two 960 x 600 camera poses. This is not a hardware-performance benchmark or proof of animation/pointer-lock behavior.

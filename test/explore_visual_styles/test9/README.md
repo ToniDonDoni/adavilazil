@@ -31,3 +31,7 @@ Open [index.html](index.html) in a WebGPU-enabled Chrome browser; click to captu
 - [JavaScript and Naga WGSL validator](tools/validate.mjs)
 
 GitHub Actions validates the source and renders study previews. A synthetic SVG preview or shader compilation is not a substitute for inspection of a real GPU-rendered browser frame.
+
+## Validation report
+
+[GitHub Actions run 43937856296](https://github.com/ToniDonDoni/adavilazil/actions/runs/43937856296) passed SVG raster checks, JavaScript syntax, Naga WGSL validation and two actual Chrome SwiftShader WebGPU render smoke screenshots. See [REVIEW.md](REVIEW.md) for acceptance criteria, remaining partial observations, and limitations of software rather than hardware rendering.

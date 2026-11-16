@@ -6,6 +6,6 @@
 - [x] Preserve three same-subject SVG studies and the combined composition.
 - [x] Preserve single-file WebGPU implementation under `test9/index.html`.
 - [x] Preserve original visual briefs and style analysis.
-- [ ] Confirm raster and WGSL CI jobs pass.
-- [ ] Verify artwork and live WebGPU appearance against every applicable spec criterion.
-- [ ] Open a pull request with honest verification status.
+- [x] Confirm raster, WGSL and browser CI jobs pass.
+- [x] Review each acceptance criterion against actual SVG and software-WebGPU screenshot evidence; record limitations and remaining partial criteria.
+- [x] Open a pull request with honest verification status.
