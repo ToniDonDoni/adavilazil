@@ -71,6 +71,8 @@ fn fluke(p:vec3f)->vec3f{let a=.25;return vec3f(15.+cos(a)*p.x+sin(a)*p.z,-25.+p
  else if(KIND==20u){let uv=grid(vid,120u,120u);let xz=(uv-.5)*260.;p=vec3f(xz.x,surfaceHeight(xz),xz.y);color=vec3f(.17,.75,.7);info=vec4f(uv,0.,0.);}
  else if(KIND==21u||KIND==22u){let uv=grid(vid,8u,6u);let seed=id+4000.;let xz=baseRoot(seed);let velocity=.3+2.2*h(seed*.67);let y=ground(xz)+fract((t*velocity+h(seed*2.4)*57.)/53.)*53.;let flow=vec3f(.5*sin(t*.35+id),0.,.4*cos(t*.43+id));let size=select(.025+.075*h(seed*1.7),.008+.028*h(seed*1.7),KIND==22u);p=vec3f(xz.x,y,xz.y)+flow+sph(uv)*size;color=select(vec3f(.35,.89,.91),mix(vec3f(.68,.93,.3),vec3f(1.,.68,.28),h(seed*.3)),KIND==22u);info.x=id;}
  else if(KIND==23u){let uv=grid(vid,1u,1u);let beam=id;let x=(h(beam*3.14)-.5)*110.;let z=(h(beam*5.7)-.5)*150.-20.;let width=1.8+6.*h(beam*1.9);let y=-31.+uv.y*56.;p=vec3f(x+width*(uv.x-.5)*(1.8-uv.y),y,z+uv.y*6.);color=vec3f(.24,.86,.74);info=vec4f(uv,id,0.);}
+ else if(KIND==27u){let uv=grid(vid,12u,12u);let anchor=vec3f(0.,-2.,-24.);p=anchor+S.right.xyz*((uv.x-.5)*15.)+S.up.xyz*((uv.y-.5)*15.);info=vec4f(uv,0.,0.);color=vec3f(.1,.5,.4);}
+ else if(KIND==28u){let uv=grid(vid,1u,24u);let w=2.+8.*(1.-uv.y);p=vec3f(0.,-2.+26.*uv.y,-24.)+S.right.xyz*((uv.x-.5)*w);info=vec4f(uv,0.,0.);color=vec3f(.14,.48,.38);}
  else if(KIND==26u){let uv=grid(vid,24u,10u);let side=select(-1.,1.,(iid%2u)==0u);let z=-12.-24.*floor(id/2.);let x=side*(30.-uv.x*(7.5+4.*h(id*.81)));let y=-14.+1.8*sin(uv.x*PI)+1.2*sin(uv.y*7.+id);p=vec3f(x,y,z+(uv.y-.5)*19.);color=mix(vec3f(.13,.26,.28),vec3f(.24,.4,.35),h(id*.9));info.x=id;}
  else if(KIND==25u){let uv=grid(vid,7u,12u);let root=f32(iid%75u);let tendril=f32(iid/75u);let xz=baseRoot(root+7200.);let a=tendril*2.399+root*.7;let q=uv.y;let tall=2.+2.8*h(root*5.+tendril);let offset=vec2f(cos(a),sin(a))*(1.8*q*q+sin(q*PI)*.4);let r=.11+.11*sin(q*PI);p=vec3f(xz.x+offset.x+cos(uv.x*2.*PI)*r,ground(xz)+q*tall,xz.y+offset.y+sin(uv.x*2.*PI)*r);color=mix(vec3f(.26,.11,.52),vec3f(1.,.32,.65),q);info=vec4f(q,root,tendril,0.);}
  let relative=p-S.camera.xyz;
@@ -117,6 +119,8 @@ fn caustic(p:vec3f,t:f32)->f32{let q=p.xz*.45;let v=sin(q.x+sin(q.y*1.42+t*1.1)*
  let pearl=select(0.,pow(max(dot(reflect(-sun,n),view),0.),95.),KIND==6u||KIND==7u||KIND==8u||KIND==12u||KIND==25u);
  col=col*(.32+.65*diffuse)+glow+reflectance*vec3f(.14,.27,.26)+pearl*vec3f(.31,.35,.29);
  col=mix(col,fogColor,clamp(fog,0.,.985));
+ if(KIND==27u){let radial=length(i.info.xy-.5)*2.;let halo=exp(-radial*radial*5.);let center=exp(-radial*radial*95.);let pulse=.91+.09*sin(S.camera.w*.37);col=vec3f(.09,.31,.25)*halo+vec3f(.62,1.0,.82)*center*pulse;alpha=clamp(halo*.16+center*.72,0.,.88);}
+ if(KIND==28u){let edge=1.-abs(i.info.x*2.-1.);let falloff=pow(max(0.,edge),3.);col=vec3f(.11,.35,.28)*falloff;alpha=falloff*(.035+.10*i.info.y);}
  if(KIND==21u||KIND==22u||KIND==23u){col=col+glow*.3;}
  return vec4f(col,alpha);
 }`;
@@ -167,7 +171,7 @@ const descriptors=[
  [12,34*8*6,6,0],[13,2*12*6,6,0],[14,56*20*6,1,0],[15,20*46*6,1,0],
  [16,9*14*6,40,0],[17,8*15*6,3,0],[18,14*42*6,1,0],[19,28*10*6,2,0],
  [20,120*120*6,1,0],[24,9*14*6,154,0],[25,7*12*6,75*6,0],[26,24*10*6,12,0],
- [23,6,39,1],[21,8*6*6,500,1],[22,8*6*6,1600,1]
+ [23,6,39,1],[28,1*24*6,1,1],[27,12*12*6,1,1],[21,8*6*6,500,1],[22,8*6*6,1600,1]
 ];
 const draws=[];
 for(let i=0;i<descriptors.length;i++){
