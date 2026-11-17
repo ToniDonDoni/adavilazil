@@ -23,3 +23,7 @@
 - [Karl Sims: Panspermia and Procedural Life](sims_panspermia_procedural_life/)
 
 Create and update style references using the [style template](../../engineering/STYLE-TEMPLATE.md).
+
+- [Arkhip Kuindzhi: Moonlit Night on the Dnieper](kuindzhi_moonlit_dnieper/)
+- [René Lalique: Dragonfly jewellery and translucent enamel](lalique_dragonfly_jewellery/)
+- [Yuri Norstein: Hedgehog in the Fog and multiplane depth](norstein_hedgehog_fog/)

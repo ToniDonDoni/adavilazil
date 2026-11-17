@@ -1,0 +1,3 @@
+# Exact hybrid brief: Moonlit Enamel Abyssal Garden
+
+Select ONLY Kuindzhi and Lalique from the three candidates. Preserve the same environment and all main landmarks. Use Kuindzhi's dominant dark negative space, single luminous cool source and connected tapered light path to establish visual hierarchy. Use Lalique's view-dependent teal/lilac/rose enamel on the underwater flora and manta fins, sparse warm-gold outlines/veins and a few pearl glints. Keep rocks/ship matte. The final output is a standalone browser WebGPU HTML containing its own WGSL, JavaScript and CSS; also save an original 1200 x 800 editable SVG composition study. The styles must coexist in one space, not as a triptych or UI overlay.
