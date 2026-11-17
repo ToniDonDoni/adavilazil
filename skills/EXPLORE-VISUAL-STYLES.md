@@ -18,4 +18,4 @@
 
 **Documentation:** Cite the skill version in each spec; record any prompts used in the test.
 
-[Example: test3](../test/explore_visual_styles/test3/README.md).
+[Example: Kuindzhi x Lalique — Abyssal Garden](../test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/README.md).
