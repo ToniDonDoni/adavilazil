@@ -1,5 +1,5 @@
-# Visual Digital Art
+# Purpose
 
-A reference library of visual art styles, techniques, and reproducible experiments.
+AI-generated visuals often look generic and lack coherent artistic direction. This project explores how to reduce that “AI slop” by applying established artistic practices using a spec-driven framework for AI agents.
 
 See [AGENTS.md](AGENTS.md) for the project guide.
