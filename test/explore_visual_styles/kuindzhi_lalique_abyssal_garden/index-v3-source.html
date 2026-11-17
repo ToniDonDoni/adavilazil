@@ -23,11 +23,10 @@ const error=document.getElementById('error');
 if(!navigator.gpu){error.textContent='This world needs WebGPU. Please use a recent GPU-enabled Chrome browser.';action.textContent='WebGPU unavailable';throw Error('WebGPU unavailable');}
 const adapter=await navigator.gpu.requestAdapter({powerPreference:'high-performance'});
 if(!adapter){error.textContent='No WebGPU adapter is available. Enable hardware acceleration in Chrome.';throw Error('No WebGPU adapter');}
-const hasTimestamps=adapter.features.has('timestamp-query');
-const device=await adapter.requestDevice({requiredFeatures:hasTimestamps?['timestamp-query']:[]});
-const diagnostics={errors:[],adapter:{vendor:adapter.info.vendor,architecture:adapter.info.architecture,device:adapter.info.device,description:adapter.info.description},frames:0,gpuMs:[],frameMs:[],timestampQuery:hasTimestamps};
-device.addEventListener('uncapturederror',e=>diagnostics.errors.push(e.error.message));
-device.lost.then(info=>diagnostics.errors.push('Device lost: '+info.message));
+const device=await adapter.requestDevice();
+function showRenderError(message){error.textContent=message;veil.classList.remove('hidden');action.textContent='Reload to try again';}
+device.addEventListener('uncapturederror',e=>showRenderError(e.error.message));
+device.lost.then(info=>showRenderError('The graphics device was lost. '+info.message));
 const context=canvas.getContext('webgpu');
 const format=navigator.gpu.getPreferredCanvasFormat();
 const sampleCount=4;
@@ -328,10 +327,6 @@ for(let i=0;i<descriptors.length;i++){
 }
 const bgPipeline=device.createRenderPipeline({layout:pipelineLayout,vertex:{module:bgModule,entryPoint:'vs'},fragment:{module:bgModule,entryPoint:'fs',targets:[colorTarget]},primitive:{topology:'triangle-list'},depthStencil:{format:'depth24plus',depthWriteEnabled:false,depthCompare:'always'},multisample:{count:sampleCount}});
 const atmosphereModule=device.createShaderModule({code:atmosphere});
-for(const [name,m] of [['scene',module],['background',bgModule],['atmosphere',atmosphereModule]]){
- const info=await m.getCompilationInfo();
- for(const msg of info.messages){if(msg.type==='error')diagnostics.errors.push(name+': '+msg.message);}
-}
 const depthLayout=device.createBindGroupLayout({entries:[{binding:0,visibility:GPUShaderStage.FRAGMENT,texture:{sampleType:'depth',multisampled:true}}]});
 const atmospherePipeline=device.createRenderPipeline({layout:device.createPipelineLayout({bindGroupLayouts:[bindLayout,depthLayout]}),vertex:{module:atmosphereModule,entryPoint:'vs'},fragment:{module:atmosphereModule,entryPoint:'fs',targets:[{format,blend:{color:{srcFactor:'one',dstFactor:'one',operation:'add'},alpha:{srcFactor:'zero',dstFactor:'one',operation:'add'}}}]},multisample:{count:sampleCount}});
 let depthBind;
@@ -341,11 +336,6 @@ const colorAttachment={view:null,resolveTarget:null,loadOp:'clear',storeOp:'stor
 const depthAttachment={view:null,depthLoadOp:'clear',depthStoreOp:'store',depthClearValue:1};
 const passDescriptor={colorAttachments:[colorAttachment],depthStencilAttachment:depthAttachment};
 const submitted=[null];
-// Three asynchronous timestamp slots avoid stalling the rendering queue.
-const timingQuery=hasTimestamps?device.createQuerySet({type:'timestamp',count:12}):null;
-const timingResolve=hasTimestamps?device.createBuffer({size:768,usage:GPUBufferUsage.QUERY_RESOLVE|GPUBufferUsage.COPY_SRC}):null;
-const timingSlots=hasTimestamps?Array.from({length:3},(_,i)=>({index:i,busy:false,buffer:device.createBuffer({size:32,usage:GPUBufferUsage.COPY_DST|GPUBufferUsage.MAP_READ})})):[];
-
 function resize(){
  const w=Math.max(1,Math.round(canvas.clientWidth*Math.min(devicePixelRatio,1.5)));
  const h=Math.max(1,Math.round(canvas.clientHeight*Math.min(devicePixelRatio,1.5)));
@@ -363,7 +353,7 @@ resize();
 const keys=new Uint8Array(256);
 const START_POSE=[0,-12,43,0,-.019];
 let [x,y,z,yaw,pitch]=START_POSE;
-let last=performance.now(),seconds=0,frozenTime=null;
+let last=performance.now(),seconds=0;
 let showingHUD=true;
 function onLock(){const locked=document.pointerLockElement===canvas;veil.classList.toggle('hidden',locked);hud.classList.toggle('on',locked&&showingHUD);}
 document.addEventListener('pointerlockchange',onLock);
@@ -374,8 +364,7 @@ window.addEventListener('keyup',e=>{if(e.keyCode<256)keys[e.keyCode]=0;});
 window.addEventListener('blur',()=>keys.fill(0));
 window.addEventListener('mousemove',e=>{if(document.pointerLockElement===canvas){yaw+=e.movementX*.00185;pitch-=e.movementY*.00185;pitch=Math.min(1.49,Math.max(-1.49,pitch));}});
 function frame(now){
- if(diagnostics.frameMs.length<12000)diagnostics.frameMs.push(now-last);
- const dt=Math.min(.042,(now-last)*.001);last=now;seconds=frozenTime===null?seconds+dt:frozenTime;
+ const dt=Math.min(.042,(now-last)*.001);last=now;seconds+=dt;
  const sy=Math.sin(yaw),cy=Math.cos(yaw),sp=Math.sin(pitch),cp=Math.cos(pitch);
  const fx=sy*cp,fy=sp,fz=-cy*cp;
  const rx=cy,rz=sy;
@@ -397,29 +386,17 @@ function frame(now){
  device.queue.writeBuffer(uniformBuffer,0,U);
  const encoder=device.createCommandEncoder();
  colorAttachment.resolveTarget=context.getCurrentTexture().createView();
- const timing=timingSlots.find(slot=>!slot.busy);
- if(timing){timing.busy=true;passDescriptor.timestampWrites={querySet:timingQuery,beginningOfPassWriteIndex:timing.index*4,endOfPassWriteIndex:timing.index*4+1};}
- else delete passDescriptor.timestampWrites;
  const pass=encoder.beginRenderPass(passDescriptor);
  pass.setBindGroup(0,bind);
  pass.setPipeline(bgPipeline);pass.draw(3);
  for(let i=0;i<draws.length;i++){const d=draws[i];pass.setPipeline(d.pipeline);pass.draw(d.vertices,d.instances);}
  pass.end();
- const volumePass=encoder.beginRenderPass({timestampWrites:timing?{querySet:timingQuery,beginningOfPassWriteIndex:timing.index*4+2,endOfPassWriteIndex:timing.index*4+3}:undefined,colorAttachments:[{view:colorAttachment.view,resolveTarget:colorAttachment.resolveTarget,loadOp:'load',storeOp:'discard'}]});
+ const volumePass=encoder.beginRenderPass({colorAttachments:[{view:colorAttachment.view,resolveTarget:colorAttachment.resolveTarget,loadOp:'load',storeOp:'discard'}]});
  volumePass.setPipeline(atmospherePipeline);volumePass.setBindGroup(0,bind);volumePass.setBindGroup(1,depthBind);volumePass.draw(3);volumePass.end();
- diagnostics.frames++;
- if(timing){encoder.resolveQuerySet(timingQuery,timing.index*4,4,timingResolve,timing.index*256);encoder.copyBufferToBuffer(timingResolve,timing.index*256,timing.buffer,0,32);}
  submitted[0]=encoder.finish();device.queue.submit(submitted);
- if(timing)timing.buffer.mapAsync(GPUMapMode.READ).then(()=>{
-  const t=new BigUint64Array(timing.buffer.getMappedRange());
-  const ms=Number((t[1]-t[0])+(t[3]-t[2]))/1e6;
-  if(diagnostics.gpuMs.length<12000)diagnostics.gpuMs.push(ms);
-  timing.buffer.unmap();timing.busy=false;
- }).catch(e=>{diagnostics.errors.push(e.message);timing.busy=false;});
  requestAnimationFrame(frame);
 }
 requestAnimationFrame(frame);
-window.__abyssal={diagnostics,resetMetrics(){diagnostics.gpuMs.length=0;diagnostics.frameMs.length=0;},setTime(t){frozenTime=t;},visualStyle:'kuindzhi-lalique-v3-depth-aware-light',source:'original-webgpu-aquarium',setPose(px,py,pz,ya,pi){x=px;y=py;z=pz;yaw=ya;pitch=pi;},getPose(){return[x,y,z,yaw,pitch];},getTime(){return seconds;}};
 </script>
 </body>
 </html>

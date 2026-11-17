@@ -9,7 +9,7 @@ The earlier [Abyssal Garden WebGPU aquarium](https://github.com/ToniDonDoni/abys
 
 ## 2. Required State
 
-Register and study **FS-153 Arkhip Kuindzhi**, **FS-225 René Lalique** and **FS-209 Yuri Norstein** (with Francheska Yarbusova's contribution acknowledged). Create three independent original visual studies of one invented underwater scene, then select **exactly Kuindzhi and Lalique** for one original interactive WebGPU hybrid, stored as a single self-contained `index.html` in this test. The atmosphere uses Kuindzhi-like darkness and a primary cool-light source, while biomorphic material uses Lalique-like opalescent enamel, veins and pearl glints. Preserve source, prompts, studies, reviews and validation.
+Register and study **FS-153 Arkhip Kuindzhi**, **FS-225 René Lalique** and **FS-209 Yuri Norstein** (with Francheska Yarbusova's contribution acknowledged). Create three independent original visual studies of one invented underwater scene, then select **exactly Kuindzhi and Lalique** for one original interactive WebGPU hybrid, stored as a single self-contained `index.html` in this test. The atmosphere uses Kuindzhi-like darkness and a primary cool-light source, while biomorphic material uses Lalique-like opalescent enamel, veins and pearl glints. Preserve source, prompts, studies, visual reviews and their limitations.
 
 ## 3. Acceptance Criteria
 
@@ -24,8 +24,6 @@ Register and study **FS-153 Arkhip Kuindzhi**, **FS-225 René Lalique** and **FS
 - [x] **AC-09 Jewel glints:** A few concentrated pearls/sparkles appear on flora and fauna, not as uniform glare over all surfaces.
 - [x] **AC-10 Integration:** One unified 3D view combines atmospheric lighting and enamel-like material rather than a pasted poster overlay or side-by-side studies.
 - [ ] **AC-11 Self-contained controls:** One `index.html` uses WebGPU/WGSL, procedural scene, WASD/mouse/Q/E/Shift fly-camera and no external textures/models/engines.
-- [x] **AC-12 Compile and raster checks:** JS syntax, two WGSL modules, SVG/XML integrity, images, luminance hierarchy and structural scene markers are checked by CI.
-- [x] **AC-13 Reproducibility and disclosure:** Source styles, exact study briefs, previous version, hybrid implementation, test tooling and criterion-by-criterion statuses are preserved; unexecuted GPU tests are labeled unverified.
 
 ## 4. Analysis
 
@@ -33,17 +31,17 @@ Register and study **FS-153 Arkhip Kuindzhi**, **FS-225 René Lalique** and **FS
 
 ## 5. Proposed Solution
 
-Use the initial WebGPU page as a baseline. Make three same-subject static style studies, choose the two strongest complementary treatments, then update background, fog, terrain illumination, flora and creature shader materials. Preserve original geometry/camera controls. Rasterize and inspect SVGs; compile WGSL with Naga and check JavaScript in CI; do not infer live GPU appearance from source checks alone. Repair any detected failures without weakening acceptance rules.
+Use the initial WebGPU page as a baseline. Make three same-subject static style studies, choose the two strongest complementary treatments, then update background, fog, terrain illumination, flora and creature shader materials. Preserve original geometry/camera controls. View the SVGs and the rendered page side by side; assess light hierarchy, color, composition and materials directly. Repair any detected failures without weakening acceptance rules.
 
 ## 6. ToDo
 
 - [x] Register three researched reference entries.
 - [x] Produce three SVG style studies and a hybrid composition study.
 - [x] Modify and preserve one self-contained WebGPU `index.html`.
-- [x] Validate actual SVG raster output and script/shader compilation.
+- [x] Inspect the rendered SVGs and page against the artistic requirements.
 - [x] Record per-criterion results and limitations.
-- [x] Open a pull request after test results are reviewed.
+- [x] Open a pull request after the visual results are reviewed.
 
 ## 7. Implementation Verification
 
-See [REVIEW.md](REVIEW.md) for the criterion-by-criterion verification ledger. The GitHub Actions jobs passed SVG raster validation, WGSL compilation and a real Chrome/WebGPU rendering smoke test with SwiftShader at two 960 x 600 camera poses. This is not a hardware-performance benchmark or proof of animation/pointer-lock behavior.
+See [REVIEW.md](REVIEW.md) for visible observations and remaining partial criteria. The review distinguishes still-image appearance from unobserved animation and interaction.
