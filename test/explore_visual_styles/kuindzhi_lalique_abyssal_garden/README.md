@@ -47,7 +47,7 @@ The V2 image has a separate model-led visual review. GitHub Actions validates th
 
 The first [draft image](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-INITIAL.png) remains available to show the correction of the ship and whale-fluke silhouettes. The final image is an **original procedural vector illustration** rendered to PNG, after three unrelated image-generator attempts were rejected. All **15 V2 still-image criteria** are reviewed and marked pass; this does **not** change the separate older interactive WebGPU V1 findings (10 pass / 3 partial).
 
-## V3: reference for a future JavaScript scene (no JS work yet)
+## V3 SVG reference and subsequent WebGPU page
 
 **Template:** [SPEC-TEMPLATE 2.0.0](../../../engineering/SPEC-TEMPLATE.md) | **Skill:** [Explore Visual Styles 2.4.0](../../../skills/EXPLORE-VISUAL-STYLES.md)
 
@@ -56,4 +56,4 @@ The first [draft image](images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V2-INITI
 - [**Verification v1**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v1.md): 14 pass, 3 partial, 1 fail, identifying the initial shortcomings. [**Verification v2**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-VERIFICATION-v2.md): **17 pass, 1 partial, 0 fail** after visual correction. One remaining issue: the whale-tail silhouette can still resemble a stylized plant.
 - [**V3 scene map**](SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3-SCENE-MAP.md) decomposes 13 named SVG groups, materials, light, layout and viewport adaptation for a *future* JavaScript implementation.
 
-**Decision gate:** review and approve or amend the SVG reference before building any JavaScript page. The preserved older `index.html` is from V1, **not** a V3 implementation.
+The SVG-first stage above is preserved as historical evidence. Following the user's implementation request, a separate [**built V3 WebGPU page**](index-v3.html) now sits beside these references. See [build/run details](V3-WEBGPU.md) and the [versioned rendered verification](index_TODO-VERIFICATION-v1.md). The older `index.html` remains V1. The new page reproduces the broad mint halo and soft shafts in procedural 3D; it is not an exact reconstruction of the SVG's subject geometry or full acceptance of every external TODO criterion.

@@ -1,0 +1,238 @@
+{
+  "sourceSha256": "ae097483e40a6ca8ec95f3a443232edddde06825eb67f410507080444a78c2be",
+  "browser": "157.0.8103.79",
+  "viewport": [
+    1536,
+    1024
+  ],
+  "devicePixelRatio": 1,
+  "poses": {
+    "opening": [
+      0,
+      -12,
+      43,
+      0,
+      -0.019
+    ],
+    "approach": [
+      0,
+      -12,
+      10,
+      0,
+      0.05
+    ],
+    "wreck": [
+      -9,
+      -14,
+      -8,
+      -0.25,
+      -0.2
+    ],
+    "monument": [
+      19,
+      -14,
+      -20,
+      0.2,
+      -0.2
+    ],
+    "reef": [
+      -22,
+      -18,
+      -10,
+      -0.3,
+      -0.15
+    ],
+    "side_light": [
+      14,
+      -10,
+      -30,
+      -0.72,
+      -0.05
+    ]
+  },
+  "controls": {
+    "pointerLock": true,
+    "w": true,
+    "s": true,
+    "a": true,
+    "d": true,
+    "q": true,
+    "e": true,
+    "shift": true,
+    "mouseLook": true,
+    "reset": true,
+    "hideHUD": true,
+    "showHUD": true,
+    "escape": true
+  },
+  "errors": [],
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": ""
+  },
+  "timestampQuery": true,
+  "gpuMs": {
+    "samples": 3603,
+    "average": 11.026069984179838,
+    "p99": 16.034089,
+    "max": 21.944915
+  },
+  "frameMs": {
+    "samples": 3602,
+    "average": 16.665991116045973,
+    "p99": 16.80000000000291,
+    "max": 16.80000000000291
+  },
+  "imageStats": {
+    "game": [
+      {
+        "radius": 0,
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "radius": 10,
+        "rgb": [
+          187,
+          255,
+          237
+        ]
+      },
+      {
+        "radius": 30,
+        "rgb": [
+          169,
+          240,
+          219
+        ]
+      },
+      {
+        "radius": 50,
+        "rgb": [
+          143,
+          213,
+          197
+        ]
+      },
+      {
+        "radius": 80,
+        "rgb": [
+          98,
+          164,
+          157
+        ]
+      },
+      {
+        "radius": 100,
+        "rgb": [
+          71,
+          133,
+          132
+        ]
+      },
+      {
+        "radius": 150,
+        "rgb": [
+          30,
+          83,
+          89
+        ]
+      },
+      {
+        "radius": 200,
+        "rgb": [
+          16,
+          59,
+          68
+        ]
+      },
+      {
+        "radius": 250,
+        "rgb": [
+          11,
+          45,
+          56
+        ]
+      }
+    ],
+    "svg": [
+      {
+        "radius": 0,
+        "rgb": [
+          237,
+          255,
+          244
+        ]
+      },
+      {
+        "radius": 10,
+        "rgb": [
+          185,
+          247,
+          225
+        ]
+      },
+      {
+        "radius": 30,
+        "rgb": [
+          166,
+          236,
+          214
+        ]
+      },
+      {
+        "radius": 50,
+        "rgb": [
+          133,
+          214,
+          195
+        ]
+      },
+      {
+        "radius": 80,
+        "rgb": [
+          83,
+          169,
+          159
+        ]
+      },
+      {
+        "radius": 100,
+        "rgb": [
+          66,
+          145,
+          140
+        ]
+      },
+      {
+        "radius": 150,
+        "rgb": [
+          31,
+          88,
+          98
+        ]
+      },
+      {
+        "radius": 200,
+        "rgb": [
+          13,
+          53,
+          70
+        ]
+      },
+      {
+        "radius": 250,
+        "rgb": [
+          10,
+          43,
+          63
+        ]
+      }
+    ]
+  }
+}

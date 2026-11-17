@@ -43,7 +43,9 @@ jobs:
           fi
           naga --version
       - name: Validate inline JavaScript and WGSL
-        run: node test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/tools/validate.mjs
+        run: |
+          node test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/tools/validate.mjs
+          node test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/tools/validate.mjs test/explore_visual_styles/kuindzhi_lalique_abyssal_garden/index-v3-source.html
   browser:
     runs-on: ubuntu-24.04
     timeout-minutes: 20

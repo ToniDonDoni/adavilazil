@@ -1,0 +1,13 @@
+{
+  "name": "abyssal-v3-verification",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:v3": "node build-v3.cjs",
+    "verify:v3": "node verify-v3.cjs ../index-v3.html ../rendered/v3 ../images/SPEC-009-ABYSSAL-GARDEN-KUINDZHI-LALIQUE-V3.svg"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0",
+    "terser": "5.44.0"
+  }
+}
